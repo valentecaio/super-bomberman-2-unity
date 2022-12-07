@@ -233,10 +233,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   inputKey: 32
+  bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   bombTimer: 3
   bombAmount: 1
+  fireDistance: 2
 --- !u!1 &519179355
 GameObject:
   m_ObjectHideFlags: 0
