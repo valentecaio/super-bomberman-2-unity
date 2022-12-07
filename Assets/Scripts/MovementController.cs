@@ -17,16 +17,6 @@ public class MovementController : MonoBehaviour
     public AnimatedSpriteRenderer spriteRendererRight;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
-    /*
-    // "new" for suppressing warning
-    public new Rigidbody2D rigidbody { get; private set; }
-    // runs on script init
-    private void Awake()
-    {
-        rigidbody = GetComponent<Rigidbody2D>();
-    }
-    */
-
     private void Start()
     {
         activeSpriteRenderer = spriteRendererDown;
