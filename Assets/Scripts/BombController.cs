@@ -99,4 +99,11 @@ public class BombController : MonoBehaviour
             other.isTrigger = false;
         }
     }
+
+    public void setBombAmount(int newBombAmount)
+    {
+        int bombsInGame = bombAmount - bombsRemaining;
+        this.bombAmount = newBombAmount;
+        this.bombsRemaining = newBombAmount - bombsInGame;
+    }
 }
