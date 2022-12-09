@@ -2,7 +2,7 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
-public class BombController : MonoBehaviour
+public class PlayerBombController : MonoBehaviour
 {
     [Header("Bomb")]
     public KeyCode inputKey = KeyCode.Space;

@@ -1,7 +1,7 @@
 using UnityEngine;
 
-// controles player 1 movement controls and animation
-public class MovementController : MonoBehaviour
+// controlls player 1 movement controls and animation
+public class PlayerMovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;
     private Vector2 direction = Vector2.down;

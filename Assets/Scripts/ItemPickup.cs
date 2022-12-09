@@ -12,12 +12,12 @@ public class ItemPickup : MonoBehaviour
     private void OnItemPickup(GameObject player)
     {
         if (type == ItemType.Bomb) {
-            int bombAmount = player.GetComponent<BombController>().bombAmount;
-            player.GetComponent<BombController>().setBombAmount(bombAmount+1);
+            int bombAmount = player.GetComponent<PlayerBombController>().bombAmount;
+            player.GetComponent<PlayerBombController>().setBombAmount(bombAmount+1);
         } else if (type == ItemType.Fire) {
-            player.GetComponent<BombController>().explosionLength++;
+            player.GetComponent<PlayerBombController>().explosionLength++;
         } else if (type == ItemType.Speed) {
-            player.GetComponent<MovementController>().speed++;
+            player.GetComponent<PlayerMovementController>().speed++;
         }
         Destroy(this.gameObject);
     }
