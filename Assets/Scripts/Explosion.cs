@@ -1,7 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+// controles bomb explosion animation in four directions
 public class Explosion : MonoBehaviour
 {
     public AnimatedSpriteRenderer spriteRendererStart;

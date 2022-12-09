@@ -1,5 +1,6 @@
 using UnityEngine;
 
+// controles player 1 movement controls and animation
 public class MovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;

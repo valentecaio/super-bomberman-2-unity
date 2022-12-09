@@ -236,13 +236,15 @@ MonoBehaviour:
   inputKey: 32
   bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   bombTimer: 3
-  bombAmount: 1
+  bombAmount: 2
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
   explosionDuration: 1
   explosionLength: 2
+  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
+  destructibleTilemap: {fileID: 1762852104}
 --- !u!1 &519179355
 GameObject:
   m_ObjectHideFlags: 0
@@ -707,7 +709,7 @@ GameObject:
   - component: {fileID: 1235149038}
   - component: {fileID: 1235149040}
   m_Layer: 6
-  m_Name: Indestructables
+  m_Name: Indestructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2933,7 +2935,7 @@ GameObject:
   - component: {fileID: 1762852103}
   - component: {fileID: 1762852105}
   m_Layer: 6
-  m_Name: Destructables
+  m_Name: Destructibles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
