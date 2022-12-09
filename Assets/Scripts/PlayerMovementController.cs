@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 // controlls player 1 movement controls and animation
@@ -5,17 +6,20 @@ public class PlayerMovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;
     private Vector2 direction = Vector2.down;
-    public float speed = 5f;
+    public float speed = 4f;
 
+    [Header("Controls")]
     public KeyCode inputUp = KeyCode.W;
     public KeyCode inputDown = KeyCode.S;
     public KeyCode inputLeft = KeyCode.A;
     public KeyCode inputRight = KeyCode.D;
 
+    [Header("Sprites")]
     public AnimatedSpriteRenderer spriteRendererUp;
     public AnimatedSpriteRenderer spriteRendererDown;
     public AnimatedSpriteRenderer spriteRendererLeft;
     public AnimatedSpriteRenderer spriteRendererRight;
+    public AnimatedSpriteRenderer SpriteRendererDeath;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
     private void Start()
@@ -42,6 +46,26 @@ public class PlayerMovementController : MonoBehaviour
     {
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
         rigidbody.MovePosition(rigidbody.position + translation);
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
+            StartCoroutine(die());
+        }
+    }
+
+    private IEnumerator die()
+    {
+        this.enabled = false;
+        this.GetComponent<PlayerBombController>().enabled = false;
+        this.spriteRendererUp.enabled = false;
+        this.spriteRendererDown.enabled = false;
+        this.spriteRendererLeft.enabled = false;
+        this.spriteRendererRight.enabled = false;
+        this.SpriteRendererDeath.enabled = true;
+        yield return new WaitForSeconds(1.25f);
+        this.gameObject.SetActive(false);
     }
 
     private void setDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRenderer)
