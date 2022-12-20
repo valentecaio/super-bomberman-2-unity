@@ -14,7 +14,7 @@ public class PlayerBombController : MonoBehaviour
     [Header("Explosion")]
     public Explosion explosionPrefab;
     public LayerMask explosionLayerMask;
-    public float explosionDuration = 1f;
+    public float explosionDuration = 0.85f;
     public int explosionLength = 2;
 
     [Header("Destructible")]

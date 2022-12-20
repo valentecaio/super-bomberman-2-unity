@@ -352,7 +352,7 @@ MonoBehaviour:
   explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  explosionDuration: 1
+  explosionDuration: 0.85
   explosionLength: 2
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
   destructibleTilemap: {fileID: 1762852104}
@@ -3443,7 +3443,7 @@ MonoBehaviour:
   explosionLayerMask:
     serializedVersion: 2
     m_Bits: 64
-  explosionDuration: 1
+  explosionDuration: 0.85
   explosionLength: 2
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
   destructibleTilemap: {fileID: 1762852104}
