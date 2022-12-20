@@ -66,6 +66,7 @@ public class PlayerMovementController : MonoBehaviour
         this.SpriteRendererDeath.enabled = true;
         yield return new WaitForSeconds(1.25f);
         this.gameObject.SetActive(false);
+        FindObjectOfType<GameManager>().checkWinState();
     }
 
     private void setDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRenderer)
