@@ -38,6 +38,11 @@ public class PlayerBombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
+        // we can't place a bomb over another one
+        if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerBomb)) {
+            yield break;
+        }
+
         GameObject bomb = Instantiate(bombPrefab, position, Quaternion.identity);
         bombs.Add(bomb);
 
