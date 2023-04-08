@@ -17,6 +17,7 @@ public class PlayerBombController : MonoBehaviour
     public LayerMask explosionLayerStage;
     public LayerMask explosionLayerBomb;
     public LayerMask explosionLayerExplosion;
+    public LayerMask explosionLayerItem;
     public float explosionDuration = 0.85f;
     public int explosionLength = 2;
 
@@ -84,6 +85,10 @@ public class PlayerBombController : MonoBehaviour
         } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerStage)) {
             // explosion hit a wall -> trigger wall destruction animation
             clearDestructible(position);
+
+        } else if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerItem)) {
+            // explosion hit an item -> delete item - TODO: animation
+            Destroy(collider.gameObject);
 
         } else {
             // empty square -> instantiate explosion prefab and continue recursion

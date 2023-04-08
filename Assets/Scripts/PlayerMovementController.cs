@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-// controlls player 1 movement controls and animation
+// controlls players movement controls and animations
 public class PlayerMovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;
@@ -37,7 +37,7 @@ public class PlayerMovementController : MonoBehaviour
             setDirection(Vector2.left, spriteRendererLeft);
         } else if (Input.GetKey(inputRight)) {
             setDirection(Vector2.right, spriteRendererRight);
-        } else { 
+        } else {
             setDirection(Vector2.zero, activeSpriteRenderer);
         }
     }
@@ -52,6 +52,8 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
             StartCoroutine(die());
+        } else if (other.gameObject.layer == LayerMask.NameToLayer("Player")) {
+            print("OnTriggerEnter2D");
         }
     }
 
