@@ -348,6 +348,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   bombTimer: 3
   bombAmount: 2
+  bombs: []
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   explosionLayerStage:
     serializedVersion: 2
@@ -358,6 +359,9 @@ MonoBehaviour:
   explosionLayerExplosion:
     serializedVersion: 2
     m_Bits: 256
+  explosionLayerItem:
+    serializedVersion: 2
+    m_Bits: 512
   explosionDuration: 0.85
   explosionLength: 2
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
@@ -1388,6 +1392,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   bombTimer: 3
   bombAmount: 2
+  bombs: []
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   explosionLayerStage:
     serializedVersion: 2
@@ -1398,6 +1403,9 @@ MonoBehaviour:
   explosionLayerExplosion:
     serializedVersion: 2
     m_Bits: 256
+  explosionLayerItem:
+    serializedVersion: 2
+    m_Bits: 512
   explosionDuration: 0.85
   explosionLength: 2
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
@@ -4437,6 +4445,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   bombTimer: 3
   bombAmount: 2
+  bombs: []
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   explosionLayerStage:
     serializedVersion: 2
@@ -4447,6 +4456,9 @@ MonoBehaviour:
   explosionLayerExplosion:
     serializedVersion: 2
     m_Bits: 256
+  explosionLayerItem:
+    serializedVersion: 2
+    m_Bits: 512
   explosionDuration: 0.85
   explosionLength: 2
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
@@ -4567,6 +4579,7 @@ MonoBehaviour:
   bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   bombTimer: 3
   bombAmount: 2
+  bombs: []
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   explosionLayerStage:
     serializedVersion: 2
@@ -4577,6 +4590,9 @@ MonoBehaviour:
   explosionLayerExplosion:
     serializedVersion: 2
     m_Bits: 256
+  explosionLayerItem:
+    serializedVersion: 2
+    m_Bits: 512
   explosionDuration: 0.85
   explosionLength: 2
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}

@@ -4,6 +4,14 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
+
+    public void destroyBomb(GameObject bomb)
+    {
+        foreach (GameObject p in players) {
+            p.GetComponent<PlayerBombController>().bombs.Remove(bomb);
+        }
+        Destroy(bomb);
+    }
  
     public void checkWinState()
     {

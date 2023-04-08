@@ -10,7 +10,7 @@ public class PlayerBombController : MonoBehaviour
     public GameObject bombPrefab;
     public float bombTimer = 3f;
     public int bombAmount = 2;
-    List<GameObject> bombs = new List<GameObject>();
+    public List<GameObject> bombs = new List<GameObject>();
 
     [Header("Explosion")]
     public Explosion explosionPrefab;
@@ -55,8 +55,7 @@ public class PlayerBombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        Destroy(bomb);
-        bombs.Remove(bomb);
+        FindObjectOfType<GameManager>().destroyBomb(bomb);
 
         Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
         explosion.setActiveRenderer(explosion.spriteRendererStart);
@@ -70,36 +69,30 @@ public class PlayerBombController : MonoBehaviour
 
     private void recursiveExplode(Vector2 position, Vector2 direction, int length)
     {
-        if (length <= 0) {
-            return;
-        }
+        if (length <= 0) return;
 
         position += direction;
-        if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerStage)) {
-            clearDestructible(position);
-            return;
-        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerBomb)) {
-            foreach (GameObject bomb in bombs) {
-                Vector2 bombPos = bomb.transform.position;
-                bombPos.x = Mathf.Round(position.x);
-                bombPos.y = Mathf.Round(position.y);
-                if (bombPos.Equals(position)) {
-                    // yield return new WaitForSeconds(0.1f);
-                    bombExplode(bomb);
-                    return;
-                }
-            }
-        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerExplosion)) {
-            // necessary condition to avoid looping between bombs
-            return;
-        }
+        Collider2D collider;
 
-        Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
-        explosion.setActiveRenderer(length == 1 ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
-        explosion.setDirection(direction);
-        explosion.destroyAfter(explosionDuration);
-        print("pitoco");
-        recursiveExplode(position, direction, length-1); // recursion
+        if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerBomb)) {
+            // explosion hit a bomb -> trigger bomb
+            bombExplode(collider.gameObject);
+
+        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerExplosion)) {
+            // necessary condition to avoid looping between bombs, just break recursion
+
+        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerStage)) {
+            // explosion hit a wall -> trigger wall destruction animation
+            clearDestructible(position);
+
+        } else {
+            // empty square -> instantiate explosion prefab and continue recursion
+            Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
+            explosion.setActiveRenderer(length == 1 ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
+            explosion.setDirection(direction);
+            explosion.destroyAfter(explosionDuration);
+            recursiveExplode(position, direction, length-1);
+        }
     }
 
     private void clearDestructible(Vector2 position)

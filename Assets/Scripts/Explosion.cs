@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// controlls bomb explosion animation in four directions
+// controls bomb explosion animation in four directions
 public class Explosion : MonoBehaviour
 {
     public AnimatedSpriteRenderer spriteRendererStart;
