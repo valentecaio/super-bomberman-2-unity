@@ -14,10 +14,6 @@ public class PlayerBombController : MonoBehaviour
 
     [Header("Explosion")]
     public Explosion explosionPrefab;
-    public LayerMask explosionLayerStage;
-    public LayerMask explosionLayerBomb;
-    public LayerMask explosionLayerExplosion;
-    public LayerMask explosionLayerItem;
     public float explosionDuration = 0.85f;
     public int explosionLength = 2;
 
@@ -39,7 +35,7 @@ public class PlayerBombController : MonoBehaviour
         position.y = Mathf.Round(position.y);
 
         // we can't place a bomb over another one
-        if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerBomb)) {
+        if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
             yield break;
         }
 
@@ -80,18 +76,18 @@ public class PlayerBombController : MonoBehaviour
         position += direction;
         Collider2D collider;
 
-        if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerBomb)) {
+        if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
             // explosion hit a bomb -> trigger bomb
             bombExplode(collider.gameObject);
 
-        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerExplosion)) {
+        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Explosion"))) {
             // necessary condition to avoid looping between bombs, just break recursion
 
-        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerStage)) {
+        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Stage"))) {
             // explosion hit a wall -> trigger wall destruction animation
             clearDestructible(position);
 
-        } else if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, explosionLayerItem)) {
+        } else if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Item"))) {
             // explosion hit an item -> delete item - TODO: animation
             Destroy(collider.gameObject);
 
