@@ -5,6 +5,16 @@ public class GameManager : MonoBehaviour
 {
     public GameObject[] players;
 
+    public void Start()
+    {
+        // ignore collision between players
+        foreach (GameObject p1 in players) {
+            foreach (GameObject p2 in players) {
+                Physics2D.IgnoreCollision(p1.GetComponent<CircleCollider2D>(), p2.GetComponent<CircleCollider2D>());
+            }
+        }
+    }
+
     public void destroyBomb(GameObject bomb)
     {
         foreach (GameObject p in players) {
