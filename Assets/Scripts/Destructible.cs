@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// controlls destructible animation and item apparition
+// controls destructible animation and item apparition
 public class Destructible : MonoBehaviour
 {
     public float destructionTime = 1f;
