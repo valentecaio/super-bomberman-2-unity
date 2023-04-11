@@ -53,51 +53,46 @@ public class PlayerBombController : MonoBehaviour
 
     private void bombExplode(GameObject bomb)
     {
-        Vector2 position = bomb.transform.position;
-        position.x = Mathf.Round(position.x);
-        position.y = Mathf.Round(position.y);
+        Vector2 bombPosition = bomb.transform.position;
+        bombPosition.x = Mathf.Round(bombPosition.x);
+        bombPosition.y = Mathf.Round(bombPosition.y);
 
         FindObjectOfType<GameManager>().destroyBomb(bomb);
 
-        Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
-        explosion.setActiveRenderer(explosion.spriteRendererStart);
-        explosion.destroyAfter(explosionDuration);
+        Explosion explosionStart = Instantiate(explosionPrefab, bombPosition, Quaternion.identity);
+        explosionStart.setActiveRenderer(explosionStart.spriteRendererStart);
+        explosionStart.destroyAfter(explosionDuration);
 
-        recursiveExplode(position, Vector2.up, explosionLength);
-        recursiveExplode(position, Vector2.down, explosionLength);
-        recursiveExplode(position, Vector2.left, explosionLength);
-        recursiveExplode(position, Vector2.right, explosionLength);
-    }
+        Vector2[] directions = {Vector2.up, Vector2.down, Vector2.right, Vector2.left};
+        foreach (Vector2 direction in directions) {
+            Vector2 explosionPosition = bombPosition;
+            for (int i=1; i<=explosionLength; i++) {
+                Collider2D collider;
+                explosionPosition += direction;
 
-    private void recursiveExplode(Vector2 position, Vector2 direction, int length)
-    {
-        if (length <= 0) return;
+                if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
+                    // explosion hit a bomb -> trigger bomb
+                    bombExplode(collider.gameObject);
+                    break;
 
-        position += direction;
-        Collider2D collider;
+                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Stage"))) {
+                    // explosion hit a wall -> trigger wall destruction animation
+                    clearDestructible(explosionPosition);
+                    break;
 
-        if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
-            // explosion hit a bomb -> trigger bomb
-            bombExplode(collider.gameObject);
+                } else if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Item"))) {
+                    // explosion hit an item -> delete item - TODO: animation
+                    Destroy(collider.gameObject);
+                    break;
 
-        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Explosion"))) {
-            // necessary condition to avoid looping between bombs, just break recursion
-
-        } else if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Stage"))) {
-            // explosion hit a wall -> trigger wall destruction animation
-            clearDestructible(position);
-
-        } else if (collider = Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Item"))) {
-            // explosion hit an item -> delete item - TODO: animation
-            Destroy(collider.gameObject);
-
-        } else {
-            // empty square -> instantiate explosion prefab and continue recursion
-            Explosion explosion = Instantiate(explosionPrefab, position, Quaternion.identity);
-            explosion.setActiveRenderer(length == 1 ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
-            explosion.setDirection(direction);
-            explosion.destroyAfter(explosionDuration);
-            recursiveExplode(position, direction, length-1);
+                } else {
+                    // empty square -> explode it
+                    Explosion explosion = Instantiate(explosionPrefab, explosionPosition, Quaternion.identity);
+                    explosion.setActiveRenderer(i == explosionLength ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
+                    explosion.setDirection(direction);
+                    explosion.destroyAfter(explosionDuration);
+                }
+            }
         }
     }
 
