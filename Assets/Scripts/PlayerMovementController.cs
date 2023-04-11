@@ -1,7 +1,7 @@
 using System.Collections;
 using UnityEngine;
 
-// controlls players movement controls and animations
+// manages player movement controls and animations
 public class PlayerMovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;
@@ -52,8 +52,6 @@ public class PlayerMovementController : MonoBehaviour
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
             StartCoroutine(die());
-        } else if (other.gameObject.layer == LayerMask.NameToLayer("Player")) {
-            print("OnTriggerEnter2D");
         }
     }
 
