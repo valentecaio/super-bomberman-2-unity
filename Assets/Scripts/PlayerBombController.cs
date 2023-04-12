@@ -6,10 +6,6 @@ using UnityEngine.Tilemaps;
 // manages bomb life cycle
 public class PlayerBombController : MonoBehaviour
 {
-    public enum BombType {
-        Common, RedBomb, RemoteControl, PowerBomb
-    }
-
     [Header("Prefab")]
     public GameObject bombPrefab;
     public Explosion explosionPrefab;

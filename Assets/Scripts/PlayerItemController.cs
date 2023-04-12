@@ -35,6 +35,7 @@ public class PlayerItemController : MonoBehaviour
                 break;
 
             case ItemPickup.ItemType.FullFire:
+                player.fireAmout = 8;
                 break;
 
             case ItemPickup.ItemType.BombPass:
