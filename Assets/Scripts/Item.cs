@@ -12,7 +12,7 @@ public class Item : MonoBehaviour
 
     private void OnItemPickup(GameObject player)
     {
-        player.GetComponent<PlayerItemController>().OnItemPickup(this);
+        player.GetComponent<PlayerStatus>().OnItemPickup(this);
         Destroy(this.gameObject);
     }
 

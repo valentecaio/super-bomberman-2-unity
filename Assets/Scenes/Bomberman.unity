@@ -245,7 +245,6 @@ GameObject:
   - component: {fileID: 69141443}
   - component: {fileID: 69141444}
   - component: {fileID: 69141445}
-  - component: {fileID: 69141446}
   - component: {fileID: 69141447}
   m_Layer: 7
   m_Name: Player 1
@@ -349,24 +348,10 @@ MonoBehaviour:
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
   explosionDuration: 0.6
-  explosionLength: 2
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 32
   bombTimer: 3
   bombs: []
---- !u!114 &69141446
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69141440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c92acee23dcbd90789ad66d57c95c7d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  items: []
 --- !u!114 &69141447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -384,6 +369,7 @@ MonoBehaviour:
   speed: 4
   bombPass: 0
   wallPass: 0
+  kick: 0
   bombType: 0
 --- !u!1 &108570990
 GameObject:
@@ -1412,7 +1398,6 @@ MonoBehaviour:
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
   explosionDuration: 0.6
-  explosionLength: 2
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 256
   bombTimer: 3
@@ -1513,6 +1498,7 @@ MonoBehaviour:
   speed: 4
   bombPass: 0
   wallPass: 0
+  kick: 0
   bombType: 0
 --- !u!1 &1046255576
 GameObject:
@@ -4482,7 +4468,6 @@ MonoBehaviour:
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
   explosionDuration: 0.6
-  explosionLength: 2
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 111
   bombTimer: 3
@@ -4583,6 +4568,7 @@ MonoBehaviour:
   speed: 4
   bombPass: 0
   wallPass: 0
+  kick: 0
   bombType: 0
 --- !u!1 &1406484378
 GameObject:
@@ -4621,7 +4607,6 @@ MonoBehaviour:
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
   explosionDuration: 0.6
-  explosionLength: 2
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 305
   bombTimer: 3
@@ -4722,6 +4707,7 @@ MonoBehaviour:
   speed: 4
   bombPass: 0
   wallPass: 0
+  kick: 0
   bombType: 0
 --- !u!1 &1626129101
 GameObject:

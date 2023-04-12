@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerStatus : MonoBehaviour
 {
@@ -9,4 +10,74 @@ public class PlayerStatus : MonoBehaviour
     public bool wallPass = false;
     public bool kick = false;
     public BombType bombType = BombType.Common;
+
+    private List<Item> items = new List<Item>();
+
+    public void OnItemPickup(Item item)
+    {
+        items.Add(item);
+
+        switch(item.type) {
+            case Item.ItemType.Bomb:
+                if (bombAmount < 8) {
+                    bombAmount++;
+                }
+                break;
+
+            case Item.ItemType.Fire:
+                if (fireAmout < 8) {
+                    fireAmout++;
+                }
+                break;
+
+            case Item.ItemType.RedBomb:
+                bombType = BombType.RedBomb;
+                break;
+
+            case Item.ItemType.FullFire:
+                fireAmout = 8;
+                break;
+
+            case Item.ItemType.BombPass:
+                break;
+
+            case Item.ItemType.Skull:
+                break;
+
+            case Item.ItemType.Vest:
+                break;
+
+            case Item.ItemType.RemoteControl:
+                bombType = BombType.RemoteControl;
+                break;
+
+            case Item.ItemType.WallPass:
+                break;
+
+            case Item.ItemType.Skate:
+                if (speed < 8) {
+                    speed++;
+                }
+                break;
+
+            case Item.ItemType.Kick:
+                break;
+
+            case Item.ItemType.PowerGlove:
+                break;
+
+            case Item.ItemType.PowerBomb:
+                bombType = BombType.PowerBomb;
+                break;
+
+            case Item.ItemType.Clock:
+                break;
+
+            case Item.ItemType.Heart:
+                break;
+
+            case Item.ItemType.Geta:
+                break;
+        }
+    }
 }
