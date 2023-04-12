@@ -3,27 +3,37 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
+// manages bomb life cycle
 public class PlayerBombController : MonoBehaviour
 {
-    [Header("Bomb")]
-    public KeyCode inputKey = KeyCode.Space;
+    public enum BombType {
+        Common, RedBomb, RemoteControl, PowerBomb
+    }
+
+    [Header("Prefab")]
     public GameObject bombPrefab;
-    public float bombTimer = 3f;
-    public int bombAmount = 2;
-    public List<GameObject> bombs = new List<GameObject>();
+    public Explosion explosionPrefab;
+    public Destructible destructiblePrefab;
 
     [Header("Explosion")]
-    public Explosion explosionPrefab;
     public float explosionDuration = 0.85f;
-    public int explosionLength = 2;
-
-    [Header("Destructible")]
-    public Destructible destructiblePrefab;
     public Tilemap destructibleTilemap;
+
+    [Header("Bomb")]
+    public KeyCode inputKey = KeyCode.Space;
+    public float bombTimer = 3f;
+    public List<GameObject> bombs = new List<GameObject>();
+
+    private PlayerStatus player;
+
+    private void Start()
+    {
+        player = gameObject.GetComponent<PlayerStatus>();
+    }
 
     private void Update()
     {
-        if (Input.GetKeyDown(inputKey) && bombs.Count < bombAmount) {
+        if (Input.GetKeyDown(inputKey) && bombs.Count < player.bombAmount) {
             StartCoroutine(placeBomb());
         }
     }
@@ -66,7 +76,7 @@ public class PlayerBombController : MonoBehaviour
         Vector2[] directions = {Vector2.up, Vector2.down, Vector2.right, Vector2.left};
         foreach (Vector2 direction in directions) {
             Vector2 explosionPosition = bombPosition;
-            for (int i=1; i<=explosionLength; i++) {
+            for (int i=1; i <= player.fireAmout; i++) {
                 Collider2D collider;
                 explosionPosition += direction;
 
@@ -88,7 +98,7 @@ public class PlayerBombController : MonoBehaviour
                 } else {
                     // empty square -> explode it
                     Explosion explosion = Instantiate(explosionPrefab, explosionPosition, Quaternion.identity);
-                    explosion.setActiveRenderer(i == explosionLength ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
+                    explosion.setActiveRenderer(i == player.fireAmout ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
                     explosion.setDirection(direction);
                     explosion.destroyAfter(explosionDuration);
                 }
@@ -112,6 +122,12 @@ public class PlayerBombController : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Bomb")) {
             other.isTrigger = false;
         }
+    }
+
+
+    public void setBombCollision(bool state)
+    {
+        // TODO
     }
 
 }

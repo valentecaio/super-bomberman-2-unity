@@ -6,7 +6,6 @@ public class PlayerMovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;
     private Vector2 direction = Vector2.down;
-    public float speed = 4f;
 
     [Header("Controls")]
     public KeyCode inputUp = KeyCode.W;
@@ -44,6 +43,7 @@ public class PlayerMovementController : MonoBehaviour
 
     private void FixedUpdate()
     {
+        float speed = gameObject.GetComponent<PlayerStatus>().speed;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
         rigidbody.MovePosition(rigidbody.position + translation);
     }

@@ -4,20 +4,15 @@ public class ItemPickup : MonoBehaviour
 {
     public enum ItemType
     {
-        Bomb, Fire, Speed
+        Bomb, Fire, Skate, RedBomb, FullFire, BombPass, Skull, Vest, Heart,
+        RemoteControl, WallPass, Kick, PowerGlove, PowerBomb, Clock, Geta,
     }
 
     public ItemType type;
 
     private void OnItemPickup(GameObject player)
     {
-        if (type == ItemType.Bomb) {
-            player.GetComponent<PlayerBombController>().bombAmount++;
-        } else if (type == ItemType.Fire) {
-            player.GetComponent<PlayerBombController>().explosionLength++;
-        } else if (type == ItemType.Speed) {
-            player.GetComponent<PlayerMovementController>().speed++;
-        }
+        player.GetComponent<PlayerItemController>().OnItemPickup(this);
         Destroy(this.gameObject);
     }
 
