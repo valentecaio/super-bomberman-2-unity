@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 public class PlayerItemController : MonoBehaviour
 {
-    public List<ItemPickup> items = new List<ItemPickup>();
+    public List<Item> items = new List<Item>();
 
     private PlayerStatus player;
 
@@ -12,71 +12,71 @@ public class PlayerItemController : MonoBehaviour
         player = gameObject.GetComponent<PlayerStatus>();
     }
 
-    public void OnItemPickup(ItemPickup item)
+    public void OnItemPickup(Item item)
     {
         items.Add(item);
         PlayerStatus player = gameObject.GetComponent<PlayerStatus>();
 
         switch(item.type) {
-            case ItemPickup.ItemType.Bomb:
+            case Item.ItemType.Bomb:
                 if (player.bombAmount < 8) {
                     player.bombAmount++;
                 }
                 break;
 
-            case ItemPickup.ItemType.Fire:
+            case Item.ItemType.Fire:
                 if (player.fireAmout < 8) {
                     player.fireAmout++;
                 }
                 break;
 
-            case ItemPickup.ItemType.RedBomb:
+            case Item.ItemType.RedBomb:
                 player.bombType = BombType.RedBomb;
                 break;
 
-            case ItemPickup.ItemType.FullFire:
+            case Item.ItemType.FullFire:
                 player.fireAmout = 8;
                 break;
 
-            case ItemPickup.ItemType.BombPass:
+            case Item.ItemType.BombPass:
                 break;
 
-            case ItemPickup.ItemType.Skull:
+            case Item.ItemType.Skull:
                 break;
 
-            case ItemPickup.ItemType.Vest:
+            case Item.ItemType.Vest:
                 break;
 
-            case ItemPickup.ItemType.RemoteControl:
+            case Item.ItemType.RemoteControl:
                 player.bombType = BombType.RemoteControl;
                 break;
 
-            case ItemPickup.ItemType.WallPass:
+            case Item.ItemType.WallPass:
                 break;
 
-            case ItemPickup.ItemType.Skate:
+            case Item.ItemType.Skate:
                 if (player.speed < 8) {
                     player.speed++;
                 }
                 break;
 
-            case ItemPickup.ItemType.Kick:
+            case Item.ItemType.Kick:
                 break;
 
-            case ItemPickup.ItemType.PowerGlove:
+            case Item.ItemType.PowerGlove:
                 break;
 
-            case ItemPickup.ItemType.PowerBomb:
+            case Item.ItemType.PowerBomb:
                 player.bombType = BombType.PowerBomb;
                 break;
 
-            case ItemPickup.ItemType.Clock:
+            case Item.ItemType.Clock:
                 break;
 
-            case ItemPickup.ItemType.Heart:
+            case Item.ItemType.Heart:
                 break;
 
-            case ItemPickup.ItemType.Geta:
+            case Item.ItemType.Geta:
                 break;
         }
     }

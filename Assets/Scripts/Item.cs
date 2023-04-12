@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ItemPickup : MonoBehaviour
+public class Item : MonoBehaviour
 {
     public enum ItemType
     {
