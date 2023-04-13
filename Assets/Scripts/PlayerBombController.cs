@@ -36,6 +36,7 @@ public class PlayerBombController : MonoBehaviour
 
     private IEnumerator placeBomb()
     {
+        player.droppingBomb = true;
         Vector2 position = transform.position;
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
@@ -112,18 +113,11 @@ public class PlayerBombController : MonoBehaviour
         }
     }
 
-    // enable collision between bomb and players
     private void OnTriggerExit2D(Collider2D other)
     {
+        // enable collision between player and bombs
         if (other.gameObject.layer == LayerMask.NameToLayer("Bomb")) {
-            other.isTrigger = false;
+            player.droppingBomb = false;
         }
     }
-
-
-    public void setBombCollision(bool state)
-    {
-        // TODO
-    }
-
 }

@@ -323,6 +323,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 69141442}
+  direction: {x: 0, y: -1}
   inputUp: 119
   inputDown: 115
   inputLeft: 97
@@ -367,10 +368,11 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  kick: 0
   bombPass: 0
   wallPass: 0
-  kick: 0
   bombType: 0
+  droppingBomb: 0
 --- !u!1 &108570990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,7 +1222,7 @@ GameObject:
   - component: {fileID: 795818427}
   m_Layer: 6
   m_Name: Stage
-  m_TagString: Untagged
+  m_TagString: Stage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1415,6 +1417,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 954464825}
+  direction: {x: 0, y: -1}
   inputUp: 264
   inputDown: 261
   inputLeft: 260
@@ -1496,10 +1499,11 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  kick: 0
   bombPass: 0
   wallPass: 0
-  kick: 0
   bombType: 0
+  droppingBomb: 0
 --- !u!1 &1046255576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1884,7 +1888,7 @@ GameObject:
   - component: {fileID: 1235149040}
   m_Layer: 6
   m_Name: Indestructibles
-  m_TagString: Untagged
+  m_TagString: Stage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4485,6 +4489,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 1376461782}
+  direction: {x: 0, y: -1}
   inputUp: 105
   inputDown: 107
   inputLeft: 106
@@ -4566,10 +4571,11 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  kick: 0
   bombPass: 0
   wallPass: 0
-  kick: 0
   bombType: 0
+  droppingBomb: 0
 --- !u!1 &1406484378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,6 +4630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 1406484382}
+  direction: {x: 0, y: -1}
   inputUp: 273
   inputDown: 274
   inputLeft: 276
@@ -4705,10 +4712,11 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  kick: 0
   bombPass: 0
   wallPass: 0
-  kick: 0
   bombType: 0
+  droppingBomb: 0
 --- !u!1 &1626129101
 GameObject:
   m_ObjectHideFlags: 0
@@ -5044,11 +5052,11 @@ GameObject:
   - component: {fileID: 1762852105}
   m_Layer: 6
   m_Name: Destructibles
-  m_TagString: Untagged
+  m_TagString: Stage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1762852102
 Transform:
   m_ObjectHideFlags: 0

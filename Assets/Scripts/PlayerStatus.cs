@@ -6,10 +6,12 @@ public class PlayerStatus : MonoBehaviour
     public int bombAmount = 2;
     public int fireAmout = 2;
     public float speed = 4f;
+    public bool kick = false;
     public bool bombPass = false;
     public bool wallPass = false;
-    public bool kick = false;
     public BombType bombType = BombType.Common;
+
+    public bool droppingBomb = false;
 
     private List<Item> items = new List<Item>();
 
@@ -39,6 +41,8 @@ public class PlayerStatus : MonoBehaviour
                 break;
 
             case Item.ItemType.BombPass:
+                bombPass = true;
+                kick = false;
                 break;
 
             case Item.ItemType.Skull:
@@ -61,6 +65,8 @@ public class PlayerStatus : MonoBehaviour
                 break;
 
             case Item.ItemType.Kick:
+                bombPass = false;
+                kick = true;
                 break;
 
             case Item.ItemType.PowerGlove:

@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovementController : MonoBehaviour
 {
     public new Rigidbody2D rigidbody;
-    private Vector2 direction = Vector2.down;
+    public Vector2 direction = Vector2.down;
 
     [Header("Controls")]
     public KeyCode inputUp = KeyCode.W;
@@ -21,9 +21,12 @@ public class PlayerMovementController : MonoBehaviour
     public AnimatedSpriteRenderer SpriteRendererDeath;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
+    private PlayerStatus player;
+
     private void Start()
     {
         activeSpriteRenderer = spriteRendererDown;
+        player = gameObject.GetComponent<PlayerStatus>();
     }
 
     private void Update()
