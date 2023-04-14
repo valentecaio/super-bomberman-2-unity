@@ -24,6 +24,7 @@ public class Bomb : MonoBehaviour
             } else if (player.kick) {
                 this.direction = playerMovement.direction;
             } else {
+                // TODO - implement behavior when player has no items
                 this.direction = playerMovement.direction;
             }
         } else if (other.CompareTag("Bomb") || other.CompareTag("Stage")) {

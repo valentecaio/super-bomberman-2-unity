@@ -6,6 +6,7 @@ public class PlayerStatus : MonoBehaviour
     public int bombAmount = 2;
     public int fireAmout = 2;
     public float speed = 4f;
+    public bool heart = false;
     public bool kick = false;
     public bool bombPass = false;
     public bool wallPass = false;
@@ -80,6 +81,7 @@ public class PlayerStatus : MonoBehaviour
                 break;
 
             case Item.ItemType.Heart:
+                heart = true;
                 break;
 
             case Item.ItemType.Geta:

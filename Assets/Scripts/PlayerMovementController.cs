@@ -54,7 +54,11 @@ public class PlayerMovementController : MonoBehaviour
     public void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
-            StartCoroutine(die());
+            if (player.heart) {
+                player.heart = false;
+            } else {
+                StartCoroutine(die());
+            }
         }
     }
 
