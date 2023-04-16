@@ -13,6 +13,35 @@ public class Bomb : MonoBehaviour
         rigidbody.MovePosition(rigidbody.position + translation);
     }
 
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        print("bomb collided with " + other.gameObject.tag);
+        if (other.gameObject.CompareTag("Player")) {
+            PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
+            PlayerMovementController playerMovement = other.gameObject.GetComponent<PlayerMovementController>();
+            if (player.kick) {
+                this.direction = playerMovement.direction;
+            } else if (player.droppingBomb || player.bombPass) {
+                // TODO
+            } else {
+                direction = Vector2.zero;
+                centerPosition();  
+            }
+        } else if (other.gameObject.CompareTag("Bomb") || other.gameObject.CompareTag("Stage")) {
+            direction = Vector2.zero;
+            centerPosition();
+        }
+    }
+
+    public void OnCollisionExit2D(Collision2D other)
+    {
+        print("OnCollisionExit2D");
+        if (other.gameObject.CompareTag("Player")) {
+            PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
+            player.droppingBomb = false;
+        }
+    }
+
     public void OnTriggerEnter2D(Collider2D other)
     {
         print("bomb hit " + other.tag);

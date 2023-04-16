@@ -351,7 +351,7 @@ MonoBehaviour:
   explosionDuration: 0.6
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 32
-  bombTimer: 3
+  bombTimer: 10
   bombs: []
 --- !u!114 &69141447
 MonoBehaviour:
@@ -368,6 +368,7 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  heart: 0
   kick: 0
   bombPass: 0
   wallPass: 0
@@ -1499,6 +1500,7 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  heart: 0
   kick: 0
   bombPass: 0
   wallPass: 0
@@ -4571,6 +4573,7 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  heart: 0
   kick: 0
   bombPass: 0
   wallPass: 0
@@ -4712,6 +4715,7 @@ MonoBehaviour:
   bombAmount: 2
   fireAmout: 2
   speed: 4
+  heart: 0
   kick: 0
   bombPass: 0
   wallPass: 0

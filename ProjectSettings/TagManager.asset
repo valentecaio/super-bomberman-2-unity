@@ -8,6 +8,7 @@ TagManager:
   - Explosion
   - Bomb
   - Item
+  - Stage
   layers:
   - Default
   - TransparentFX
@@ -19,10 +20,10 @@ TagManager:
   - Player
   - Explosion
   - Item
-  - 
-  - 
-  - 
-  - 
+  - Player 1
+  - Player 2
+  - Player 3
+  - Player 4
   - 
   - 
   - 
