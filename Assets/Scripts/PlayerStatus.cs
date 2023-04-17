@@ -8,11 +8,19 @@ public class PlayerStatus : MonoBehaviour
     public float speed = 4f;
     public bool heart = false;
     public bool kick = false;
-    public bool bombPass = false;
     public bool wallPass = false;
     public BombType bombType = BombType.Common;
 
     public bool droppingBomb = false;
+
+    private bool _bombPass = false;
+    public bool bombPass {
+        get { return _bombPass; }
+        set {
+            _bombPass = value;
+            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), _bombPass);
+        }
+    }
 
     private List<Item> items = new List<Item>();
 

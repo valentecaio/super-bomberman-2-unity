@@ -21,8 +21,6 @@ public class Bomb : MonoBehaviour
             PlayerMovementController playerMovement = other.gameObject.GetComponent<PlayerMovementController>();
             if (player.kick) {
                 this.direction = playerMovement.direction;
-            } else if (player.droppingBomb || player.bombPass) {
-                // TODO
             } else {
                 direction = Vector2.zero;
                 centerPosition();  
