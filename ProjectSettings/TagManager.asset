@@ -9,6 +9,7 @@ TagManager:
   - Bomb
   - Item
   - Stage
+  - PlayerTrigger
   layers:
   - Default
   - TransparentFX
@@ -24,7 +25,7 @@ TagManager:
   - Player 2
   - Player 3
   - Player 4
-  - 
+  - PlayerTrigger
   - 
   - 
   - 

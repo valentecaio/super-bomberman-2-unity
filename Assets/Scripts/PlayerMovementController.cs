@@ -51,18 +51,7 @@ public class PlayerMovementController : MonoBehaviour
         rigidbody.MovePosition(rigidbody.position + translation);
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.layer == LayerMask.NameToLayer("Explosion")) {
-            if (player.heart) {
-                player.heart = false;
-            } else {
-                StartCoroutine(die());
-            }
-        }
-    }
-
-    private IEnumerator die()
+    public IEnumerator die()
     {
         this.enabled = false;
         this.GetComponent<PlayerBombController>().enabled = false;

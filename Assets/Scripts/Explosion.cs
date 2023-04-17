@@ -25,4 +25,17 @@ public class Explosion : MonoBehaviour
     {
         Destroy(gameObject, seconds);
     }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        // print("explosion OnTriggerEnter2D with tag " + other.gameObject.tag);
+        if (other.gameObject.tag == "Player") {
+            PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
+            if (player.heart) {
+                player.heart = false;
+            } else {
+                StartCoroutine(other.gameObject.GetComponent<PlayerMovementController>().die());
+            }
+        }
+    }
 }

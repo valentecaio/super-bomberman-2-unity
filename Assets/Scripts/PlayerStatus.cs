@@ -11,18 +11,30 @@ public class PlayerStatus : MonoBehaviour
     public bool wallPass = false;
     public BombType bombType = BombType.Common;
 
-    public bool droppingBomb = false;
-
     private bool _bombPass = false;
     public bool bombPass {
         get { return _bombPass; }
         set {
             _bombPass = value;
-            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), _bombPass);
+            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), value);
+        }
+    }
+
+    private bool _droppingBomb = false;
+    public bool droppingBomb {
+        get { return _droppingBomb; }
+        set {
+            _droppingBomb = value;
+            if (!_droppingBomb) {
+                foreach (GameObject bomb in bombs) {
+                    Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>(), false);
+                }
+            }
         }
     }
 
     private List<Item> items = new List<Item>();
+    public List<GameObject> bombs = new List<GameObject>();
 
     public void OnItemPickup(Item item)
     {

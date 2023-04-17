@@ -18,7 +18,6 @@ public class PlayerBombController : MonoBehaviour
     [Header("Bomb")]
     public KeyCode inputKey = KeyCode.Space;
     public float bombTimer = 3f;
-    public List<GameObject> bombs = new List<GameObject>();
 
     private PlayerStatus player;
 
@@ -29,14 +28,13 @@ public class PlayerBombController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(inputKey) && bombs.Count < player.bombAmount) {
+        if (Input.GetKeyDown(inputKey) && player.bombs.Count < player.bombAmount) {
             StartCoroutine(placeBomb());
         }
     }
 
     private IEnumerator placeBomb()
     {
-        player.droppingBomb = true;
         Vector2 position = transform.position;
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
@@ -47,7 +45,11 @@ public class PlayerBombController : MonoBehaviour
         }
 
         GameObject bomb = Instantiate(bombPrefab, position, Quaternion.identity);
-        bombs.Add(bomb);
+        player.bombs.Add(bomb);
+
+        // we ignore this collision until the player exits the bomb sprite
+        player.droppingBomb = true;
+        Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>());
 
         // works like a sleep(3)
         yield return new WaitForSeconds(bombTimer);
@@ -110,14 +112,6 @@ public class PlayerBombController : MonoBehaviour
         if (tile != null) {
             Instantiate(destructiblePrefab, position, Quaternion.identity);
             destructibleTilemap.SetTile(cell, null);
-        }
-    }
-
-    private void OnTriggerExit2D(Collider2D other)
-    {
-        // enable collision between player and bombs
-        if (other.gameObject.layer == LayerMask.NameToLayer("Bomb")) {
-            player.droppingBomb = false;
         }
     }
 }

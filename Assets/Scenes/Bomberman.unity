@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 3866659}
   - component: {fileID: 3866658}
   - component: {fileID: 3866657}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -246,7 +246,7 @@ GameObject:
   - component: {fileID: 69141444}
   - component: {fileID: 69141445}
   - component: {fileID: 69141447}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Player 1
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -265,6 +265,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2017476331}
   - {fileID: 1361743861}
   - {fileID: 519179356}
   - {fileID: 813248663}
@@ -351,8 +352,7 @@ MonoBehaviour:
   explosionDuration: 0.6
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 32
-  bombTimer: 10
-  bombs: []
+  bombTimer: 3
 --- !u!114 &69141447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -370,10 +370,9 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  bombPass: 0
   wallPass: 0
   bombType: 0
-  droppingBomb: 0
+  bombs: []
 --- !u!1 &108570990
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +384,7 @@ GameObject:
   - component: {fileID: 108570993}
   - component: {fileID: 108570992}
   - component: {fileID: 108570991}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -492,7 +491,7 @@ GameObject:
   - component: {fileID: 259863032}
   - component: {fileID: 259863031}
   - component: {fileID: 259863030}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -601,7 +600,7 @@ GameObject:
   - component: {fileID: 476935386}
   - component: {fileID: 476935385}
   - component: {fileID: 476935384}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -708,7 +707,7 @@ GameObject:
   - component: {fileID: 519179356}
   - component: {fileID: 519179357}
   - component: {fileID: 519179358}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -728,7 +727,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 69141441}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &519179357
 SpriteRenderer:
@@ -899,7 +898,7 @@ GameObject:
   - component: {fileID: 560844071}
   - component: {fileID: 560844070}
   - component: {fileID: 560844069}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1006,7 +1005,7 @@ GameObject:
   - component: {fileID: 592914851}
   - component: {fileID: 592914853}
   - component: {fileID: 592914852}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1025,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 69141441}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &592914852
 MonoBehaviour:
@@ -1115,7 +1114,7 @@ GameObject:
   - component: {fileID: 629170127}
   - component: {fileID: 629170126}
   - component: {fileID: 629170125}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,7 +1267,7 @@ GameObject:
   - component: {fileID: 813248663}
   - component: {fileID: 813248664}
   - component: {fileID: 813248665}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1288,7 +1287,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 69141441}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &813248664
 SpriteRenderer:
@@ -1378,7 +1377,7 @@ GameObject:
   - component: {fileID: 954464823}
   - component: {fileID: 954464822}
   - component: {fileID: 954464827}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: Player 3
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -1404,7 +1403,6 @@ MonoBehaviour:
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 256
   bombTimer: 3
-  bombs: []
 --- !u!114 &954464823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1502,10 +1500,9 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  bombPass: 0
   wallPass: 0
   bombType: 0
-  droppingBomb: 0
+  bombs: []
 --- !u!1 &1046255576
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,7 +1514,7 @@ GameObject:
   - component: {fileID: 1046255579}
   - component: {fileID: 1046255578}
   - component: {fileID: 1046255577}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1624,7 +1621,7 @@ GameObject:
   - component: {fileID: 1047932320}
   - component: {fileID: 1047932321}
   - component: {fileID: 1047932322}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1644,7 +1641,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 69141441}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1047932321
 SpriteRenderer:
@@ -1780,7 +1777,7 @@ GameObject:
   - component: {fileID: 1198280172}
   - component: {fileID: 1198280171}
   - component: {fileID: 1198280170}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2948,16 +2945,6 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1
-  - first: {x: 0, y: 0, z: 0}
-    second:
-      serializedVersion: 2
-      m_TileIndex: 4
-      m_TileSpriteIndex: 4
-      m_TileMatrixIndex: 0
-      m_TileColorIndex: 0
-      m_TileObjectToInstantiateIndex: 65535
-      dummyAlignment: 0
-      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -3928,7 +3915,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 82
+  - m_RefCount: 81
     m_Data: {fileID: 11400000, guid: 112bc54bd92bf1a50ae663a275e3fc6c, type: 2}
   - m_RefCount: 70
     m_Data: {fileID: 11400000, guid: a5af1ba441ac0dc75b055e126ef9b12f, type: 2}
@@ -3941,12 +3928,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 82
+  - m_RefCount: 81
     m_Data: {fileID: 664762356, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   - m_RefCount: 70
     m_Data: {fileID: -784744060, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 195
+  - m_RefCount: 194
     m_Data:
       e00: 1
       e01: 0
@@ -3965,7 +3952,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 195
+  - m_RefCount: 194
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -4018,7 +4005,7 @@ GameObject:
   - component: {fileID: 1242363409}
   - component: {fileID: 1242363408}
   - component: {fileID: 1242363407}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Death
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4127,7 +4114,7 @@ GameObject:
   - component: {fileID: 1273199321}
   - component: {fileID: 1273199320}
   - component: {fileID: 1273199319}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4234,7 +4221,7 @@ GameObject:
   - component: {fileID: 1290990105}
   - component: {fileID: 1290990104}
   - component: {fileID: 1290990103}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4341,7 +4328,7 @@ GameObject:
   - component: {fileID: 1361743861}
   - component: {fileID: 1361743862}
   - component: {fileID: 1361743863}
-  m_Layer: 7
+  m_Layer: 10
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4361,7 +4348,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 69141441}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1361743862
 SpriteRenderer:
@@ -4451,7 +4438,7 @@ GameObject:
   - component: {fileID: 1376461780}
   - component: {fileID: 1376461779}
   - component: {fileID: 1376461784}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Player 4
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4477,7 +4464,6 @@ MonoBehaviour:
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 111
   bombTimer: 3
-  bombs: []
 --- !u!114 &1376461780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4575,10 +4561,9 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  bombPass: 0
   wallPass: 0
   bombType: 0
-  droppingBomb: 0
+  bombs: []
 --- !u!1 &1406484378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4593,7 +4578,7 @@ GameObject:
   - component: {fileID: 1406484380}
   - component: {fileID: 1406484379}
   - component: {fileID: 1406484384}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Player 2
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -4619,7 +4604,6 @@ MonoBehaviour:
   destructibleTilemap: {fileID: 1762852104}
   inputKey: 305
   bombTimer: 3
-  bombs: []
 --- !u!114 &1406484380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4717,10 +4701,9 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  bombPass: 0
   wallPass: 0
   bombType: 0
-  droppingBomb: 0
+  bombs: []
 --- !u!1 &1626129101
 GameObject:
   m_ObjectHideFlags: 0
@@ -4732,7 +4715,7 @@ GameObject:
   - component: {fileID: 1626129104}
   - component: {fileID: 1626129103}
   - component: {fileID: 1626129102}
-  m_Layer: 7
+  m_Layer: 12
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4839,7 +4822,7 @@ GameObject:
   - component: {fileID: 1722726285}
   - component: {fileID: 1722726284}
   - component: {fileID: 1722726283}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4946,7 +4929,7 @@ GameObject:
   - component: {fileID: 1723773234}
   - component: {fileID: 1723773233}
   - component: {fileID: 1723773232}
-  m_Layer: 7
+  m_Layer: 11
   m_Name: Down
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5060,7 +5043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1762852102
 Transform:
   m_ObjectHideFlags: 0
@@ -5534,6 +5517,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -5946,17 +5939,17 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: 112bc54bd92bf1a50ae663a275e3fc6c, type: 2}
   - m_RefCount: 81
     m_Data: {fileID: 11400000, guid: a15be0ea3a5d59b368f09892366caf76, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 0
-    m_Data: {fileID: 0}
+  - m_RefCount: 1
+    m_Data: {fileID: 664762356, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   - m_RefCount: 81
     m_Data: {fileID: -940480472, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 81
+  - m_RefCount: 82
     m_Data:
       e00: 1
       e01: 0
@@ -5975,7 +5968,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 81
+  - m_RefCount: 82
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -6028,7 +6021,7 @@ GameObject:
   - component: {fileID: 1786609551}
   - component: {fileID: 1786609550}
   - component: {fileID: 1786609549}
-  m_Layer: 7
+  m_Layer: 13
   m_Name: Up
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6124,3 +6117,51 @@ Transform:
   m_Father: {fileID: 1376461783}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2017476330
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2017476331}
+  - component: {fileID: 2017476332}
+  m_Layer: 14
+  m_Name: PlayerTrigger
+  m_TagString: PlayerTrigger
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2017476331
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017476330}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 69141441}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &2017476332
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017476330}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 5a8b189b9a56704f29a482ba9b5f4868, type: 2}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
