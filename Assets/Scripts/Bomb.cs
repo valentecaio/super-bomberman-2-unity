@@ -8,7 +8,7 @@ public class Bomb : MonoBehaviour
     public float bombTimer = 3f;
     public float explosionDuration = 0.85f;
     public Explosion explosionPrefab;
-    public Destructible destructiblePrefab;
+    public AnimationSoftWallExploding destructiblePrefab;
 
     // these are passed from the player on bomb instantiation
     public Tilemap destructibleTilemap;

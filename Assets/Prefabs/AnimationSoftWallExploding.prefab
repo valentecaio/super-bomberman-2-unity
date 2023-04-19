@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2261515144235983833}
   - component: {fileID: 7140113704889883309}
   m_Layer: 6
-  m_Name: Destructible
+  m_Name: AnimationSoftWallExploding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -146,17 +146,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 2261515144235983829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2d346191270f120c2b6fa21b9cf1ce4e, type: 3}
+  m_Script: {fileID: 11500000, guid: 13cd4ce7871ba54ceaa9d14e21b20ce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destructionTime: 1
-  itemSpawnChance: 0.6
+  destructionTime: 0.75
+  itemSpawnChance: 0.7
   itemPrefabs:
   - {fileID: 5354521220839402562, guid: 3f821b4ec99535a1da73812bb9ff9a3d, type: 3}
-  - {fileID: 5354521220839402562, guid: a557e91cd064dbc13bf8aacfcb44d5b5, type: 3}
-  - {fileID: 5354521220839402562, guid: 522b6ee3e3e46600dad1c15ecf3263f3, type: 3}
-  - {fileID: 5354521220839402562, guid: 04d5731bbc8a8e975809d51318568158, type: 3}
   - {fileID: 5354521220839402562, guid: 40012c97f72073e84b4cbd83e23eacd9, type: 3}
-  - {fileID: 5354521220839402562, guid: bf1b1f7ef70054d30b3f7b36a7570caa, type: 3}
+  - {fileID: 5354521220839402562, guid: a557e91cd064dbc13bf8aacfcb44d5b5, type: 3}
+  - {fileID: 5354521220839402562, guid: 04d5731bbc8a8e975809d51318568158, type: 3}
   - {fileID: 5354521220839402562, guid: 0b5656afa7ef8ab26b279e1b2f6152c1, type: 3}
+  - {fileID: 5354521220839402562, guid: bf1b1f7ef70054d30b3f7b36a7570caa, type: 3}
+  - {fileID: 5354521220839402562, guid: 522b6ee3e3e46600dad1c15ecf3263f3, type: 3}
   - {fileID: 5354521220839402562, guid: 5c89fa8dfbaa946bcaf5b18893a62764, type: 3}
