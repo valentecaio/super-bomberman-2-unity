@@ -68,6 +68,10 @@ public class Bomb : MonoBehaviour
                     clearDestructible(explosionPosition);
                     break;
 
+                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Explosion"))) {
+                    // explosion hit another explosion -> stop
+                    break;
+
                 } else if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Item"))) {
                     // explosion hit an item -> explode item
                     collider.gameObject.GetComponent<Item>().itemExplode();
