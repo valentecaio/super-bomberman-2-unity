@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2261515144235983833}
   - component: {fileID: 7140113704889883309}
   m_Layer: 6
-  m_Name: AnimationSoftWallExploding
+  m_Name: SoftBlock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

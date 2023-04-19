@@ -1,7 +1,7 @@
 using UnityEngine;
 
-// controls destructible animation and item apparition
-public class AnimationSoftWallExploding : MonoBehaviour
+// controls soft wall animation and item apparition
+public class SoftBlock : MonoBehaviour
 {
     public float destructionTime = 1f;
 

@@ -6,10 +6,9 @@ public class Bomb : MonoBehaviour
 {
     public float speed = 5f;
     public float bombTimer = 3f;
-    public float explosionDuration = 0.85f;
+    public float explosionDuration = 0.75f;
     public Explosion explosionPrefab;
-    public AnimationSoftWallExploding softWallExplodingPrefab;
-    public AnimationItemExploding itemExplodingPrefab;
+    public SoftBlock SoftBlockPrefab;
 
     // these are passed from the player on bomb instantiation
     public Tilemap destructibleTilemap;
@@ -89,9 +88,8 @@ public class Bomb : MonoBehaviour
                     break;
 
                 } else if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Item"))) {
-                    // explosion hit an item -> delete item
-                    Instantiate(itemExplodingPrefab, explosionPosition, Quaternion.identity);
-                    Destroy(collider.gameObject);
+                    // explosion hit an item -> explode item
+                    collider.gameObject.GetComponent<Item>().itemExplode();
                     break;
 
                 } else {
@@ -110,7 +108,7 @@ public class Bomb : MonoBehaviour
         Vector3Int cell = destructibleTilemap.WorldToCell(position);
         TileBase tile = destructibleTilemap.GetTile(cell);
         if (tile != null) {
-            Instantiate(softWallExplodingPrefab, position, Quaternion.identity);
+            Instantiate(SoftBlockPrefab, position, Quaternion.identity);
             destructibleTilemap.SetTile(cell, null);
         }
     }
