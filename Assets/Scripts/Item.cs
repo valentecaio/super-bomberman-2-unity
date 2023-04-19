@@ -2,12 +2,6 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    public enum ItemType
-    {
-        Bomb, Fire, Skate, RedBomb, FullFire, BombPass, Skull, Vest, Heart,
-        RemoteControl, WallPass, Kick, PowerGlove, PowerBomb, Clock, Geta,
-    }
-
     public ItemType type;
     public AnimatedSpriteRenderer SpriteRendererExplosion;
 

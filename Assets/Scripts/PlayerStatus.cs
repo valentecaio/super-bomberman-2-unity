@@ -49,71 +49,71 @@ public class PlayerStatus : MonoBehaviour
         items.Add(item);
 
         switch(item.type) {
-            case Item.ItemType.Bomb:
+            case ItemType.Bomb:
                 if (bombAmount < 8) {
                     bombAmount++;
                 }
                 break;
 
-            case Item.ItemType.Fire:
+            case ItemType.Fire:
                 if (fireAmout < 8) {
                     fireAmout++;
                 }
                 break;
 
-            case Item.ItemType.RedBomb:
+            case ItemType.RedBomb:
                 bombType = BombType.RedBomb;
                 break;
 
-            case Item.ItemType.FullFire:
+            case ItemType.FullFire:
                 fireAmout = 8;
                 break;
 
-            case Item.ItemType.BombPass:
+            case ItemType.BombPass:
                 bombPass = true;
                 kick = false;
                 break;
 
-            case Item.ItemType.Skull:
+            case ItemType.Skull:
                 break;
 
-            case Item.ItemType.Vest:
+            case ItemType.Vest:
                 break;
 
-            case Item.ItemType.RemoteControl:
+            case ItemType.RemoteControl:
                 bombType = BombType.RemoteControl;
                 break;
 
-            case Item.ItemType.WallPass:
+            case ItemType.WallPass:
                 wallPass = true;
                 break;
 
-            case Item.ItemType.Skate:
+            case ItemType.Skate:
                 if (speed < 8) {
                     speed++;
                 }
                 break;
 
-            case Item.ItemType.Kick:
+            case ItemType.Kick:
                 bombPass = false;
                 kick = true;
                 break;
 
-            case Item.ItemType.PowerGlove:
+            case ItemType.PowerGlove:
                 break;
 
-            case Item.ItemType.PowerBomb:
+            case ItemType.PowerBomb:
                 bombType = BombType.PowerBomb;
                 break;
 
-            case Item.ItemType.Clock:
+            case ItemType.Clock:
                 break;
 
-            case Item.ItemType.Heart:
+            case ItemType.Heart:
                 heart = true;
                 break;
 
-            case Item.ItemType.Geta:
+            case ItemType.Geta:
                 break;
         }
     }

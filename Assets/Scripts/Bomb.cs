@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -29,7 +28,8 @@ public class Bomb : MonoBehaviour
         position.y = Mathf.Round(position.y);
         transform.position = position;
     }
-    public void timedDetonation(float timer)
+
+    private void timedDetonation(float timer)
     {
         Invoke("bombExplode", timer);
     }
