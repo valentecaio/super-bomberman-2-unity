@@ -126,14 +126,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2261515144235983830}
-  idleSprite: {fileID: -1469281880, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
+  idleSprite: {fileID: -940480472, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   animationSprites:
-  - {fileID: -1469281880, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: -238228465, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 913141444, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 1884188290, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 2133290006, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 1178086772, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
+  - {fileID: -588292090, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 88227427, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 1639772440, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 1384505162, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 1200131709, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 2069218919, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   animationTime: 0.125
   loop: 0
   idle: 0
