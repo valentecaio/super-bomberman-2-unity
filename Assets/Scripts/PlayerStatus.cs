@@ -8,8 +8,16 @@ public class PlayerStatus : MonoBehaviour
     public float speed = 4f;
     public bool heart = false;
     public bool kick = false;
-    public bool wallPass = false;
     public BombType bombType = BombType.Common;
+
+    private bool _wallPass = false;
+    public bool wallPass {
+        get { return _wallPass; }
+        set {
+            _wallPass = value;
+            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("SoftBlock"), value);
+        }
+    }
 
     private bool _bombPass = false;
     public bool bombPass {
@@ -77,6 +85,7 @@ public class PlayerStatus : MonoBehaviour
                 break;
 
             case Item.ItemType.WallPass:
+                wallPass = true;
                 break;
 
             case Item.ItemType.Skate:

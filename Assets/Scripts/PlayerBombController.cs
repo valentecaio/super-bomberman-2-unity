@@ -39,8 +39,8 @@ public class PlayerBombController : MonoBehaviour
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
 
-        // we can't place a bomb over another one
-        if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
+        // we can't place a bomb over a bomb or wall
+        if (Physics2D.OverlapBox(position, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb", "SoftBlock"))) {
             yield break;
         }
 
@@ -84,7 +84,7 @@ public class PlayerBombController : MonoBehaviour
                     bombExplode(collider.gameObject);
                     break;
 
-                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Stage"))) {
+                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("SoftBlock", "HardBlock"))) {
                     // explosion hit a wall -> trigger wall destruction animation
                     clearDestructible(explosionPosition);
                     break;
