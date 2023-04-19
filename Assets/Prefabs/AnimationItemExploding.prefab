@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 2261515144235983834}
   - component: {fileID: 2261515144235983830}
   - component: {fileID: 2261515144235983833}
-  - component: {fileID: 7140113704889883309}
+  - component: {fileID: 540087246936616806}
   m_Layer: 6
-  m_Name: AnimationSoftWallExploding
+  m_Name: AnimationItemExploding
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -102,7 +102,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 22
-  m_Sprite: {fileID: -940480472, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  m_Sprite: {fileID: -2019144169, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -126,18 +126,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 2261515144235983830}
-  idleSprite: {fileID: -1469281880, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
+  idleSprite: {fileID: -2019144169, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   animationSprites:
-  - {fileID: -1469281880, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: -238228465, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 913141444, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 1884188290, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 2133290006, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  - {fileID: 1178086772, guid: 39caae5f09518436aa6b103143a27edb, type: 3}
-  animationTime: 0.125
-  loop: 0
+  - {fileID: -2019144169, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 381778615, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 543440580, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: -630350614, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: 1992595498, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  animationTime: 0.15
+  loop: 1
   idle: 0
---- !u!114 &7140113704889883309
+--- !u!114 &540087246936616806
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -146,17 +145,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 2261515144235983829}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 13cd4ce7871ba54ceaa9d14e21b20ce7, type: 3}
+  m_Script: {fileID: 11500000, guid: 26c0c26e4a05aecae8fd2084f523f8eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   destructionTime: 0.75
-  itemSpawnChance: 0.7
-  itemPrefabs:
-  - {fileID: 5354521220839402562, guid: 3f821b4ec99535a1da73812bb9ff9a3d, type: 3}
-  - {fileID: 5354521220839402562, guid: 40012c97f72073e84b4cbd83e23eacd9, type: 3}
-  - {fileID: 5354521220839402562, guid: a557e91cd064dbc13bf8aacfcb44d5b5, type: 3}
-  - {fileID: 5354521220839402562, guid: 04d5731bbc8a8e975809d51318568158, type: 3}
-  - {fileID: 5354521220839402562, guid: 0b5656afa7ef8ab26b279e1b2f6152c1, type: 3}
-  - {fileID: 5354521220839402562, guid: bf1b1f7ef70054d30b3f7b36a7570caa, type: 3}
-  - {fileID: 5354521220839402562, guid: 522b6ee3e3e46600dad1c15ecf3263f3, type: 3}
-  - {fileID: 5354521220839402562, guid: 5c89fa8dfbaa946bcaf5b18893a62764, type: 3}

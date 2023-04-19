@@ -162,7 +162,8 @@ MonoBehaviour:
   speed: 5
   bombTimer: 3
   explosionDuration: 0.85
-  rigidbody: {fileID: 7724237297781110143}
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
-  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
+  softWallExplodingPrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
+  itemExplodingPrefab: {fileID: 540087246936616806, guid: 14f68424df98350d9b55694f95f0b70c, type: 3}
   destructibleTilemap: {fileID: 0}
+  explosionLength: 2
