@@ -11,8 +11,8 @@ public class Item : MonoBehaviour
     public ItemType type;
     public AnimatedSpriteRenderer SpriteRendererExplosion;
 
+    public bool exploding = false;
     private float destructionTime = 0.75f;
-    private bool exploding = false;
 
     public void itemExplode()
     {
@@ -22,25 +22,13 @@ public class Item : MonoBehaviour
         Destroy(this.gameObject, destructionTime);
     }
 
-    private void OnItemPickup(GameObject player)
-    {
-        player.GetComponent<PlayerStatus>().OnItemPickup(this);
-        Destroy(this.gameObject);
-    }
-
     public void OnTriggerEnter2D(Collider2D other)
     {
         // print("Item OnTriggerEnter2D tag = " + other.tag);
-        if (exploding) {
-            if (other.CompareTag("Player")) {
-                StartCoroutine(other.gameObject.GetComponent<PlayerMovementController>().die());
-            } else if (other.CompareTag("Bomb")) {
+        if (other.CompareTag("Bomb")) {
+            if (exploding) {
                 other.GetComponent<Bomb>().bombExplode();
-            }
-        } else {
-            if (other.CompareTag("Player")) {
-                OnItemPickup(other.gameObject);
-            } else if (other.CompareTag("Bomb")) {
+            } else {
                 Destroy(this.gameObject);
             }
         }

@@ -22,24 +22,6 @@ public class Bomb : MonoBehaviour
         GetComponent<Rigidbody2D>().MovePosition(GetComponent<Rigidbody2D>().position + translation);
     }
 
-    public void OnCollisionEnter2D(Collision2D other)
-    {
-        // print("bomb OnCollisionEnter2D with " + other.gameObject.tag);
-        if (other.gameObject.CompareTag("Player")) {
-            PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
-            PlayerMovementController playerMovement = other.gameObject.GetComponent<PlayerMovementController>();
-            if (player.kick) {
-                this.direction = playerMovement.direction;
-            } else {
-                direction = Vector2.zero;
-                centerPosition();  
-            }
-        } else if (other.gameObject.CompareTag("Bomb") || other.gameObject.CompareTag("Stage")) {
-            direction = Vector2.zero;
-            centerPosition();
-        }
-    }
-
     private void centerPosition()
     {
         Vector2 position = transform.position;
@@ -112,4 +94,23 @@ public class Bomb : MonoBehaviour
             destructibleTilemap.SetTile(cell, null);
         }
     }
+
+    public void OnCollisionEnter2D(Collision2D other)
+    {
+        // print("bomb OnCollisionEnter2D with " + other.gameObject.tag);
+        if (other.gameObject.CompareTag("Player")) {
+            PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
+            PlayerMovementController playerMovement = other.gameObject.GetComponent<PlayerMovementController>();
+            if (player.kick) {
+                this.direction = playerMovement.direction;
+            } else {
+                direction = Vector2.zero;
+                centerPosition();
+            }
+        } else if (other.gameObject.CompareTag("Bomb") || other.gameObject.CompareTag("Stage")) {
+            direction = Vector2.zero;
+            centerPosition();
+        }
+    }
+
 }

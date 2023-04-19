@@ -117,4 +117,30 @@ public class PlayerStatus : MonoBehaviour
                 break;
         }
     }
+
+    private void tryToDie()
+    {
+        if (heart) {
+            heart = false;
+        } else {
+            StartCoroutine(gameObject.GetComponent<PlayerMovementController>().die());
+        }
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        print("playerStatus OnTriggerEnter2D with tag " + other.gameObject.tag);
+        if (other.gameObject.tag == "Explosion") {
+            tryToDie();
+        } else if (other.gameObject.CompareTag("Item")) {
+            Item item = other.gameObject.GetComponent<Item>();
+            if (item.exploding) {
+                tryToDie();
+            } else {
+                OnItemPickup(item);
+                Destroy(other.gameObject);
+            }
+        }
+    }
+
 }
