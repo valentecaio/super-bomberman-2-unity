@@ -4,7 +4,6 @@ using UnityEngine;
 // manages player movement controls and animations
 public class PlayerMovementController : MonoBehaviour
 {
-    public new Rigidbody2D rigidbody;
     public Vector2 direction = Vector2.down;
 
     [Header("Controls")]
@@ -48,7 +47,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         float speed = gameObject.GetComponent<PlayerStatus>().speed;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
-        rigidbody.MovePosition(rigidbody.position + translation);
+        GetComponent<Rigidbody2D>().MovePosition(GetComponent<Rigidbody2D>().position + translation);
     }
 
     public IEnumerator die()

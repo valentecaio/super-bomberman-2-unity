@@ -346,13 +346,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
-  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
-  explosionDuration: 0.6
-  destructibleTilemap: {fileID: 1762852104}
   inputKey: 32
-  bombTimer: 3
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  destructibleTilemap: {fileID: 1762852104}
 --- !u!114 &69141447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1456,13 +1452,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
-  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
-  explosionDuration: 0.6
-  destructibleTilemap: {fileID: 1762852104}
   inputKey: 256
-  bombTimer: 3
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  destructibleTilemap: {fileID: 1762852104}
 --- !u!114 &954464823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4649,13 +4641,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
-  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
-  explosionDuration: 0.6
-  destructibleTilemap: {fileID: 1762852104}
   inputKey: 111
-  bombTimer: 3
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  destructibleTilemap: {fileID: 1762852104}
 --- !u!114 &1376461780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4789,13 +4777,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombPrefab: {fileID: 3635259693394374543, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
-  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
-  explosionDuration: 0.6
-  destructibleTilemap: {fileID: 1762852104}
   inputKey: 305
-  bombTimer: 3
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  destructibleTilemap: {fileID: 1762852104}
 --- !u!114 &1406484380
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &3635259693394374543
+--- !u!1 &2009924588926278083
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,12 +8,12 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 3635259693394374536}
-  - component: {fileID: 3635259693394374539}
-  - component: {fileID: 3635259693394374538}
-  - component: {fileID: 3635259693394374541}
-  - component: {fileID: 3635259693394374540}
-  - component: {fileID: -7835646994134704190}
+  - component: {fileID: 6244874540774471194}
+  - component: {fileID: 7177049892196353384}
+  - component: {fileID: 7724237297781110143}
+  - component: {fileID: 8376617844750796710}
+  - component: {fileID: 1504157854106674032}
+  - component: {fileID: 6727889253114774363}
   m_Layer: 3
   m_Name: Bomb
   m_TagString: Bomb
@@ -21,13 +21,13 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &3635259693394374536
+--- !u!4 &6244874540774471194
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635259693394374543}
+  m_GameObject: {fileID: 2009924588926278083}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.53, y: 5.51, z: 0.08820683}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -36,13 +36,13 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3635259693394374539
+--- !u!212 &7177049892196353384
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635259693394374543}
+  m_GameObject: {fileID: 2009924588926278083}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -88,14 +88,14 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &3635259693394374538
+--- !u!50 &7724237297781110143
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635259693394374543}
+  m_GameObject: {fileID: 2009924588926278083}
   m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 1
@@ -109,13 +109,13 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!58 &3635259693394374541
+--- !u!58 &8376617844750796710
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635259693394374543}
+  m_GameObject: {fileID: 2009924588926278083}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -125,19 +125,19 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.48
---- !u!114 &3635259693394374540
+--- !u!114 &1504157854106674032
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635259693394374543}
+  m_GameObject: {fileID: 2009924588926278083}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c8238c3946440abb1aff00f65329a047, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderer: {fileID: 3635259693394374539}
+  spriteRenderer: {fileID: 7177049892196353384}
   idleSprite: {fileID: 351102152, guid: a43de5c71d0d320c99444f6542058dda, type: 3}
   animationSprites:
   - {fileID: 351102152, guid: a43de5c71d0d320c99444f6542058dda, type: 3}
@@ -147,17 +147,22 @@ MonoBehaviour:
   animationTime: 0.25
   loop: 1
   idle: 0
---- !u!114 &-7835646994134704190
+--- !u!114 &6727889253114774363
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3635259693394374543}
+  m_GameObject: {fileID: 2009924588926278083}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ac38e5f015166b88802ea75c889862f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  rigidbody: {fileID: 3635259693394374538}
+  bombTimer: 3
+  explosionDuration: 0.85
+  rigidbody: {fileID: 7724237297781110143}
+  explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
+  destructiblePrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
+  destructibleTilemap: {fileID: 0}
