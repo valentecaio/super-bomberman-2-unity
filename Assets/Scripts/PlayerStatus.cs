@@ -129,7 +129,7 @@ public class PlayerStatus : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        print("playerStatus OnTriggerEnter2D with tag " + other.gameObject.tag);
+        // print("playerStatus OnTriggerEnter2D with tag " + other.gameObject.tag);
         if (other.gameObject.tag == "Explosion") {
             tryToDie();
         } else if (other.gameObject.CompareTag("Item")) {

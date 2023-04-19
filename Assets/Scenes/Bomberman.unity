@@ -323,7 +323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 69141442}
   direction: {x: 0, y: -1}
   inputUp: 119
   inputDown: 115
@@ -1467,7 +1466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 954464825}
   direction: {x: 0, y: -1}
   inputUp: 264
   inputDown: 261
@@ -4656,7 +4654,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 1376461782}
   direction: {x: 0, y: -1}
   inputUp: 105
   inputDown: 107
@@ -4792,7 +4789,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rigidbody: {fileID: 1406484382}
   direction: {x: 0, y: -1}
   inputUp: 273
   inputDown: 274

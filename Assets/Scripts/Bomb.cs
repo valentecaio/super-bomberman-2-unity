@@ -29,15 +29,14 @@ public class Bomb : MonoBehaviour
         position.y = Mathf.Round(position.y);
         transform.position = position;
     }
-
-    public IEnumerator run()
+    public void timedDetonation(float timer)
     {
-        yield return new WaitForSeconds(bombTimer);
+        Invoke("bombExplode", timer);
+    }
 
-        // the bomb may have been destroyed by another bomb
-        if (this) {
-            bombExplode();
-        }
+    public void startTimer()
+    {
+        timedDetonation(bombTimer);
     }
 
     public void bombExplode()
@@ -61,7 +60,7 @@ public class Bomb : MonoBehaviour
 
                 if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
                     // explosion hit a bomb -> trigger bomb
-                    collider.gameObject.GetComponent<Bomb>().bombExplode();
+                    collider.gameObject.GetComponent<Bomb>().timedDetonation(0.1f);
                     break;
 
                 } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("SoftBlock", "HardBlock"))) {

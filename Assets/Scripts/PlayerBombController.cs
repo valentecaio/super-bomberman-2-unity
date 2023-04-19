@@ -41,6 +41,6 @@ public class PlayerBombController : MonoBehaviour
         player.droppingBomb = true;
         Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>());
 
-        StartCoroutine(bomb.GetComponent<Bomb>().run());
+        bomb.GetComponent<Bomb>().startTimer();
     }
 }
