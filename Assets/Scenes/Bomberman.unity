@@ -370,7 +370,6 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  wallPass: 0
   bombType: 0
   bombs: []
 --- !u!1 &108570990
@@ -1562,7 +1561,6 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  wallPass: 0
   bombType: 0
   bombs: []
 --- !u!1 &984329637
@@ -2069,7 +2067,7 @@ GameObject:
   - component: {fileID: 1235149039}
   - component: {fileID: 1235149038}
   - component: {fileID: 1235149040}
-  m_Layer: 6
+  m_Layer: 16
   m_Name: Indestructibles
   m_TagString: Stage
   m_Icon: {fileID: 0}
@@ -3129,6 +3127,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1
+  - first: {x: 0, y: 0, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 4
+      m_TileSpriteIndex: 4
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 1, y: 0, z: 0}
     second:
       serializedVersion: 2
@@ -4099,7 +4107,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 81
+  - m_RefCount: 82
     m_Data: {fileID: 11400000, guid: 112bc54bd92bf1a50ae663a275e3fc6c, type: 2}
   - m_RefCount: 70
     m_Data: {fileID: 11400000, guid: a5af1ba441ac0dc75b055e126ef9b12f, type: 2}
@@ -4112,12 +4120,12 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
-  - m_RefCount: 81
+  - m_RefCount: 82
     m_Data: {fileID: 664762356, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   - m_RefCount: 70
     m_Data: {fileID: -784744060, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 194
+  - m_RefCount: 195
     m_Data:
       e00: 1
       e01: 0
@@ -4136,7 +4144,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 194
+  - m_RefCount: 195
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -4746,7 +4754,6 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  wallPass: 0
   bombType: 0
   bombs: []
 --- !u!1 &1406484378
@@ -4887,7 +4894,6 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  wallPass: 0
   bombType: 0
   bombs: []
 --- !u!1 &1626129101
