@@ -23,7 +23,7 @@ public class PlayerBombController : MonoBehaviour
         if (Input.GetKeyDown(deployBombKey) && player.bombs.Count < player.bombAmount) {
             placeBomb();
         } else if (Input.GetKeyDown(detonateBombKey)) {
-            foreach (GameObject bomb in player.bombs.ToArray()) {
+            foreach (GameObject bomb in player.bombs) {
                 if (bomb.GetComponent<Bomb>().type == BombType.RemoteControl) {
                     bomb.GetComponent<Bomb>().bombExplode();
                     break;

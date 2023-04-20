@@ -71,21 +71,25 @@ public class Bomb : MonoBehaviour
                 if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Bomb"))) {
                     // explosion hit a bomb -> trigger bomb
                     collider.gameObject.GetComponent<Bomb>().timedDetonation(0.1f);
-                    break;
+                    if (this.type != BombType.PierceBomb) break;
 
-                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("SoftBlock", "HardBlock"))) {
-                    // explosion hit a wall -> trigger wall destruction animation
+                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("SoftBlock"))) {
+                    // explosion hit a soft wall -> trigger wall destruction animation
                     clearDestructible(explosionPosition);
+                    if (this.type != BombType.PierceBomb) break;
+
+                } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("HardBlock"))) {
+                    // explosion hit a hard wall -> stop
                     break;
 
                 } else if (Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Explosion"))) {
                     // explosion hit another explosion -> stop
-                    break;
+                    if (this.type != BombType.PierceBomb) break;
 
                 } else if (collider = Physics2D.OverlapBox(explosionPosition, Vector2.one/2f, 0f, LayerMask.GetMask("Item"))) {
                     // explosion hit an item -> explode item
                     collider.gameObject.GetComponent<Item>().itemExplode();
-                    break;
+                    if (this.type != BombType.PierceBomb) break;
 
                 } else {
                     // empty square -> explode it
