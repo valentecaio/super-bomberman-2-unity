@@ -1,4 +1,4 @@
 public enum BombType
 {
-    Common, RedBomb, RemoteControl, PowerBomb,
+    Common, PierceBomb, RemoteControl, PowerBomb,
 }

@@ -5,15 +5,25 @@ public class Bomb : MonoBehaviour
 {
     public float speed = 5f;
     public float bombTimer = 3f;
-    public float explosionDuration = 0.75f;
+    public float explosionDuration = 0.85f;
     public Explosion explosionPrefab;
     public SoftBlock SoftBlockPrefab;
+    public BombType type;
 
-    // these are passed from the player on bomb instantiation
+    // these are passed from the player at bomb creation time
+    [HideInInspector]
     public Tilemap destructibleTilemap;
+    [HideInInspector]
     public int explosionLength = 2;
 
     private Vector2 direction = Vector2.zero;
+
+    private void Start()
+    {
+        if (type != BombType.RemoteControl) {
+            startTimer();
+        }
+    }
 
     private void FixedUpdate()
     {

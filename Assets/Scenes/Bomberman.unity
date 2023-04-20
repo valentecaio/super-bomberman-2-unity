@@ -345,9 +345,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputKey: 32
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  deployBombKey: 32
+  detonateBombKey: 308
   destructibleTilemap: {fileID: 1762852104}
+  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
+  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
+  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
 --- !u!114 &69141447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -365,8 +369,9 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  bombType: 0
+  bombType: 2
   bombs: []
+  items: []
 --- !u!1 &108570990
 GameObject:
   m_ObjectHideFlags: 0
@@ -1451,9 +1456,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputKey: 256
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  deployBombKey: 263
+  detonateBombKey: 265
   destructibleTilemap: {fileID: 1762852104}
+  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
+  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
+  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
 --- !u!114 &954464823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1553,6 +1562,7 @@ MonoBehaviour:
   kick: 0
   bombType: 0
   bombs: []
+  items: []
 --- !u!1 &984329637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4639,9 +4649,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputKey: 111
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  deployBombKey: 112
+  detonateBombKey: 111
   destructibleTilemap: {fileID: 1762852104}
+  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
+  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
+  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
 --- !u!114 &1376461780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4741,6 +4755,7 @@ MonoBehaviour:
   kick: 0
   bombType: 0
   bombs: []
+  items: []
 --- !u!1 &1406484378
 GameObject:
   m_ObjectHideFlags: 0
@@ -4774,9 +4789,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputKey: 305
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  deployBombKey: 305
+  detonateBombKey: 303
   destructibleTilemap: {fileID: 1762852104}
+  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
+  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
+  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
+  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
 --- !u!114 &1406484380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4876,6 +4895,7 @@ MonoBehaviour:
   kick: 0
   bombType: 0
   bombs: []
+  items: []
 --- !u!1 &1626129101
 GameObject:
   m_ObjectHideFlags: 0

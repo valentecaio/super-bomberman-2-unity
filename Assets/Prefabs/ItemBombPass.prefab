@@ -105,7 +105,7 @@ MonoBehaviour:
   - {fileID: 543440580, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   - {fileID: -630350614, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
   - {fileID: 1992595498, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
-  animationTime: 0.15
+  animationTime: 0.17
   loop: 1
   idle: 0
 --- !u!1 &5354521220839402562
@@ -255,5 +255,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   type: 5
-  destructionTime: 0.75
   SpriteRendererExplosion: {fileID: 6361152327875504057}
+  exploding: 0

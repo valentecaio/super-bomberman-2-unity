@@ -10,7 +10,13 @@ public class PlayerStatus : MonoBehaviour
     public bool kick = false;
     public BombType bombType = BombType.Common;
 
+    public List<GameObject> bombs = new List<GameObject>();
+    public List<Item> items = new List<Item>();
+
     private bool _wallPass = false;
+    private bool _bombPass = false;
+    private bool _droppingBomb = false;
+
     public bool wallPass {
         get { return _wallPass; }
         set {
@@ -19,7 +25,6 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
-    private bool _bombPass = false;
     public bool bombPass {
         get { return _bombPass; }
         set {
@@ -28,7 +33,6 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
-    private bool _droppingBomb = false;
     public bool droppingBomb {
         get { return _droppingBomb; }
         set {
@@ -40,9 +44,6 @@ public class PlayerStatus : MonoBehaviour
             }
         }
     }
-
-    private List<Item> items = new List<Item>();
-    public List<GameObject> bombs = new List<GameObject>();
 
     public void OnItemPickup(Item item)
     {
@@ -62,7 +63,7 @@ public class PlayerStatus : MonoBehaviour
                 break;
 
             case ItemType.RedBomb:
-                bombType = BombType.RedBomb;
+                bombType = BombType.PierceBomb;
                 break;
 
             case ItemType.FullFire:

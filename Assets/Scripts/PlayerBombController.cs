@@ -3,9 +3,13 @@ using UnityEngine.Tilemaps;
 
 public class PlayerBombController : MonoBehaviour
 {
-    public KeyCode inputKey = KeyCode.Space;
-    public GameObject bombPrefab;
+    public KeyCode deployBombKey = KeyCode.Space;
+    public KeyCode detonateBombKey = KeyCode.LeftAlt;
     public Tilemap destructibleTilemap;
+    public GameObject commonBombPrefab;
+    public GameObject remoteControlBombPrefab;
+    public GameObject powerBombPrefab;
+    public GameObject pierceBombPrefab;
 
     private PlayerStatus player;
 
@@ -16,8 +20,15 @@ public class PlayerBombController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKeyDown(inputKey) && player.bombs.Count < player.bombAmount) {
+        if (Input.GetKeyDown(deployBombKey) && player.bombs.Count < player.bombAmount) {
             placeBomb();
+        } else if (Input.GetKeyDown(detonateBombKey)) {
+            foreach (GameObject bomb in player.bombs.ToArray()) {
+                if (bomb.GetComponent<Bomb>().type == BombType.RemoteControl) {
+                    bomb.GetComponent<Bomb>().bombExplode();
+                    break;
+                }
+            }
         }
     }
 
@@ -32,7 +43,21 @@ public class PlayerBombController : MonoBehaviour
             return;
         }
 
-        GameObject bomb = Instantiate(bombPrefab, position, Quaternion.identity);
+        GameObject bomb = null;
+        switch (player.bombType) {
+            case BombType.Common:
+                bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
+                break;
+            case BombType.PierceBomb:
+                bomb = Instantiate(pierceBombPrefab, position, Quaternion.identity);
+                break;
+            case BombType.RemoteControl:
+                bomb = Instantiate(remoteControlBombPrefab, position, Quaternion.identity);
+                break;
+            case BombType.PowerBomb:
+                bomb = Instantiate(powerBombPrefab, position, Quaternion.identity);
+                break;
+        }
         bomb.GetComponent<Bomb>().destructibleTilemap = destructibleTilemap;
         bomb.GetComponent<Bomb>().explosionLength = player.fireAmout;
         player.bombs.Add(bomb);
@@ -40,7 +65,5 @@ public class PlayerBombController : MonoBehaviour
         // we ignore this collision until the player exits the bomb sprite
         player.droppingBomb = true;
         Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>());
-
-        bomb.GetComponent<Bomb>().startTimer();
     }
 }

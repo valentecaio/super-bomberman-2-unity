@@ -3,11 +3,9 @@ using UnityEngine;
 // controls soft wall animation and item apparition
 public class SoftBlock : MonoBehaviour
 {
-    public float destructionTime = 1f;
-
     [Range(0f, 1f)]
     public float itemSpawnChance = 0.2f;
-
+    public float destructionTime = 0.85f;
     public GameObject[] itemPrefabs;
 
     public void Start()

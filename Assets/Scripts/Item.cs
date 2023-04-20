@@ -5,13 +5,15 @@ public class Item : MonoBehaviour
     public ItemType type;
     public AnimatedSpriteRenderer SpriteRendererExplosion;
 
+    [HideInInspector]
     public bool exploding = false;
-    private float destructionTime = 0.75f;
+    private float destructionTime = 0.85f;
 
     public void itemExplode()
     {
         exploding = true;
         gameObject.GetComponent<AnimatedSpriteRenderer>().enabled = false;
+        SpriteRendererExplosion.animationTime = destructionTime / SpriteRendererExplosion.animationSprites.Length;
         SpriteRendererExplosion.enabled = true;
         Destroy(this.gameObject, destructionTime);
     }

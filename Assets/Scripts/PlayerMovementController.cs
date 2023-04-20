@@ -4,6 +4,7 @@ using UnityEngine;
 // manages player movement controls and animations
 public class PlayerMovementController : MonoBehaviour
 {
+    [HideInInspector]
     public Vector2 direction = Vector2.down;
 
     [Header("Controls")]
