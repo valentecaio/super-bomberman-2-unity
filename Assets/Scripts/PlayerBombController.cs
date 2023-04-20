@@ -43,20 +43,15 @@ public class PlayerBombController : MonoBehaviour
             return;
         }
 
-        GameObject bomb = null;
-        switch (player.bombType) {
-            case BombType.Common:
-                bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
-                break;
-            case BombType.PierceBomb:
-                bomb = Instantiate(pierceBombPrefab, position, Quaternion.identity);
-                break;
-            case BombType.RemoteControl:
-                bomb = Instantiate(remoteControlBombPrefab, position, Quaternion.identity);
-                break;
-            case BombType.PowerBomb:
-                bomb = Instantiate(powerBombPrefab, position, Quaternion.identity);
-                break;
+        GameObject bomb;
+        if (player.bombType == BombType.PierceBomb) {
+            bomb = Instantiate(pierceBombPrefab, position, Quaternion.identity);
+        } else if (player.bombType == BombType.RemoteControl) {
+            bomb = Instantiate(remoteControlBombPrefab, position, Quaternion.identity);
+        } else if (player.bombType == BombType.PowerBomb && !player.hasAPowerBombDeployed()) {
+            bomb = Instantiate(powerBombPrefab, position, Quaternion.identity);
+        } else {
+            bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
         }
         bomb.GetComponent<Bomb>().destructibleTilemap = destructibleTilemap;
         bomb.GetComponent<Bomb>().explosionLength = player.fireAmout;

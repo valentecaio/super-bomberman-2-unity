@@ -23,6 +23,9 @@ public class Bomb : MonoBehaviour
         if (type != BombType.RemoteControl) {
             startTimer();
         }
+        if (type == BombType.PowerBomb) {
+            explosionLength = 99;
+        }
     }
 
     private void FixedUpdate()

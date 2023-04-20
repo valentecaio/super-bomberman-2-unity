@@ -119,6 +119,14 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
+    public bool hasAPowerBombDeployed()
+    {
+        foreach (GameObject bomb in bombs)
+            if (bomb.GetComponent<Bomb>().type == BombType.PowerBomb)
+                return true;
+        return false;
+    }
+
     private void tryToDie()
     {
         if (heart) {
