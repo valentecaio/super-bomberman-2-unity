@@ -149,8 +149,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13cd4ce7871ba54ceaa9d14e21b20ce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  destructionTime: 0.75
   itemSpawnChance: 0.7
+  destructionTime: 0.75
   itemPrefabs:
   - {fileID: 5354521220839402562, guid: 3f821b4ec99535a1da73812bb9ff9a3d, type: 3}
   - {fileID: 5354521220839402562, guid: 40012c97f72073e84b4cbd83e23eacd9, type: 3}
@@ -160,3 +160,6 @@ MonoBehaviour:
   - {fileID: 5354521220839402562, guid: bf1b1f7ef70054d30b3f7b36a7570caa, type: 3}
   - {fileID: 5354521220839402562, guid: 522b6ee3e3e46600dad1c15ecf3263f3, type: 3}
   - {fileID: 5354521220839402562, guid: 5c89fa8dfbaa946bcaf5b18893a62764, type: 3}
+  - {fileID: 5354521220839402562, guid: 7e70d07b904fd34f195246286852f1fb, type: 3}
+  - {fileID: 5354521220839402562, guid: 5da201b5239c173529dcc84d1e703495, type: 3}
+  - {fileID: 5354521220839402562, guid: df4754b71b5b0c851baa2965904c313f, type: 3}

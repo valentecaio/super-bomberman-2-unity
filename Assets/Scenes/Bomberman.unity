@@ -369,7 +369,7 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
-  bombType: 2
+  bombType: 0
   bombs: []
   items: []
 --- !u!1 &108570990
