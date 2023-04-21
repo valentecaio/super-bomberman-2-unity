@@ -8,30 +8,62 @@ public class Bomb : MonoBehaviour
     public float explosionDuration = 0.85f;
     public Explosion explosionPrefab;
     public SoftBlock SoftBlockPrefab;
-    public BombType type;
-
-    // these are passed from the player at bomb creation time
-    [HideInInspector]
-    public Tilemap destructibleTilemap;
-    [HideInInspector]
-    public int explosionLength = 2;
 
     private Vector2 direction = Vector2.zero;
+
+    // these are passed from the player at bomb init time
+    [HideInInspector]
+    public BombType type;
+    private ColourType colour;
+    private int explosionLength = 2;
+    private Tilemap destructibleTilemap;
+    private PlayerStatus player;
+
+    // must be called at bomb creation
+    public void init(PlayerStatus player, Tilemap destructibleTilemap)
+    {
+        this.player = player;
+        this.destructibleTilemap = destructibleTilemap;
+        this.type = player.bombType;
+        this.colour = player.colour;
+        this.explosionLength = (player.bombType == BombType.PowerBomb) ? 99 : player.fireAmout;
+        setSprites();
+    }
 
     private void Start()
     {
         if (type != BombType.RemoteControl) {
-            startTimer();
-        }
-        if (type == BombType.PowerBomb) {
-            explosionLength = 99;
+            timedDetonation(bombTimer);
         }
     }
 
+    // used to move bomb when kicked
     private void FixedUpdate()
     {
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
         GetComponent<Rigidbody2D>().MovePosition(GetComponent<Rigidbody2D>().position + translation);
+    }
+
+    // select sprites according to bomb colour and type
+    private void setSprites()
+    {
+        Sprite[] spriteArray = Resources.LoadAll<Sprite>("Bombs/" + System.Enum.GetName(typeof(ColourType), colour));
+        int i = 0;
+        if (type == BombType.Common) {
+            i = 0;
+        } else if (type == BombType.RemoteControl) {
+            i = 4;
+        } else if (type == BombType.PierceBomb) {
+            i = 52;
+        } else if (type == BombType.PowerBomb && !player.hasAPowerBombDeployed()) {
+            i = 56;
+        }
+        gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[i];
+        gameObject.GetComponent<AnimatedSpriteRenderer>().idleSprite = spriteArray[i];
+        gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[0] = spriteArray[i+0];
+        gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[1] = spriteArray[i+1];
+        gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[2] = spriteArray[i+2];
+        gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[3] = spriteArray[i+3];
     }
 
     private void centerPosition()
@@ -45,11 +77,6 @@ public class Bomb : MonoBehaviour
     private void timedDetonation(float timer)
     {
         Invoke("bombExplode", timer);
-    }
-
-    public void startTimer()
-    {
-        timedDetonation(bombTimer);
     }
 
     public void bombExplode()

@@ -370,6 +370,7 @@ MonoBehaviour:
   heart: 0
   kick: 0
   bombType: 0
+  colour: 15
   bombs: []
   items: []
 --- !u!1 &108570990
@@ -1561,6 +1562,7 @@ MonoBehaviour:
   heart: 0
   kick: 0
   bombType: 0
+  colour: 14
   bombs: []
   items: []
 --- !u!1 &984329637
@@ -4754,6 +4756,7 @@ MonoBehaviour:
   heart: 0
   kick: 0
   bombType: 0
+  colour: 2
   bombs: []
   items: []
 --- !u!1 &1406484378
@@ -4894,6 +4897,7 @@ MonoBehaviour:
   heart: 0
   kick: 0
   bombType: 0
+  colour: 1
   bombs: []
   items: []
 --- !u!1 &1626129101

@@ -44,17 +44,8 @@ public class PlayerBombController : MonoBehaviour
         }
 
         GameObject bomb;
-        if (player.bombType == BombType.PierceBomb) {
-            bomb = Instantiate(pierceBombPrefab, position, Quaternion.identity);
-        } else if (player.bombType == BombType.RemoteControl) {
-            bomb = Instantiate(remoteControlBombPrefab, position, Quaternion.identity);
-        } else if (player.bombType == BombType.PowerBomb && !player.hasAPowerBombDeployed()) {
-            bomb = Instantiate(powerBombPrefab, position, Quaternion.identity);
-        } else {
-            bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
-        }
-        bomb.GetComponent<Bomb>().destructibleTilemap = destructibleTilemap;
-        bomb.GetComponent<Bomb>().explosionLength = player.fireAmout;
+        bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
+        bomb.GetComponent<Bomb>().init(player, destructibleTilemap);
         player.bombs.Add(bomb);
 
         // we ignore this collision until the player exits the bomb sprite

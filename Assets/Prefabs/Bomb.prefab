@@ -114,7 +114,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 25
-  m_Sprite: {fileID: 762240621, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  m_Sprite: {fileID: -643987930, guid: 64de30384993f7201b109d77f8e28695, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -138,12 +138,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 7177049892196353384}
-  idleSprite: {fileID: 762240621, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  idleSprite: {fileID: -643987930, guid: 64de30384993f7201b109d77f8e28695, type: 3}
   animationSprites:
-  - {fileID: 762240621, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
-  - {fileID: 1197183488, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
-  - {fileID: 720077841, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
-  - {fileID: 1335371999, guid: e0e957c712dee1459a4436fd3f2758c2, type: 3}
+  - {fileID: -643987930, guid: 64de30384993f7201b109d77f8e28695, type: 3}
+  - {fileID: 1728089844, guid: 64de30384993f7201b109d77f8e28695, type: 3}
+  - {fileID: 1218832935, guid: 64de30384993f7201b109d77f8e28695, type: 3}
+  - {fileID: 1093080024, guid: 64de30384993f7201b109d77f8e28695, type: 3}
   animationTime: 0.25
   loop: 1
   idle: 0
@@ -164,5 +164,6 @@ MonoBehaviour:
   explosionDuration: 0.85
   explosionPrefab: {fileID: 358856566490422010, guid: b92a0faddac053f26bf1f9501ac015ca, type: 3}
   SoftBlockPrefab: {fileID: 7140113704889883309, guid: 3da805a8f2aaba421b71ca037a99ae34, type: 3}
+  type: 0
   destructibleTilemap: {fileID: 0}
   explosionLength: 2

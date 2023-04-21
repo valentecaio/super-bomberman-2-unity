@@ -9,6 +9,7 @@ public class PlayerStatus : MonoBehaviour
     public bool heart = false;
     public bool kick = false;
     public BombType bombType = BombType.Common;
+    public ColourType colour = ColourType.White;
 
     public List<GameObject> bombs = new List<GameObject>();
     public List<Item> items = new List<Item>();
