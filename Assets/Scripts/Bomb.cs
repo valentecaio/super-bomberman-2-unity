@@ -88,8 +88,7 @@ public class Bomb : MonoBehaviour
         FindObjectOfType<GameManager>().destroyBomb(this.gameObject);
 
         Explosion explosionStart = Instantiate(explosionPrefab, bombPosition, Quaternion.identity);
-        explosionStart.setActiveRenderer(explosionStart.spriteRendererStart);
-        explosionStart.destroyAfter(explosionDuration);
+        explosionStart.init(colour, explosionStart.spriteRendererStart, explosionDuration);
 
         Vector2[] directions = {Vector2.up, Vector2.down, Vector2.right, Vector2.left};
         foreach (Vector2 direction in directions) {
@@ -124,9 +123,7 @@ public class Bomb : MonoBehaviour
                 } else {
                     // empty square -> explode it
                     Explosion explosion = Instantiate(explosionPrefab, explosionPosition, Quaternion.identity);
-                    explosion.setActiveRenderer(i == explosionLength ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle);
-                    explosion.setDirection(direction);
-                    explosion.destroyAfter(explosionDuration);
+                    explosion.init(colour, i == explosionLength ? explosion.spriteRendererEnd : explosion.spriteRendererMiddle, explosionDuration, direction);
                 }
             }
         }
