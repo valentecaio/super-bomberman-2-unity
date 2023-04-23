@@ -46,6 +46,19 @@ public class PlayerStatus : MonoBehaviour
         }
     }
 
+
+    // must be called at player creation
+    public void init(ColourType colour)
+    {
+        this.colour = colour;
+        setSprites();
+    }
+
+    private void Start()
+    {
+        setSprites();
+    }
+
     public void OnItemPickup(Item item)
     {
         items.Add(item);
@@ -135,6 +148,40 @@ public class PlayerStatus : MonoBehaviour
         } else {
             StartCoroutine(gameObject.GetComponent<PlayerMovementController>().die());
         }
+    }
+
+    // select sprites according to player colour
+    private void setSprites()
+    {
+        Sprite[] spriteArray = Resources.LoadAll<Sprite>("Bombers/" + System.Enum.GetName(typeof(ColourType), colour));
+        // up
+        gameObject.transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[0];
+        gameObject.transform.GetChild(1).gameObject.GetComponent<AnimatedSpriteRenderer>().idleSprite = spriteArray[0];
+        gameObject.transform.GetChild(1).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[0] = spriteArray[0];
+        gameObject.transform.GetChild(1).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[1] = spriteArray[1];
+        gameObject.transform.GetChild(1).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[2] = spriteArray[0];
+        gameObject.transform.GetChild(1).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[3] = spriteArray[2];
+        // down
+        gameObject.transform.GetChild(2).gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[0];
+        gameObject.transform.GetChild(2).gameObject.GetComponent<AnimatedSpriteRenderer>().idleSprite = spriteArray[6];
+        gameObject.transform.GetChild(2).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[0] = spriteArray[6];
+        gameObject.transform.GetChild(2).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[1] = spriteArray[7];
+        gameObject.transform.GetChild(2).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[2] = spriteArray[6];
+        gameObject.transform.GetChild(2).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[3] = spriteArray[8];
+        // left
+        gameObject.transform.GetChild(3).gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[0];
+        gameObject.transform.GetChild(3).gameObject.GetComponent<AnimatedSpriteRenderer>().idleSprite = spriteArray[9];
+        gameObject.transform.GetChild(3).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[0] = spriteArray[9];
+        gameObject.transform.GetChild(3).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[1] = spriteArray[10];
+        gameObject.transform.GetChild(3).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[2] = spriteArray[9];
+        gameObject.transform.GetChild(3).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[3] = spriteArray[11];
+        // right
+        gameObject.transform.GetChild(4).gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[0];
+        gameObject.transform.GetChild(4).gameObject.GetComponent<AnimatedSpriteRenderer>().idleSprite = spriteArray[3];
+        gameObject.transform.GetChild(4).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[0] = spriteArray[3];
+        gameObject.transform.GetChild(4).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[1] = spriteArray[4];
+        gameObject.transform.GetChild(4).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[2] = spriteArray[3];
+        gameObject.transform.GetChild(4).gameObject.GetComponent<AnimatedSpriteRenderer>().animationSprites[3] = spriteArray[5];
     }
 
     public void OnTriggerEnter2D(Collider2D other)
