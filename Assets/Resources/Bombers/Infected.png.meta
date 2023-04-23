@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e2a3cabd6697d6d09802d04806b7851
+guid: d3ca2d35e23ea4504962f604ad0c9246
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: White_0
+      name: Infected_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae215c705cdfd698a8c9340328c0845d
-      internalID: 755847743
+      spriteID: 767924854f57e0977b71812d19b462f6
+      internalID: -531855051
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_1
+      name: Infected_1
       rect:
         serializedVersion: 2
         x: 16
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 386053af5df405c19932fd03c151665a
-      internalID: -1169764309
+      spriteID: db013932ee06839219f6f8b32f1d8a66
+      internalID: 735555616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_2
+      name: Infected_2
       rect:
         serializedVersion: 2
         x: 32
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e1537f9f9c5896bbcef80a343c4d53
-      internalID: 2020794764
+      spriteID: 263350ddc3700d730b711677faf76675
+      internalID: -2107374071
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_3
+      name: Infected_3
       rect:
         serializedVersion: 2
         x: 0
@@ -206,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a77f4a6311b2cd24aa67f2f2e16aa16
-      internalID: -2078422497
+      spriteID: 208cc03a8b2d254159993fb63880c0f0
+      internalID: 1229192416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_4
+      name: Infected_4
       rect:
         serializedVersion: 2
         x: 16
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 218f94071259b38488074d101e4a3433
-      internalID: -2018163974
+      spriteID: 8bd958ac24150c84eb05e0fbc4f1920d
+      internalID: 213744560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_5
+      name: Infected_5
       rect:
         serializedVersion: 2
         x: 32
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f345fc01dd43f897b8370a3ab7fd441
-      internalID: -154491233
+      spriteID: ca037a63b7d37ac71bd15e1be77aea92
+      internalID: -1815425956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_6
+      name: Infected_6
       rect:
         serializedVersion: 2
         x: 0
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b14c102bf4a8e90bbaedf53bd9f14d8c
-      internalID: -1836624222
+      spriteID: 7b0d38629fd7a836caaed1af60734d6a
+      internalID: 1417457896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_7
+      name: Infected_7
       rect:
         serializedVersion: 2
         x: 16
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08b394474bb01c03187202d7f87f0651
-      internalID: -204779026
+      spriteID: 30d4aee929e8fbea3af54ebbed32f8cb
+      internalID: -1201466444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_8
+      name: Infected_8
       rect:
         serializedVersion: 2
         x: 32
@@ -311,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b58c82e996c601dbe5a0c6c7004ce7
-      internalID: -1872751669
+      spriteID: 913e1c07d88385222a268dbb4573c8e7
+      internalID: -1068089642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_9
+      name: Infected_9
       rect:
         serializedVersion: 2
         x: 0
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a08ab4173b39e7618c7a29583053b70
-      internalID: -456073343
+      spriteID: 7baca210f460552e591a4ea9ac31dc58
+      internalID: -2106726681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_10
+      name: Infected_10
       rect:
         serializedVersion: 2
         x: 16
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d75cc7cc9cf2d9e39b5613e995e9be7
-      internalID: -1462784865
+      spriteID: 6be05e2dbdd08c89e99f99724ede72ac
+      internalID: 950641879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_11
+      name: Infected_11
       rect:
         serializedVersion: 2
         x: 32
@@ -374,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0474e6bdda67625a99d6bb4fabbcf954
-      internalID: 1307787626
+      spriteID: 8aadd403fafa338eebeee80060b6335f
+      internalID: 462249863
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_12
+      name: Infected_12
       rect:
         serializedVersion: 2
         x: 48
@@ -395,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00d26ce130476a718d3f95535ee6eee
-      internalID: -1394754751
+      spriteID: 29775fba49bfecedda10649a8142347c
+      internalID: 969950807
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_13
+      name: Infected_13
       rect:
         serializedVersion: 2
         x: 0
@@ -416,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121bef4174d18d458a75108fd8aac412
-      internalID: -1205468721
+      spriteID: 5829a07cba3c1be69bae567f96378d92
+      internalID: 2090010486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_14
+      name: Infected_14
       rect:
         serializedVersion: 2
         x: 16
@@ -437,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c306ad0c54f6c7455bec236acf00e62e
-      internalID: 1521391484
+      spriteID: d6255dab702799a5f8d677283150ed86
+      internalID: -1379221898
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_15
+      name: Infected_15
       rect:
         serializedVersion: 2
         x: 32
@@ -458,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0746a1fb3817164aa736667a30bd94e
-      internalID: -1555713926
+      spriteID: f54788873083019ebbf2630d3be58584
+      internalID: 138135452
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_16
+      name: Infected_16
       rect:
         serializedVersion: 2
         x: 48
@@ -479,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8d10c7288f08e9d8baa67e9ca5c3679
-      internalID: 1666638123
+      spriteID: b61f943712f01fb1394bfda7db0d8f0f
+      internalID: -847773796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_17
+      name: Infected_17
       rect:
         serializedVersion: 2
         x: 0
@@ -500,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8eb860b44375692abb39620e70deab8
-      internalID: -2117215282
+      spriteID: 065a60cc6c33d1f5a9f61e8d3013aaee
+      internalID: -1116233753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_18
+      name: Infected_18
       rect:
         serializedVersion: 2
         x: 16
@@ -521,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4397ce74803a3c729461c7347f611ac
-      internalID: -1673247155
+      spriteID: 314ae7719362b41a5b015027f55189dc
+      internalID: 1481485240
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_19
+      name: Infected_19
       rect:
         serializedVersion: 2
         x: 32
@@ -542,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0ee08832f5d1526a846c9152eede85
-      internalID: -917898634
+      spriteID: 3ce642f20fff6a7d989d87d849717408
+      internalID: -1693320018
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_20
+      name: Infected_20
       rect:
         serializedVersion: 2
         x: 48
@@ -563,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edeb917a9590238618ffa93411da1347
-      internalID: 2024962939
+      spriteID: 923291c852410ac69ac3f5721647c1f9
+      internalID: 1757047908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_21
+      name: Infected_21
       rect:
         serializedVersion: 2
         x: 0
@@ -584,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70204be1948b436e9b536c27597466b8
-      internalID: -124796510
+      spriteID: 0cc095ad29a2436b982f0586e9c33941
+      internalID: -618287015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_22
+      name: Infected_22
       rect:
         serializedVersion: 2
         x: 16
@@ -605,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c8cc7532d8c9c67f8253e539c1e00c8
-      internalID: -199833436
+      spriteID: 0cd0eb60f37d9c115bba2eefbbf08137
+      internalID: 138928565
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_23
+      name: Infected_23
       rect:
         serializedVersion: 2
         x: 32
@@ -626,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56229ef521efe576c9ba2084cb50783c
-      internalID: -1733965133
+      spriteID: 51cde3582a3911ad6903141329487928
+      internalID: 652359327
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_24
+      name: Infected_24
       rect:
         serializedVersion: 2
         x: 0
@@ -647,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3adeb65d27735554f8824581c146503e
-      internalID: -931953094
+      spriteID: 1ae3a31f7af20e7ad8c7f1f9868c291a
+      internalID: -92768725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_25
+      name: Infected_25
       rect:
         serializedVersion: 2
         x: 16
@@ -668,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2b89896ecfcb8580a9942c3c7f39c4f
-      internalID: -500798256
+      spriteID: dc52d71825fb64723a05dd348310b347
+      internalID: -434367084
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_26
+      name: Infected_26
       rect:
         serializedVersion: 2
         x: 32
@@ -689,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a2c31d24a721a09bd05e21602ea6fa
-      internalID: -1109466803
+      spriteID: f31100c12c18eae0cb09f57aee771cb0
+      internalID: -2076416541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_27
+      name: Infected_27
       rect:
         serializedVersion: 2
         x: 48
@@ -710,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571163f9bb8af660a87efdc35084d54c
-      internalID: 631921197
+      spriteID: 046145719f52e8d64808d063ceff3763
+      internalID: 1992957825
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_28
+      name: Infected_28
       rect:
         serializedVersion: 2
         x: 0
@@ -731,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2445fcbe0f31e909e9358b35c042b8d7
-      internalID: -818039808
+      spriteID: 479022184455f9d939deec7c916ebee6
+      internalID: 377309070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_29
+      name: Infected_29
       rect:
         serializedVersion: 2
         x: 16
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2077ce65d861c89af17ad1593f8293
-      internalID: -318656231
+      spriteID: 91b231ffac4714894a0b358291049b91
+      internalID: 1664485922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_30
+      name: Infected_30
       rect:
         serializedVersion: 2
         x: 32
@@ -773,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dc4e1d69100a555c8103207640e9ee0
-      internalID: -810616802
+      spriteID: 4dbe49f78c720ece0a8778951424dea8
+      internalID: 969600333
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_31
+      name: Infected_31
       rect:
         serializedVersion: 2
         x: 48
@@ -794,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d5e019e7dd1d41981969c7d05ac3d3
-      internalID: -480304096
+      spriteID: 382dff253716ccfb29e4eedd4a0e1fd3
+      internalID: 1919718266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_32
+      name: Infected_32
       rect:
         serializedVersion: 2
         x: 0
@@ -815,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90d6d3edd916d944e9eab4c879667845
-      internalID: 1357022025
+      spriteID: 35646319ffa6d2d46932c12e1bb0a505
+      internalID: 397642647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_33
+      name: Infected_33
       rect:
         serializedVersion: 2
         x: 16
@@ -836,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c17e1630809dec892753f17fc19e07
-      internalID: -370760413
+      spriteID: 73bdd73753d31255494a226526a25a6d
+      internalID: 160991528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_34
+      name: Infected_34
       rect:
         serializedVersion: 2
         x: 32
@@ -857,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58056b920acd92f2facca3b9b957c03a
-      internalID: 1734454721
+      spriteID: 2e7fc9b4133a8071083ad445195644ba
+      internalID: -832194670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_35
+      name: Infected_35
       rect:
         serializedVersion: 2
         x: 48
@@ -878,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b25a83f6c3809559cda1410e3da74d
-      internalID: -610593379
+      spriteID: cf4bbc70f1e88855d8076ec6da8f604e
+      internalID: 1881143263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_36
+      name: Infected_36
       rect:
         serializedVersion: 2
         x: 0
@@ -899,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b772695c2e0956ddfa70f5f17b238bd1
-      internalID: -1603596247
+      spriteID: 58cd03eba2549dfa48c22e0f5a162f32
+      internalID: -242522038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_37
+      name: Infected_37
       rect:
         serializedVersion: 2
         x: 16
@@ -920,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48361696acc0278949401ff771ca003a
-      internalID: -1199452835
+      spriteID: aa54e1b16f3ab8e7fa62cef9eb383af2
+      internalID: -1394207535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_38
+      name: Infected_38
       rect:
         serializedVersion: 2
         x: 32
@@ -941,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b68f11c506d309c59cb32e329fc5e89
-      internalID: -563338874
+      spriteID: 5f0a976cfdf3ec5e794a9eb172a64682
+      internalID: 234468458
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_39
+      name: Infected_39
       rect:
         serializedVersion: 2
         x: 48
@@ -962,14 +962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830f2f5ad79a6927ea274715d8ebb57e
-      internalID: 555447310
+      spriteID: 6d911132caae5b7b19d2e21e186501ae
+      internalID: -1868740962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_40
+      name: Infected_40
       rect:
         serializedVersion: 2
         x: 0
@@ -983,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e61ea15d1f760021d908510e485e08ad
-      internalID: 1607751786
+      spriteID: cbd346146bf5c9951b1bc49c7025081a
+      internalID: 1917310688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_41
+      name: Infected_41
       rect:
         serializedVersion: 2
         x: 16
@@ -1004,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2e7398d725bdb9c5a7d2e5885ea3985
-      internalID: 1755204913
+      spriteID: 6521961c22483ba7cb17cd6da011f657
+      internalID: 1964845882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_42
+      name: Infected_42
       rect:
         serializedVersion: 2
         x: 32
@@ -1025,14 +1025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741e2bb1b9b728f31bcde4cae864a696
-      internalID: 1567882099
+      spriteID: 3564d1cf66f596a168c9d0f2caf37e22
+      internalID: 419034867
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_43
+      name: Infected_43
       rect:
         serializedVersion: 2
         x: 48
@@ -1046,14 +1046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a2e55eeabcc29cea929531d334c382
-      internalID: -1003335908
+      spriteID: d7aced43fe13c14668c72b723cd33bc3
+      internalID: -1808122341
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_44
+      name: Infected_44
       rect:
         serializedVersion: 2
         x: 64
@@ -1067,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb872c345649f39c9b15394c2c9ad38
-      internalID: -1605797691
+      spriteID: a059cfef3705aeb74874a0fc38622fa6
+      internalID: -1999866650
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_45
+      name: Infected_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1088,14 +1088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13653a387fb613ad692693b3162a55c6
-      internalID: -1414132635
+      spriteID: 21abcb07eb51cf952af4754c55faa6f3
+      internalID: -913343749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_46
+      name: Infected_46
       rect:
         serializedVersion: 2
         x: 16
@@ -1109,14 +1109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4036ed5fb90c1e4a3892e345f4fc9b59
-      internalID: -2077804753
+      spriteID: 08ee39aa98f4b731b9e392d6c2423570
+      internalID: -1283999558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_47
+      name: Infected_47
       rect:
         serializedVersion: 2
         x: 32
@@ -1130,14 +1130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb859739357b6393787f5ec93209d77c
-      internalID: -664381544
+      spriteID: 8ad2182367b2f4bf2ad04bfdcb028514
+      internalID: -439321656
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_48
+      name: Infected_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1151,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d4989e9c74289217a6b471a226d3aa8
-      internalID: 1645200106
+      spriteID: 259af8a7ee92918f296fbb7895b76670
+      internalID: 909524855
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_49
+      name: Infected_49
       rect:
         serializedVersion: 2
         x: 16
@@ -1172,14 +1172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a5f7c0d9009fa3059fda670c5b0ce39
-      internalID: -1421939591
+      spriteID: ed784a00d7883c131b5e6996927ee1d5
+      internalID: 106567007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_50
+      name: Infected_50
       rect:
         serializedVersion: 2
         x: 32
@@ -1193,14 +1193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ec96c796639330ca1d8f254c68db1a
-      internalID: 1206254848
+      spriteID: 32100a97a0eed0457903a6a8cd9a7e02
+      internalID: -1617915846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_51
+      name: Infected_51
       rect:
         serializedVersion: 2
         x: 48
@@ -1214,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ace79395ca07d952a1c23dc6a5f4f08
-      internalID: -1164032383
+      spriteID: afd17395865d17269bbb049b40c44f4a
+      internalID: 1389197611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_52
+      name: Infected_52
       rect:
         serializedVersion: 2
         x: 0
@@ -1235,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fbfa2ca69d4a4d4c8ca8261a2236513
-      internalID: -2044425180
+      spriteID: dad4dc549ea0bf9ac91fad51fcb08431
+      internalID: 1020952131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_53
+      name: Infected_53
       rect:
         serializedVersion: 2
         x: 16
@@ -1256,14 +1256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa985acf885165d3a2ce7684e779360
-      internalID: 831952055
+      spriteID: e2c87cc3d156a1d43bf2a8f8efb5fccd
+      internalID: 198005810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_54
+      name: Infected_54
       rect:
         serializedVersion: 2
         x: 32
@@ -1277,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e681ab806dc90c7d7913dd7afd4f69a6
-      internalID: -431091276
+      spriteID: 5ba196cd8aeb5c244b6fcec9c3e5a5a3
+      internalID: -327072511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_55
+      name: Infected_55
       rect:
         serializedVersion: 2
         x: 48
@@ -1298,14 +1298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b88e732b734f2c161902ddf29391032f
-      internalID: 1033529996
+      spriteID: 077527ea8ec8d21cfa99d8a3cbb8ec2d
+      internalID: -1711188521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_56
+      name: Infected_56
       rect:
         serializedVersion: 2
         x: 64
@@ -1319,14 +1319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444ce4ff6d4fb598480904f4441bbcd3
-      internalID: 2889698
+      spriteID: 24f8b3ee1a41cd3449bbcc51a3149f3b
+      internalID: 961850133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_57
+      name: Infected_57
       rect:
         serializedVersion: 2
         x: 80
@@ -1340,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5e3e24ba419582eeaffc09aa1a3d29c
-      internalID: 1536300607
+      spriteID: 8998a81841cf0522195f6325cfe9fbb2
+      internalID: 209482293
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_58
+      name: Infected_58
       rect:
         serializedVersion: 2
         x: 96
@@ -1361,14 +1361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b9243c09b6e5f2c68288cc0fe4959ca
-      internalID: -585416036
+      spriteID: a541caef7c7e9bb5c9f02ceb68e2d596
+      internalID: 1500005871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_59
+      name: Infected_59
       rect:
         serializedVersion: 2
         x: 112
@@ -1382,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04171410fff9cec669cf8742ad62a442
-      internalID: -1573561285
+      spriteID: 339edc7f2dfaed36a90fccdcbbed56d4
+      internalID: 1810810724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_60
+      name: Infected_60
       rect:
         serializedVersion: 2
         x: 128
@@ -1403,14 +1403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2689b8e2b29e09623ab39e5c279a0e0b
-      internalID: 208483028
+      spriteID: 5522975d717af434487cda9ec4c4e5a8
+      internalID: 800586830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_61
+      name: Infected_61
       rect:
         serializedVersion: 2
         x: 144
@@ -1424,14 +1424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f7ad2c54f02a361b6181fe959960a5
-      internalID: -1793593147
+      spriteID: 8dcb9269516c068aab7a47f24b2b0375
+      internalID: -932107869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_62
+      name: Infected_62
       rect:
         serializedVersion: 2
         x: 0
@@ -1445,14 +1445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cbe13b46cd1a983abb2a171154b8b97
-      internalID: 1323254159
+      spriteID: 6fb042c89042ad22f9a1d18aab8ba6a7
+      internalID: 1347226046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_63
+      name: Infected_63
       rect:
         serializedVersion: 2
         x: 16
@@ -1466,14 +1466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f231db6116f8556a7de039ae3e8af2
-      internalID: 1592372241
+      spriteID: ab77db6d80bf4b52380d935663b19ba4
+      internalID: 1939607627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_64
+      name: Infected_64
       rect:
         serializedVersion: 2
         x: 32
@@ -1487,14 +1487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79855eb0c2f0c45248d5810ced147c8a
-      internalID: 1648085133
+      spriteID: c75b4877f3c6a65f9910a7e5b41c89cd
+      internalID: -1230364611
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_65
+      name: Infected_65
       rect:
         serializedVersion: 2
         x: 48
@@ -1508,14 +1508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b597c98aced7bcc5ae414ec20f2a1c5
-      internalID: -1043549292
+      spriteID: 1f0a5ee868e28482f9094b6ab5f8c3cb
+      internalID: 32379451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_66
+      name: Infected_66
       rect:
         serializedVersion: 2
         x: 64
@@ -1529,14 +1529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2355c9e15186fb9ca0c60f513699e2d
-      internalID: -1942174411
+      spriteID: 5025d7f1273782670832c147f0c320c2
+      internalID: -1299790940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_67
+      name: Infected_67
       rect:
         serializedVersion: 2
         x: 0
@@ -1550,14 +1550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7be6711c0c15ae349abdc75246fb09c
-      internalID: 818249800
+      spriteID: 0feaa19d245ec9ce2bbd909781276d44
+      internalID: 750817280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_68
+      name: Infected_68
       rect:
         serializedVersion: 2
         x: 16
@@ -1571,14 +1571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 229f08f62adc3d97691c0f34cc69fd5d
-      internalID: -1506557158
+      spriteID: c5937b84df37a0345a2efe472981e538
+      internalID: 956985674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_69
+      name: Infected_69
       rect:
         serializedVersion: 2
         x: 0
@@ -1592,14 +1592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbc2efdbc7857aa5f8ada9f96865ad6b
-      internalID: 925396917
+      spriteID: c7ca2d2704ca75265a096a96b4f8f4a1
+      internalID: 1926262062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_70
+      name: Infected_70
       rect:
         serializedVersion: 2
         x: 16
@@ -1613,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d271d0af8a4d90a948d2803d58f3207b
-      internalID: -143737904
+      spriteID: 231791dfd77f3f22ebe6b8f739388d91
+      internalID: 666719522
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_71
+      name: Infected_71
       rect:
         serializedVersion: 2
         x: 32
@@ -1634,14 +1634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732e4252faedc51fd8daea36a6846f5c
-      internalID: 667342255
+      spriteID: b71fe7f26f3ab829783d356b58a1a4b6
+      internalID: -1917018993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_72
+      name: Infected_72
       rect:
         serializedVersion: 2
         x: 48
@@ -1655,14 +1655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bf31c7c8482f70df853ba6c8a08961b
-      internalID: -1070143578
+      spriteID: ebbc763b73a5c3c7c9379d450b5dc7f6
+      internalID: -5963395
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_73
+      name: Infected_73
       rect:
         serializedVersion: 2
         x: 64
@@ -1676,14 +1676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd5b9f78170f865b834319c1c6f2843
-      internalID: 1630786465
+      spriteID: ad9dbc2e65ac8bc7e831263e74b8a3a6
+      internalID: 573656053
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_74
+      name: Infected_74
       rect:
         serializedVersion: 2
         x: 80
@@ -1697,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9082519a62ebcfb381e79ceea6308fc
-      internalID: -321058112
+      spriteID: 3da8386df2003dc68929cdf971252012
+      internalID: -51940809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_75
+      name: Infected_75
       rect:
         serializedVersion: 2
         x: 96
@@ -1718,14 +1718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b103dacb327bea2c911729705d6cd7b
-      internalID: -1917467838
+      spriteID: 6f19d1be2c62b3f1fab3c04631f4da75
+      internalID: -689556140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_76
+      name: Infected_76
       rect:
         serializedVersion: 2
         x: 112
@@ -1739,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc6055e0e0ab549688e1b5dd09a3518
-      internalID: 39997820
+      spriteID: 136f83052c7c3f690b14123909159cea
+      internalID: 1252995895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_77
+      name: Infected_77
       rect:
         serializedVersion: 2
         x: 128
@@ -1760,14 +1760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b3307e8ebd61ea4b7edb4ffa32ab8e
-      internalID: 1385755339
+      spriteID: 603b7d9392ea2113ab143a8afa0c20c4
+      internalID: -1234909918
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_78
+      name: Infected_78
       rect:
         serializedVersion: 2
         x: 0
@@ -1781,14 +1781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c9d961b2ccc4e019805d51f16fb4c2
-      internalID: -1437888354
+      spriteID: aa509c8cc799e0c6699a01ed34d0d448
+      internalID: 1528685523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_79
+      name: Infected_79
       rect:
         serializedVersion: 2
         x: 16
@@ -1802,14 +1802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de48c6dfbded8ebfbde7a30ad81f207
-      internalID: 1287848115
+      spriteID: 53ca92405b014fc14a653f74c0c683ba
+      internalID: -994172708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_80
+      name: Infected_80
       rect:
         serializedVersion: 2
         x: 32
@@ -1823,14 +1823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e2504eaa7c43536ae12c90c8e33210
-      internalID: 549686328
+      spriteID: a553932e010e4fe5c9bdf63817f9f5be
+      internalID: -376618945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_81
+      name: Infected_81
       rect:
         serializedVersion: 2
         x: 48
@@ -1844,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6016f9cc8a6e50f5084fb2647d574ee5
-      internalID: 239792769
+      spriteID: 5a4f7e0c9c87ae93393f0a4c1285313d
+      internalID: -1687986562
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_82
+      name: Infected_82
       rect:
         serializedVersion: 2
         x: 64
@@ -1865,14 +1865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c58b4496a7324091ea95090066ed7ad7
-      internalID: 1538875606
+      spriteID: a3cdeac2655c8e643b8951580ea0e8cc
+      internalID: -809050405
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_83
+      name: Infected_83
       rect:
         serializedVersion: 2
         x: 80
@@ -1886,14 +1886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6df0d613275ea490c96939b86ed3488c
-      internalID: 1803446598
+      spriteID: 7405b9697b5f9569f8334afb157f1c30
+      internalID: 1713636934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_84
+      name: Infected_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1907,14 +1907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f988ec191ae81ffc5b2c5c8d6cfb7413
-      internalID: 521423733
+      spriteID: 606849f4e0639361d81499880f45ee48
+      internalID: -1880633831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_85
+      name: Infected_85
       rect:
         serializedVersion: 2
         x: 16
@@ -1928,14 +1928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1034824d3ab5fe79187fdc1617dc87d6
-      internalID: 12594970
+      spriteID: dd651af616497f0bb9c3222fbffbd940
+      internalID: -1830290308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_86
+      name: Infected_86
       rect:
         serializedVersion: 2
         x: 32
@@ -1949,14 +1949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49bbedbff05d10611bd5a781a0802c3b
-      internalID: 1764875564
+      spriteID: b061fe16bc2d7bd628df29e8c49e9176
+      internalID: -786772302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_87
+      name: Infected_87
       rect:
         serializedVersion: 2
         x: 48
@@ -1970,14 +1970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df70ecdb6e41f75ada6462f6b11970cc
-      internalID: 925333277
+      spriteID: ae4ff5e70605dadaab2dec4b66e153c1
+      internalID: 218248390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_88
+      name: Infected_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1991,14 +1991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9869b310c6a6ebc58bc50f1041a9f81f
-      internalID: -1252703795
+      spriteID: ea14c4d973c25aa5b9a783894118a4c2
+      internalID: 1917868010
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_89
+      name: Infected_89
       rect:
         serializedVersion: 2
         x: 16
@@ -2012,14 +2012,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 275dddc2f873f938898af00073dcddd8
-      internalID: 243873650
+      spriteID: 204f4f3dfdeb340aea2e2fbf56e98c38
+      internalID: 999428742
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_90
+      name: Infected_90
       rect:
         serializedVersion: 2
         x: 32
@@ -2033,14 +2033,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbfe96f469a8035308ba208420365db2
-      internalID: -879494701
+      spriteID: afe38e7fe93d0ea4ebbaf6620622391e
+      internalID: -859594502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_91
+      name: Infected_91
       rect:
         serializedVersion: 2
         x: 48
@@ -2054,14 +2054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f541cb202e141a998ef117ca185c574
-      internalID: 1222292547
+      spriteID: 64fca375c1a9a0b1896f560461c5d983
+      internalID: 1316193372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_92
+      name: Infected_92
       rect:
         serializedVersion: 2
         x: 64
@@ -2075,14 +2075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eb53966c0cac4c5ab4f1e414b2e8d1b
-      internalID: 1791529658
+      spriteID: cb4ec59b1f359c6f68ca179929e2edb4
+      internalID: 272668353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_93
+      name: Infected_93
       rect:
         serializedVersion: 2
         x: 80
@@ -2096,14 +2096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 433e86d495a0d747884622f6a56e9991
-      internalID: 1297662791
+      spriteID: 15a59f514c5d319acbf441db2bc44070
+      internalID: 587471191
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_94
+      name: Infected_94
       rect:
         serializedVersion: 2
         x: 96
@@ -2117,14 +2117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17d2e319f8315f8fbd0d23f67e80552
-      internalID: 924929962
+      spriteID: 1d5b0f8def6ea7fe2893800fdea9c45d
+      internalID: -263815508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_95
+      name: Infected_95
       rect:
         serializedVersion: 2
         x: 112
@@ -2138,14 +2138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7ff002de59f9624b2224db45820cc1
-      internalID: 1106986140
+      spriteID: 8a3ef488949aa30b5a25f4103db3560b
+      internalID: 1092258075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_96
+      name: Infected_96
       rect:
         serializedVersion: 2
         x: 0
@@ -2159,14 +2159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f44f23438185c99d874e3536fb41a82
-      internalID: -1753583566
+      spriteID: 4dcd0c7448545d22183e6795f10f450c
+      internalID: -786849198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_97
+      name: Infected_97
       rect:
         serializedVersion: 2
         x: 16
@@ -2180,14 +2180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e2b09118c0ece4a7b9d9236f90d5f14
-      internalID: 252615980
+      spriteID: db2b3318a7e324908b8b0c7e71873708
+      internalID: 593112996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_98
+      name: Infected_98
       rect:
         serializedVersion: 2
         x: 32
@@ -2201,14 +2201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd6665d73d3f4618a8b48b3fa6ea14d
-      internalID: 1048145799
+      spriteID: ef499cc93f8d0648fb7b58668f8cd2d7
+      internalID: 638033326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_99
+      name: Infected_99
       rect:
         serializedVersion: 2
         x: 48
@@ -2222,14 +2222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2005f236c52c3d51b195634ca829404
-      internalID: 227075533
+      spriteID: 7cdc39da6cf36bf208f47c468e12eb77
+      internalID: -1939014131
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_100
+      name: Infected_100
       rect:
         serializedVersion: 2
         x: 0
@@ -2243,14 +2243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd4872ad848998661b76c0904b229000
-      internalID: 1023065506
+      spriteID: d2720744a6866aad1b7834480f744720
+      internalID: -1999824370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_101
+      name: Infected_101
       rect:
         serializedVersion: 2
         x: 16
@@ -2264,14 +2264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61f5ee6eb50df8cc49112d6a8bb978fe
-      internalID: -837108823
+      spriteID: cd148f7c17484fe2192f016b4a86bf61
+      internalID: -101595092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_102
+      name: Infected_102
       rect:
         serializedVersion: 2
         x: 32
@@ -2285,14 +2285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf750b72857ab9c09584dff94b9d5c2
-      internalID: -112616114
+      spriteID: 60d38031a14e5599b9f06e8abece5956
+      internalID: -1436647368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_103
+      name: Infected_103
       rect:
         serializedVersion: 2
         x: 48
@@ -2306,14 +2306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48195fc7dfde9f667ba1c5d36494b1df
-      internalID: -1038387748
+      spriteID: 25d0727389a446108b302699b065a535
+      internalID: 382593793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_104
+      name: Infected_104
       rect:
         serializedVersion: 2
         x: 0
@@ -2327,14 +2327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0de92bd2e980d848a953fd95ed619ae7
-      internalID: -1788529950
+      spriteID: fac881c5e3d3b0f74a88bf6feb270977
+      internalID: 121082823
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_105
+      name: Infected_105
       rect:
         serializedVersion: 2
         x: 16
@@ -2348,14 +2348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c34457c94a617b289bf0ab8453198db
-      internalID: -1050321756
+      spriteID: 715f57fea07c1b9c0bec323e8a552d71
+      internalID: 1294419793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_106
+      name: Infected_106
       rect:
         serializedVersion: 2
         x: 32
@@ -2369,14 +2369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4526a8d43f3528739371d4fe6dc7310
-      internalID: -2026064302
+      spriteID: 807cf475c73d180129bc82deaccb2d86
+      internalID: -686052268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_107
+      name: Infected_107
       rect:
         serializedVersion: 2
         x: 48
@@ -2390,14 +2390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c3258efd26fd9bc97d9e6c21e2a097
-      internalID: -997751369
+      spriteID: f514c814120688f59964554f5f08c990
+      internalID: 234978882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_108
+      name: Infected_108
       rect:
         serializedVersion: 2
         x: 64
@@ -2411,14 +2411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c52c00cdf09424eb1609ac04cb2c2e
-      internalID: -452310393
+      spriteID: 02eb93a2e2a5ca63ca5b59863eb03e58
+      internalID: 558978353
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_109
+      name: Infected_109
       rect:
         serializedVersion: 2
         x: 80
@@ -2432,14 +2432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2d6f0f0e41bcaf6970f13b90d88c44
-      internalID: -428069490
+      spriteID: 1cd6cc26c9635e639b9dc13fa286d3e6
+      internalID: -1002425986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_110
+      name: Infected_110
       rect:
         serializedVersion: 2
         x: 96
@@ -2453,14 +2453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef5ee20e472020aba7a84beecfd8ebe
-      internalID: 1438081500
+      spriteID: 942ae9f60f820d07286e41562feade0e
+      internalID: 898761813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_111
+      name: Infected_111
       rect:
         serializedVersion: 2
         x: 112
@@ -2474,14 +2474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 334b98b9b5ae23a39816fe4957ac4593
-      internalID: -806033244
+      spriteID: c44dbfa7b44ed9b8c8529794f688e64c
+      internalID: -624732012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_112
+      name: Infected_112
       rect:
         serializedVersion: 2
         x: 0
@@ -2495,14 +2495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 049caafecd6876240b44b6daa8433f23
-      internalID: 1229197606
+      spriteID: a1d73906ff278440fb26d9483bfa0043
+      internalID: 1301063117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_113
+      name: Infected_113
       rect:
         serializedVersion: 2
         x: 16
@@ -2516,14 +2516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5b1aab829d3585f69da8320f7e94c9a
-      internalID: 609991322
+      spriteID: 48f708fc103381887a03ff7ec5663b6d
+      internalID: -592367550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_114
+      name: Infected_114
       rect:
         serializedVersion: 2
         x: 32
@@ -2537,14 +2537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e80f627b92cadeab8c9b496bb0c1f4e
-      internalID: 308308706
+      spriteID: 15f530a1b27eac35dbb9aad421596600
+      internalID: 1721771061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_115
+      name: Infected_115
       rect:
         serializedVersion: 2
         x: 48
@@ -2558,14 +2558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c84b3dee7dd756694940ff3a88cf169c
-      internalID: 889048983
+      spriteID: 89bbf900f17f8640c95f00d1b2d3af92
+      internalID: -46241648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_116
+      name: Infected_116
       rect:
         serializedVersion: 2
         x: 64
@@ -2579,14 +2579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf6456ab2af135708b665dc5614569a9
-      internalID: -566997440
+      spriteID: 7f00444df65c7d79c9e616d8ef90a857
+      internalID: 335958038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_117
+      name: Infected_117
       rect:
         serializedVersion: 2
         x: 80
@@ -2600,14 +2600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e13b45a09f315659b87427267f99c6a4
-      internalID: -722910481
+      spriteID: 00cfd3185fda8e8aab72f7e22be1f9b0
+      internalID: -1503303171
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_118
+      name: Infected_118
       rect:
         serializedVersion: 2
         x: 96
@@ -2621,14 +2621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef1f05e462284859be70f8a1f9ed768
-      internalID: 862924563
+      spriteID: d3e3c256860b6488da215df5b2dfc4ca
+      internalID: -356328709
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_119
+      name: Infected_119
       rect:
         serializedVersion: 2
         x: 112
@@ -2642,14 +2642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe201b1af472520fb3c879208593204
-      internalID: -223995465
+      spriteID: 943e598a3c3cde519a9f852ec25e6392
+      internalID: -1400083641
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_120
+      name: Infected_120
       rect:
         serializedVersion: 2
         x: 128
@@ -2663,14 +2663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a42edad1ae6abb429d3434a14337e8f
-      internalID: 12892358
+      spriteID: 8e4cebe2729e6355995c4807061550ee
+      internalID: 15232914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_121
+      name: Infected_121
       rect:
         serializedVersion: 2
         x: 0
@@ -2684,14 +2684,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3d733dc50606b4f8e1fbe42e1530f8
-      internalID: 1676688660
+      spriteID: cc1544632f9f9d4ddb4452288cb8f664
+      internalID: -701337305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_122
+      name: Infected_122
       rect:
         serializedVersion: 2
         x: 16
@@ -2705,14 +2705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3d6c2e04d2ceaa4b3171c151dde098
-      internalID: -1779921595
+      spriteID: 8f871b2553d0cb94398a411e23e4f1bd
+      internalID: 1058884896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_123
+      name: Infected_123
       rect:
         serializedVersion: 2
         x: 32
@@ -2726,14 +2726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307628d5ed7cfc69088e5e23cbd7cfdc
-      internalID: -1108818467
+      spriteID: 11b90b207dbeccbad8a9cdfea97339ec
+      internalID: -1624582055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_124
+      name: Infected_124
       rect:
         serializedVersion: 2
         x: 48
@@ -2747,14 +2747,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f71a80387f7711b6db33da67901b2985
-      internalID: -853852548
+      spriteID: a455d7841cd93248ab7702f83aea858d
+      internalID: 507276122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_125
+      name: Infected_125
       rect:
         serializedVersion: 2
         x: 64
@@ -2768,14 +2768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d30e75e9fc2991e7aa474316cfb93eca
-      internalID: -1694322536
+      spriteID: 7e76d2a76f03872e4a21d6e6cf48d537
+      internalID: 1363598229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_126
+      name: Infected_126
       rect:
         serializedVersion: 2
         x: 80
@@ -2789,14 +2789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 550d49d82c4a9af39b21efdf10a427d4
-      internalID: -411714697
+      spriteID: f27ce526214b28144b2787743446d98d
+      internalID: 999199670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_127
+      name: Infected_127
       rect:
         serializedVersion: 2
         x: 0
@@ -2810,14 +2810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28d2f466d3a12b4188da0d9113ecd26c
-      internalID: 1457849190
+      spriteID: 0c7ae6c4b78a8181e90957c9f2049ffa
+      internalID: -530538686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_128
+      name: Infected_128
       rect:
         serializedVersion: 2
         x: 16
@@ -2831,14 +2831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b48c119d6a246fd5dbe10d1c0fc14296
-      internalID: -468584392
+      spriteID: 7b2a0969e6b961b42b307db7f9cca4e1
+      internalID: 137540136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_129
+      name: Infected_129
       rect:
         serializedVersion: 2
         x: 32
@@ -2852,14 +2852,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02d02e3f144c21d1bd88409410c2c9d
-      internalID: 234309357
+      spriteID: bf05cdd05c77ee2f9b235e13e6e23897
+      internalID: 274152033
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_130
+      name: Infected_130
       rect:
         serializedVersion: 2
         x: 48
@@ -2873,14 +2873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981ca41e30d65f259a142068d93ff094
-      internalID: 1530744438
+      spriteID: d22f736917fe6e71e856c8f0f4acc1f6
+      internalID: -1156396655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_131
+      name: Infected_131
       rect:
         serializedVersion: 2
         x: 0
@@ -2894,14 +2894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb53efef512ca970680c503902a50a5a
-      internalID: 1569072967
+      spriteID: b1bf3964fd90e266180b2ea002d45238
+      internalID: 188009517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_132
+      name: Infected_132
       rect:
         serializedVersion: 2
         x: 16
@@ -2915,14 +2915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8ccfaaddd37ab7f91c916c622ffc16
-      internalID: -2028301175
+      spriteID: c7537ba540fa1cc45a878b35fb37d5af
+      internalID: 261623446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_133
+      name: Infected_133
       rect:
         serializedVersion: 2
         x: 32
@@ -2936,8 +2936,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5683d2d6cf33f6dadde276c2d4e697
-      internalID: 474829314
+      spriteID: d55a2a912e09a585c96b7b8ce34e669d
+      internalID: -1785436519
       vertices: []
       indices: 
       edges: []
@@ -2953,140 +2953,140 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      White_133: 474829314
-      White_34: 1734454721
-      White_74: -321058112
-      White_78: -1437888354
-      White_65: -1043549292
-      White_48: 1645200106
-      White_5: -154491233
-      White_128: -468584392
-      White_129: 234309357
-      White_120: 12892358
-      White_45: -1414132635
-      White_12: -1394754751
-      White_25: -500798256
-      White_126: -411714697
-      White_33: -370760413
-      White_93: 1297662791
-      White_10: -1462784865
-      White_83: 1803446598
-      White_27: 631921197
-      White_54: -431091276
-      White_73: 1630786465
-      White_9: -456073343
-      White_84: 521423733
-      White_56: 2889698
-      White_18: -1673247155
-      White_112: 1229197606
-      White_104: -1788529950
-      White_131: 1569072967
-      White_72: -1070143578
-      White_96: -1753583566
-      White_20: 2024962939
-      White_24: -931953094
-      White_92: 1791529658
-      White_21: -124796510
-      White_88: -1252703795
-      White_35: -610593379
-      White_2: 2020794764
-      White_81: 239792769
-      White_44: -1605797691
-      White_70: -143737904
-      White_51: -1164032383
-      White_75: -1917467838
-      White_132: -2028301175
-      White_91: 1222292547
-      White_119: -223995465
-      White_23: -1733965133
-      White_94: 924929962
-      White_15: -1555713926
-      White_80: 549686328
-      White_97: 252615980
-      White_50: 1206254848
-      White_111: -806033244
-      White_58: -585416036
-      White_108: -452310393
-      White_107: -997751369
-      White_103: -1038387748
-      White_121: 1676688660
-      White_11: 1307787626
-      White_69: 925396917
-      White_41: 1755204913
-      White_76: 39997820
-      White_53: 831952055
-      White_125: -1694322536
-      White_110: 1438081500
-      White_14: 1521391484
-      White_28: -818039808
-      White_98: 1048145799
-      White_4: -2018163974
-      White_19: -917898634
-      White_29: -318656231
-      White_40: 1607751786
-      White_39: 555447310
-      White_38: -563338874
-      White_8: -1872751669
-      White_68: -1506557158
-      White_124: -853852548
-      White_22: -199833436
-      White_57: 1536300607
-      White_7: -204779026
-      White_85: 12594970
-      White_95: 1106986140
-      White_36: -1603596247
-      White_49: -1421939591
-      White_55: 1033529996
-      White_52: -2044425180
-      White_59: -1573561285
-      White_109: -428069490
-      White_3: -2078422497
-      White_106: -2026064302
-      White_113: 609991322
-      White_26: -1109466803
-      White_67: 818249800
-      White_61: -1793593147
-      White_82: 1538875606
-      White_46: -2077804753
-      White_100: 1023065506
-      White_30: -810616802
-      White_86: 1764875564
-      White_116: -566997440
-      White_66: -1942174411
-      White_1: -1169764309
-      White_90: -879494701
-      White_16: 1666638123
-      White_115: 889048983
-      White_31: -480304096
-      White_64: 1648085133
-      White_63: 1592372241
-      White_105: -1050321756
-      White_60: 208483028
-      White_114: 308308706
-      White_87: 925333277
-      White_32: 1357022025
-      White_79: 1287848115
-      White_118: 862924563
-      White_17: -2117215282
-      White_62: 1323254159
-      White_117: -722910481
-      White_122: -1779921595
-      White_130: 1530744438
-      White_102: -112616114
-      White_71: 667342255
-      White_6: -1836624222
-      White_47: -664381544
-      White_43: -1003335908
-      White_77: 1385755339
-      White_123: -1108818467
-      White_101: -837108823
-      White_99: 227075533
-      White_89: 243873650
-      White_42: 1567882099
-      White_0: 755847743
-      White_37: -1199452835
-      White_13: -1205468721
-      White_127: 1457849190
+      Infected_83: 1713636934
+      Infected_118: -356328709
+      Infected_0: -531855051
+      Infected_113: -592367550
+      Infected_52: 1020952131
+      Infected_18: 1481485240
+      Infected_80: -376618945
+      Infected_20: 1757047908
+      Infected_60: 800586830
+      Infected_25: -434367084
+      Infected_109: -1002425986
+      Infected_11: 462249863
+      Infected_4: 213744560
+      Infected_115: -46241648
+      Infected_56: 961850133
+      Infected_41: 1964845882
+      Infected_29: 1664485922
+      Infected_70: 666719522
+      Infected_90: -859594502
+      Infected_86: -786772302
+      Infected_3: 1229192416
+      Infected_43: -1808122341
+      Infected_44: -1999866650
+      Infected_95: 1092258075
+      Infected_1: 735555616
+      Infected_48: 909524855
+      Infected_79: -994172708
+      Infected_110: 898761813
+      Infected_16: -847773796
+      Infected_36: -242522038
+      Infected_84: -1880633831
+      Infected_42: 419034867
+      Infected_94: -263815508
+      Infected_50: -1617915846
+      Infected_15: 138135452
+      Infected_33: 160991528
+      Infected_49: 106567007
+      Infected_111: -624732012
+      Infected_57: 209482293
+      Infected_59: 1810810724
+      Infected_92: 272668353
+      Infected_39: -1868740962
+      Infected_71: -1917018993
+      Infected_7: -1201466444
+      Infected_28: 377309070
+      Infected_65: 32379451
+      Infected_81: -1687986562
+      Infected_103: 382593793
+      Infected_108: 558978353
+      Infected_37: -1394207535
+      Infected_77: -1234909918
+      Infected_126: 999199670
+      Infected_130: -1156396655
+      Infected_17: -1116233753
+      Infected_51: 1389197611
+      Infected_47: -439321656
+      Infected_54: -327072511
+      Infected_97: 593112996
+      Infected_31: 1919718266
+      Infected_124: 507276122
+      Infected_99: -1939014131
+      Infected_116: 335958038
+      Infected_26: -2076416541
+      Infected_73: 573656053
+      Infected_78: 1528685523
+      Infected_87: 218248390
+      Infected_63: 1939607627
+      Infected_6: 1417457896
+      Infected_13: 2090010486
+      Infected_72: -5963395
+      Infected_131: 188009517
+      Infected_55: -1711188521
+      Infected_85: -1830290308
+      Infected_129: 274152033
+      Infected_66: -1299790940
+      Infected_101: -101595092
+      Infected_19: -1693320018
+      Infected_9: -2106726681
+      Infected_23: 652359327
+      Infected_46: -1283999558
+      Infected_8: -1068089642
+      Infected_61: -932107869
+      Infected_53: 198005810
+      Infected_14: -1379221898
+      Infected_24: -92768725
+      Infected_75: -689556140
+      Infected_35: 1881143263
+      Infected_76: 1252995895
+      Infected_106: -686052268
+      Infected_133: -1785436519
+      Infected_34: -832194670
+      Infected_68: 956985674
+      Infected_102: -1436647368
+      Infected_120: 15232914
+      Infected_30: 969600333
+      Infected_98: 638033326
+      Infected_127: -530538686
+      Infected_112: 1301063117
+      Infected_32: 397642647
+      Infected_82: -809050405
+      Infected_67: 750817280
+      Infected_88: 1917868010
+      Infected_12: 969950807
+      Infected_121: -701337305
+      Infected_64: -1230364611
+      Infected_74: -51940809
+      Infected_89: 999428742
+      Infected_5: -1815425956
+      Infected_117: -1503303171
+      Infected_93: 587471191
+      Infected_107: 234978882
+      Infected_21: -618287015
+      Infected_10: 950641879
+      Infected_58: 1500005871
+      Infected_114: 1721771061
+      Infected_27: 1992957825
+      Infected_123: -1624582055
+      Infected_91: 1316193372
+      Infected_104: 121082823
+      Infected_38: 234468458
+      Infected_2: -2107374071
+      Infected_105: 1294419793
+      Infected_22: 138928565
+      Infected_128: 137540136
+      Infected_96: -786849198
+      Infected_100: -1999824370
+      Infected_125: 1363598229
+      Infected_132: 261623446
+      Infected_62: 1347226046
+      Infected_40: 1917310688
+      Infected_69: 1926262062
+      Infected_119: -1400083641
+      Infected_45: -913343749
+      Infected_122: 1058884896
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

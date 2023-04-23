@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3e2a3cabd6697d6d09802d04806b7851
+guid: 30301f9939f59076f83e1a9cf74b7531
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -129,7 +129,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: White_0
+      name: Dark_purple_0
       rect:
         serializedVersion: 2
         x: 0
@@ -143,14 +143,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae215c705cdfd698a8c9340328c0845d
-      internalID: 755847743
+      spriteID: db32e0a1ed0cc7b449e6351826254b22
+      internalID: 742412065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_1
+      name: Dark_purple_1
       rect:
         serializedVersion: 2
         x: 16
@@ -164,14 +164,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 386053af5df405c19932fd03c151665a
-      internalID: -1169764309
+      spriteID: 24e8cc9459dcb14ec8c322ef826458e7
+      internalID: -148958741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_2
+      name: Dark_purple_2
       rect:
         serializedVersion: 2
         x: 32
@@ -185,14 +185,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2e1537f9f9c5896bbcef80a343c4d53
-      internalID: 2020794764
+      spriteID: 429661356b17b596d84e0768de64092d
+      internalID: -1242924442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_3
+      name: Dark_purple_3
       rect:
         serializedVersion: 2
         x: 0
@@ -206,14 +206,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a77f4a6311b2cd24aa67f2f2e16aa16
-      internalID: -2078422497
+      spriteID: 2da4f2230eb5b4088a79a11888e0de1d
+      internalID: 892278762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_4
+      name: Dark_purple_4
       rect:
         serializedVersion: 2
         x: 16
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 218f94071259b38488074d101e4a3433
-      internalID: -2018163974
+      spriteID: db7bcd99d3b629340b516661af0c64fa
+      internalID: 2073625326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_5
+      name: Dark_purple_5
       rect:
         serializedVersion: 2
         x: 32
@@ -248,14 +248,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f345fc01dd43f897b8370a3ab7fd441
-      internalID: -154491233
+      spriteID: 0fbeb53d529b04308a5efa52770b77cb
+      internalID: 794358546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_6
+      name: Dark_purple_6
       rect:
         serializedVersion: 2
         x: 0
@@ -269,14 +269,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b14c102bf4a8e90bbaedf53bd9f14d8c
-      internalID: -1836624222
+      spriteID: 268cf70b9d6c0f6ba83fc2ce07219dde
+      internalID: 761419673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_7
+      name: Dark_purple_7
       rect:
         serializedVersion: 2
         x: 16
@@ -290,14 +290,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08b394474bb01c03187202d7f87f0651
-      internalID: -204779026
+      spriteID: 17beba3a3d73d53919636681f7de90d3
+      internalID: -602231772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_8
+      name: Dark_purple_8
       rect:
         serializedVersion: 2
         x: 32
@@ -311,14 +311,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89b58c82e996c601dbe5a0c6c7004ce7
-      internalID: -1872751669
+      spriteID: cc97501c09d2c9bbc8657629ae33770e
+      internalID: -958493830
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_9
+      name: Dark_purple_9
       rect:
         serializedVersion: 2
         x: 0
@@ -332,14 +332,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a08ab4173b39e7618c7a29583053b70
-      internalID: -456073343
+      spriteID: 13df65a0641acf053ac4588fa38d431a
+      internalID: 1943387286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_10
+      name: Dark_purple_10
       rect:
         serializedVersion: 2
         x: 16
@@ -353,14 +353,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d75cc7cc9cf2d9e39b5613e995e9be7
-      internalID: -1462784865
+      spriteID: 856063c19026579a093c74b7a8135bc7
+      internalID: 988999107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_11
+      name: Dark_purple_11
       rect:
         serializedVersion: 2
         x: 32
@@ -374,14 +374,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0474e6bdda67625a99d6bb4fabbcf954
-      internalID: 1307787626
+      spriteID: 28cfd10d2a9aa72deb9a6679973ea824
+      internalID: -1919250857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_12
+      name: Dark_purple_12
       rect:
         serializedVersion: 2
         x: 48
@@ -395,14 +395,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e00d26ce130476a718d3f95535ee6eee
-      internalID: -1394754751
+      spriteID: 64efc4d74ff7c7a7c9403f8d0d5a77dc
+      internalID: -573701626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_13
+      name: Dark_purple_13
       rect:
         serializedVersion: 2
         x: 0
@@ -416,14 +416,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 121bef4174d18d458a75108fd8aac412
-      internalID: -1205468721
+      spriteID: 6fcc3d7d72a89ce4680be5e08bdc77e7
+      internalID: -1625471585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_14
+      name: Dark_purple_14
       rect:
         serializedVersion: 2
         x: 16
@@ -437,14 +437,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c306ad0c54f6c7455bec236acf00e62e
-      internalID: 1521391484
+      spriteID: cfa0a87389620153cba713ecf447bee0
+      internalID: 1713688279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_15
+      name: Dark_purple_15
       rect:
         serializedVersion: 2
         x: 32
@@ -458,14 +458,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0746a1fb3817164aa736667a30bd94e
-      internalID: -1555713926
+      spriteID: 482415960dd81cdde8ce468918ab87dc
+      internalID: 1814652499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_16
+      name: Dark_purple_16
       rect:
         serializedVersion: 2
         x: 48
@@ -479,14 +479,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8d10c7288f08e9d8baa67e9ca5c3679
-      internalID: 1666638123
+      spriteID: 8c48ede2ec320aff8a2ad104854b9b84
+      internalID: 632470550
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_17
+      name: Dark_purple_17
       rect:
         serializedVersion: 2
         x: 0
@@ -500,14 +500,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8eb860b44375692abb39620e70deab8
-      internalID: -2117215282
+      spriteID: 3418b929d8e7bdc6c9f9871cf98e6e44
+      internalID: -1953331591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_18
+      name: Dark_purple_18
       rect:
         serializedVersion: 2
         x: 16
@@ -521,14 +521,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4397ce74803a3c729461c7347f611ac
-      internalID: -1673247155
+      spriteID: 9d8e93a0500d1adb29c3028b9d991fbc
+      internalID: -2011472845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_19
+      name: Dark_purple_19
       rect:
         serializedVersion: 2
         x: 32
@@ -542,14 +542,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0ee08832f5d1526a846c9152eede85
-      internalID: -917898634
+      spriteID: e5fdb4e0a6709ddbfae72a403301ad34
+      internalID: 1390465092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_20
+      name: Dark_purple_20
       rect:
         serializedVersion: 2
         x: 48
@@ -563,14 +563,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: edeb917a9590238618ffa93411da1347
-      internalID: 2024962939
+      spriteID: 9368b3313613ca66f9868e17915b022e
+      internalID: -334445308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_21
+      name: Dark_purple_21
       rect:
         serializedVersion: 2
         x: 0
@@ -584,14 +584,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70204be1948b436e9b536c27597466b8
-      internalID: -124796510
+      spriteID: a2de5ed2cd6e5ca2b8fdb5814e9243ff
+      internalID: 1839583981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_22
+      name: Dark_purple_22
       rect:
         serializedVersion: 2
         x: 16
@@ -605,14 +605,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c8cc7532d8c9c67f8253e539c1e00c8
-      internalID: -199833436
+      spriteID: 5970abdf8fdec48fdb2dd2e35d7a8006
+      internalID: 5294621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_23
+      name: Dark_purple_23
       rect:
         serializedVersion: 2
         x: 32
@@ -626,14 +626,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 56229ef521efe576c9ba2084cb50783c
-      internalID: -1733965133
+      spriteID: ee283ad4f858f12db8f15f28f8636e7a
+      internalID: 743669241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_24
+      name: Dark_purple_24
       rect:
         serializedVersion: 2
         x: 0
@@ -647,14 +647,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3adeb65d27735554f8824581c146503e
-      internalID: -931953094
+      spriteID: f646306fdd4be18d295e932f417edf46
+      internalID: 1370914032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_25
+      name: Dark_purple_25
       rect:
         serializedVersion: 2
         x: 16
@@ -668,14 +668,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2b89896ecfcb8580a9942c3c7f39c4f
-      internalID: -500798256
+      spriteID: 8f7d0398f5225a4aca65d899e47c3c21
+      internalID: 1329155845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_26
+      name: Dark_purple_26
       rect:
         serializedVersion: 2
         x: 32
@@ -689,14 +689,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41a2c31d24a721a09bd05e21602ea6fa
-      internalID: -1109466803
+      spriteID: 9fd534d14d33970918b26b36e49634f6
+      internalID: 358691394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_27
+      name: Dark_purple_27
       rect:
         serializedVersion: 2
         x: 48
@@ -710,14 +710,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 571163f9bb8af660a87efdc35084d54c
-      internalID: 631921197
+      spriteID: acd58e8609426513899ec63e265e1179
+      internalID: 205908712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_28
+      name: Dark_purple_28
       rect:
         serializedVersion: 2
         x: 0
@@ -731,14 +731,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2445fcbe0f31e909e9358b35c042b8d7
-      internalID: -818039808
+      spriteID: 74cfd3db4dd3fcd3c953d69b6adef41a
+      internalID: 559244853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_29
+      name: Dark_purple_29
       rect:
         serializedVersion: 2
         x: 16
@@ -752,14 +752,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb2077ce65d861c89af17ad1593f8293
-      internalID: -318656231
+      spriteID: c02e2c3fd3047a7b08642b76d85be49b
+      internalID: 2136541508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_30
+      name: Dark_purple_30
       rect:
         serializedVersion: 2
         x: 32
@@ -773,14 +773,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dc4e1d69100a555c8103207640e9ee0
-      internalID: -810616802
+      spriteID: a22f87d5017f350dc99242528a21a09e
+      internalID: 976421046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_31
+      name: Dark_purple_31
       rect:
         serializedVersion: 2
         x: 48
@@ -794,14 +794,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e8d5e019e7dd1d41981969c7d05ac3d3
-      internalID: -480304096
+      spriteID: 10449737906dddc378677b83becb1918
+      internalID: -1038365444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_32
+      name: Dark_purple_32
       rect:
         serializedVersion: 2
         x: 0
@@ -815,14 +815,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90d6d3edd916d944e9eab4c879667845
-      internalID: 1357022025
+      spriteID: 499b1783d0d4ecaed991a496b3680356
+      internalID: -1100766221
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_33
+      name: Dark_purple_33
       rect:
         serializedVersion: 2
         x: 16
@@ -836,14 +836,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2c17e1630809dec892753f17fc19e07
-      internalID: -370760413
+      spriteID: 01e2830df37b608439dcdb1718c9d509
+      internalID: 735355121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_34
+      name: Dark_purple_34
       rect:
         serializedVersion: 2
         x: 32
@@ -857,14 +857,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58056b920acd92f2facca3b9b957c03a
-      internalID: 1734454721
+      spriteID: 4386401846886ccfab11a836e103f4f1
+      internalID: -269109972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_35
+      name: Dark_purple_35
       rect:
         serializedVersion: 2
         x: 48
@@ -878,14 +878,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b25a83f6c3809559cda1410e3da74d
-      internalID: -610593379
+      spriteID: b0eb8adb27485e575ba47d6417d4e702
+      internalID: -211395571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_36
+      name: Dark_purple_36
       rect:
         serializedVersion: 2
         x: 0
@@ -899,14 +899,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b772695c2e0956ddfa70f5f17b238bd1
-      internalID: -1603596247
+      spriteID: 397fed8deee31418198493d72479effa
+      internalID: 1299447558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_37
+      name: Dark_purple_37
       rect:
         serializedVersion: 2
         x: 16
@@ -920,14 +920,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48361696acc0278949401ff771ca003a
-      internalID: -1199452835
+      spriteID: 14f83b087f76d8807bdd14fba590e54e
+      internalID: 1636161115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_38
+      name: Dark_purple_38
       rect:
         serializedVersion: 2
         x: 32
@@ -941,14 +941,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b68f11c506d309c59cb32e329fc5e89
-      internalID: -563338874
+      spriteID: 71b5b88fe292a5b9795f14a2c9d314e3
+      internalID: 228642370
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_39
+      name: Dark_purple_39
       rect:
         serializedVersion: 2
         x: 48
@@ -962,14 +962,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 830f2f5ad79a6927ea274715d8ebb57e
-      internalID: 555447310
+      spriteID: 0aa80bc9143d9e6d68f6723f3a10db4c
+      internalID: -786177588
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_40
+      name: Dark_purple_40
       rect:
         serializedVersion: 2
         x: 0
@@ -983,14 +983,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e61ea15d1f760021d908510e485e08ad
-      internalID: 1607751786
+      spriteID: e16704cdc05cba44089c83c8d7174a0a
+      internalID: -552520985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_41
+      name: Dark_purple_41
       rect:
         serializedVersion: 2
         x: 16
@@ -1004,14 +1004,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2e7398d725bdb9c5a7d2e5885ea3985
-      internalID: 1755204913
+      spriteID: 1f31b8f79aa3215628d8a2f238e368ca
+      internalID: -445365939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_42
+      name: Dark_purple_42
       rect:
         serializedVersion: 2
         x: 32
@@ -1025,14 +1025,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741e2bb1b9b728f31bcde4cae864a696
-      internalID: 1567882099
+      spriteID: 974a5bb84d0068f7bb4dbb4090084599
+      internalID: -2054865465
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_43
+      name: Dark_purple_43
       rect:
         serializedVersion: 2
         x: 48
@@ -1046,14 +1046,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3a2e55eeabcc29cea929531d334c382
-      internalID: -1003335908
+      spriteID: 63964efbebe5b20fc865bea201fc2871
+      internalID: 1681436172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_44
+      name: Dark_purple_44
       rect:
         serializedVersion: 2
         x: 64
@@ -1067,14 +1067,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5cb872c345649f39c9b15394c2c9ad38
-      internalID: -1605797691
+      spriteID: f09b3bb8968d7c12ba5b8e1598a03105
+      internalID: 1607073532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_45
+      name: Dark_purple_45
       rect:
         serializedVersion: 2
         x: 0
@@ -1088,14 +1088,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13653a387fb613ad692693b3162a55c6
-      internalID: -1414132635
+      spriteID: 54abe76437625695997863d443b89b58
+      internalID: 1068123011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_46
+      name: Dark_purple_46
       rect:
         serializedVersion: 2
         x: 16
@@ -1109,14 +1109,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4036ed5fb90c1e4a3892e345f4fc9b59
-      internalID: -2077804753
+      spriteID: 455a6a63d4b40864b80057fba7cdcd6f
+      internalID: 1167231004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_47
+      name: Dark_purple_47
       rect:
         serializedVersion: 2
         x: 32
@@ -1130,14 +1130,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb859739357b6393787f5ec93209d77c
-      internalID: -664381544
+      spriteID: 0fb4355f43cadc1be939ba6ad74b486b
+      internalID: -30421537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_48
+      name: Dark_purple_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1151,14 +1151,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d4989e9c74289217a6b471a226d3aa8
-      internalID: 1645200106
+      spriteID: 69567e9d29ed7950d98885ff75cecec6
+      internalID: 2025758426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_49
+      name: Dark_purple_49
       rect:
         serializedVersion: 2
         x: 16
@@ -1172,14 +1172,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9a5f7c0d9009fa3059fda670c5b0ce39
-      internalID: -1421939591
+      spriteID: 98ff5ce8d83cd153399ba3e07126fb50
+      internalID: -879634408
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_50
+      name: Dark_purple_50
       rect:
         serializedVersion: 2
         x: 32
@@ -1193,14 +1193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53ec96c796639330ca1d8f254c68db1a
-      internalID: 1206254848
+      spriteID: e9ce724ac325dff71b882d4a669e38a5
+      internalID: -390592895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_51
+      name: Dark_purple_51
       rect:
         serializedVersion: 2
         x: 48
@@ -1214,14 +1214,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ace79395ca07d952a1c23dc6a5f4f08
-      internalID: -1164032383
+      spriteID: 4bdbb51c11b72a454b2e1046b8ffc812
+      internalID: 1454525130
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_52
+      name: Dark_purple_52
       rect:
         serializedVersion: 2
         x: 0
@@ -1235,14 +1235,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4fbfa2ca69d4a4d4c8ca8261a2236513
-      internalID: -2044425180
+      spriteID: 310562d355edb1a70a7846110e252575
+      internalID: 651237042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_53
+      name: Dark_purple_53
       rect:
         serializedVersion: 2
         x: 16
@@ -1256,14 +1256,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: faa985acf885165d3a2ce7684e779360
-      internalID: 831952055
+      spriteID: 1d63bf85de2a6bcfc9168d9c59fe8dc0
+      internalID: -1162669015
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_54
+      name: Dark_purple_54
       rect:
         serializedVersion: 2
         x: 32
@@ -1277,14 +1277,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e681ab806dc90c7d7913dd7afd4f69a6
-      internalID: -431091276
+      spriteID: 16d141d84e76cf4c6ae262ec0f4d9450
+      internalID: 1340704199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_55
+      name: Dark_purple_55
       rect:
         serializedVersion: 2
         x: 48
@@ -1298,14 +1298,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b88e732b734f2c161902ddf29391032f
-      internalID: 1033529996
+      spriteID: d2e3b982d9fbf7f0a81f1d0f435547bb
+      internalID: -446603454
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_56
+      name: Dark_purple_56
       rect:
         serializedVersion: 2
         x: 64
@@ -1319,14 +1319,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 444ce4ff6d4fb598480904f4441bbcd3
-      internalID: 2889698
+      spriteID: 12e7fea46b3ae98be884cb7c8b8787ed
+      internalID: 1367776933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_57
+      name: Dark_purple_57
       rect:
         serializedVersion: 2
         x: 80
@@ -1340,14 +1340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5e3e24ba419582eeaffc09aa1a3d29c
-      internalID: 1536300607
+      spriteID: 02b075fef668992aa825447826744ea9
+      internalID: -1964078569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_58
+      name: Dark_purple_58
       rect:
         serializedVersion: 2
         x: 96
@@ -1361,14 +1361,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b9243c09b6e5f2c68288cc0fe4959ca
-      internalID: -585416036
+      spriteID: 5115dbdc33c1973a49adc0600225b6eb
+      internalID: -303725066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_59
+      name: Dark_purple_59
       rect:
         serializedVersion: 2
         x: 112
@@ -1382,14 +1382,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04171410fff9cec669cf8742ad62a442
-      internalID: -1573561285
+      spriteID: 109897999968a82f6a8303292528e267
+      internalID: 1347814504
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_60
+      name: Dark_purple_60
       rect:
         serializedVersion: 2
         x: 128
@@ -1403,14 +1403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2689b8e2b29e09623ab39e5c279a0e0b
-      internalID: 208483028
+      spriteID: 71c3a4329a8c2558da322b69bff1c849
+      internalID: 1334512432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_61
+      name: Dark_purple_61
       rect:
         serializedVersion: 2
         x: 144
@@ -1424,14 +1424,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48f7ad2c54f02a361b6181fe959960a5
-      internalID: -1793593147
+      spriteID: 9f32456ea18a055f6945ef2f5fef9760
+      internalID: -426248812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_62
+      name: Dark_purple_62
       rect:
         serializedVersion: 2
         x: 0
@@ -1445,14 +1445,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2cbe13b46cd1a983abb2a171154b8b97
-      internalID: 1323254159
+      spriteID: 82e5571446e351134b68f413eb85808f
+      internalID: -1233907306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_63
+      name: Dark_purple_63
       rect:
         serializedVersion: 2
         x: 16
@@ -1466,14 +1466,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5f231db6116f8556a7de039ae3e8af2
-      internalID: 1592372241
+      spriteID: 98dd7631f97291b8eae6a26cd331d5c7
+      internalID: 763329761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_64
+      name: Dark_purple_64
       rect:
         serializedVersion: 2
         x: 32
@@ -1487,14 +1487,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79855eb0c2f0c45248d5810ced147c8a
-      internalID: 1648085133
+      spriteID: aa20bf155d2fc931693b4568a5c94021
+      internalID: -1384102749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_65
+      name: Dark_purple_65
       rect:
         serializedVersion: 2
         x: 48
@@ -1508,14 +1508,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b597c98aced7bcc5ae414ec20f2a1c5
-      internalID: -1043549292
+      spriteID: 2e2236b91016d9f67a1a07c4f3200aa7
+      internalID: -657916665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_66
+      name: Dark_purple_66
       rect:
         serializedVersion: 2
         x: 64
@@ -1529,14 +1529,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2355c9e15186fb9ca0c60f513699e2d
-      internalID: -1942174411
+      spriteID: bbb4658f9d8a74c7fa343f5b41e183fc
+      internalID: 796377049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_67
+      name: Dark_purple_67
       rect:
         serializedVersion: 2
         x: 0
@@ -1550,14 +1550,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7be6711c0c15ae349abdc75246fb09c
-      internalID: 818249800
+      spriteID: bdf99758dcee934ce952efbebce4934e
+      internalID: 94224367
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_68
+      name: Dark_purple_68
       rect:
         serializedVersion: 2
         x: 16
@@ -1571,14 +1571,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 229f08f62adc3d97691c0f34cc69fd5d
-      internalID: -1506557158
+      spriteID: 0d297fda52e43b6a8b95f7cba671e129
+      internalID: 1416350623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_69
+      name: Dark_purple_69
       rect:
         serializedVersion: 2
         x: 0
@@ -1592,14 +1592,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbc2efdbc7857aa5f8ada9f96865ad6b
-      internalID: 925396917
+      spriteID: be67e6385c2c09fb69af069f79707ab9
+      internalID: 969131571
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_70
+      name: Dark_purple_70
       rect:
         serializedVersion: 2
         x: 16
@@ -1613,14 +1613,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d271d0af8a4d90a948d2803d58f3207b
-      internalID: -143737904
+      spriteID: 623ee8b6872813252a67b7ca547434f0
+      internalID: -457800375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_71
+      name: Dark_purple_71
       rect:
         serializedVersion: 2
         x: 32
@@ -1634,14 +1634,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 732e4252faedc51fd8daea36a6846f5c
-      internalID: 667342255
+      spriteID: 85208c31b10643dc9b3df8ab242d3efa
+      internalID: -552054172
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_72
+      name: Dark_purple_72
       rect:
         serializedVersion: 2
         x: 48
@@ -1655,14 +1655,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bf31c7c8482f70df853ba6c8a08961b
-      internalID: -1070143578
+      spriteID: 42fda6cfa0c40329ea352e6523ae227e
+      internalID: 36434682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_73
+      name: Dark_purple_73
       rect:
         serializedVersion: 2
         x: 64
@@ -1676,14 +1676,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcd5b9f78170f865b834319c1c6f2843
-      internalID: 1630786465
+      spriteID: d0a9b1d48bfdb5d5e9e86691a3485e9e
+      internalID: 352170717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_74
+      name: Dark_purple_74
       rect:
         serializedVersion: 2
         x: 80
@@ -1697,14 +1697,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9082519a62ebcfb381e79ceea6308fc
-      internalID: -321058112
+      spriteID: 9f0afb879461a9bfa9363a6d0a9e2a31
+      internalID: -1910438642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_75
+      name: Dark_purple_75
       rect:
         serializedVersion: 2
         x: 96
@@ -1718,14 +1718,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b103dacb327bea2c911729705d6cd7b
-      internalID: -1917467838
+      spriteID: 54b3f96918f5c9dbb904ae07fc841047
+      internalID: -1203028976
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_76
+      name: Dark_purple_76
       rect:
         serializedVersion: 2
         x: 112
@@ -1739,14 +1739,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdc6055e0e0ab549688e1b5dd09a3518
-      internalID: 39997820
+      spriteID: 9101b2b1aa424144baa58d66f0121e81
+      internalID: -636137497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_77
+      name: Dark_purple_77
       rect:
         serializedVersion: 2
         x: 128
@@ -1760,14 +1760,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b3307e8ebd61ea4b7edb4ffa32ab8e
-      internalID: 1385755339
+      spriteID: 2d1590b5d6f1ddebf93007a1780b88b0
+      internalID: -1103655757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_78
+      name: Dark_purple_78
       rect:
         serializedVersion: 2
         x: 0
@@ -1781,14 +1781,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8c9d961b2ccc4e019805d51f16fb4c2
-      internalID: -1437888354
+      spriteID: 5e7fe1a1cb5ae6c459b3896d985aad89
+      internalID: 968374133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_79
+      name: Dark_purple_79
       rect:
         serializedVersion: 2
         x: 16
@@ -1802,14 +1802,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de48c6dfbded8ebfbde7a30ad81f207
-      internalID: 1287848115
+      spriteID: 8a8c69573e0ccec48b819bb5ba802061
+      internalID: -142384320
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_80
+      name: Dark_purple_80
       rect:
         serializedVersion: 2
         x: 32
@@ -1823,14 +1823,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08e2504eaa7c43536ae12c90c8e33210
-      internalID: 549686328
+      spriteID: b415215d2d873dff883cc3c6439dd7a6
+      internalID: 1063607689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_81
+      name: Dark_purple_81
       rect:
         serializedVersion: 2
         x: 48
@@ -1844,14 +1844,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6016f9cc8a6e50f5084fb2647d574ee5
-      internalID: 239792769
+      spriteID: 93542ad27bdb3d946811f73c464cf474
+      internalID: 738633816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_82
+      name: Dark_purple_82
       rect:
         serializedVersion: 2
         x: 64
@@ -1865,14 +1865,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c58b4496a7324091ea95090066ed7ad7
-      internalID: 1538875606
+      spriteID: 93acbf8749ef11ca1bf3fd79a05aa8ea
+      internalID: 779810198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_83
+      name: Dark_purple_83
       rect:
         serializedVersion: 2
         x: 80
@@ -1886,14 +1886,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6df0d613275ea490c96939b86ed3488c
-      internalID: 1803446598
+      spriteID: 0e816880a32a04b24943a054acb635eb
+      internalID: 1913060996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_84
+      name: Dark_purple_84
       rect:
         serializedVersion: 2
         x: 0
@@ -1907,14 +1907,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f988ec191ae81ffc5b2c5c8d6cfb7413
-      internalID: 521423733
+      spriteID: 8f52a2685761558afb93fecb31817c99
+      internalID: -1258478931
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_85
+      name: Dark_purple_85
       rect:
         serializedVersion: 2
         x: 16
@@ -1928,14 +1928,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1034824d3ab5fe79187fdc1617dc87d6
-      internalID: 12594970
+      spriteID: 63be51e4f3ab3fe4f96521b8ea0c4ba2
+      internalID: -1012801340
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_86
+      name: Dark_purple_86
       rect:
         serializedVersion: 2
         x: 32
@@ -1949,14 +1949,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49bbedbff05d10611bd5a781a0802c3b
-      internalID: 1764875564
+      spriteID: 592d91bcb8ba8e817a6a1510357ac6d8
+      internalID: -374217694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_87
+      name: Dark_purple_87
       rect:
         serializedVersion: 2
         x: 48
@@ -1970,14 +1970,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df70ecdb6e41f75ada6462f6b11970cc
-      internalID: 925333277
+      spriteID: 11144e885771d05dda1f3e95d739d51b
+      internalID: -241696356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_88
+      name: Dark_purple_88
       rect:
         serializedVersion: 2
         x: 0
@@ -1991,14 +1991,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9869b310c6a6ebc58bc50f1041a9f81f
-      internalID: -1252703795
+      spriteID: e80ab1b172aa016a19d4c30e05ce7adb
+      internalID: -31948532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_89
+      name: Dark_purple_89
       rect:
         serializedVersion: 2
         x: 16
@@ -2012,14 +2012,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 275dddc2f873f938898af00073dcddd8
-      internalID: 243873650
+      spriteID: ab43e7b7068ec1857b0784a5282df08d
+      internalID: -256648773
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_90
+      name: Dark_purple_90
       rect:
         serializedVersion: 2
         x: 32
@@ -2033,14 +2033,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbfe96f469a8035308ba208420365db2
-      internalID: -879494701
+      spriteID: dd6fe525e1b4ebde6915864fb5615525
+      internalID: 1579715410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_91
+      name: Dark_purple_91
       rect:
         serializedVersion: 2
         x: 48
@@ -2054,14 +2054,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f541cb202e141a998ef117ca185c574
-      internalID: 1222292547
+      spriteID: 2dae817f499a1e8efb1b3be5cb39ea4a
+      internalID: 612236281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_92
+      name: Dark_purple_92
       rect:
         serializedVersion: 2
         x: 64
@@ -2075,14 +2075,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eb53966c0cac4c5ab4f1e414b2e8d1b
-      internalID: 1791529658
+      spriteID: 183b0d496850891738e7762b08824826
+      internalID: -453995236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_93
+      name: Dark_purple_93
       rect:
         serializedVersion: 2
         x: 80
@@ -2096,14 +2096,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 433e86d495a0d747884622f6a56e9991
-      internalID: 1297662791
+      spriteID: ae3d9d3722c5cd2cc95b2cb4cc451480
+      internalID: -26702496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_94
+      name: Dark_purple_94
       rect:
         serializedVersion: 2
         x: 96
@@ -2117,14 +2117,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e17d2e319f8315f8fbd0d23f67e80552
-      internalID: 924929962
+      spriteID: da09ab5b477f7a5998ad39bc3001679c
+      internalID: -2044062765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_95
+      name: Dark_purple_95
       rect:
         serializedVersion: 2
         x: 112
@@ -2138,14 +2138,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e7ff002de59f9624b2224db45820cc1
-      internalID: 1106986140
+      spriteID: 87ec828ae509e9206954c875ce1b30e2
+      internalID: 1892314068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_96
+      name: Dark_purple_96
       rect:
         serializedVersion: 2
         x: 0
@@ -2159,14 +2159,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f44f23438185c99d874e3536fb41a82
-      internalID: -1753583566
+      spriteID: a51e6b0c2758c563a92ddc30e1f82703
+      internalID: -981057876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_97
+      name: Dark_purple_97
       rect:
         serializedVersion: 2
         x: 16
@@ -2180,14 +2180,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e2b09118c0ece4a7b9d9236f90d5f14
-      internalID: 252615980
+      spriteID: b7409b74bee6c1590912e28f47b408c5
+      internalID: -231571280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_98
+      name: Dark_purple_98
       rect:
         serializedVersion: 2
         x: 32
@@ -2201,14 +2201,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd6665d73d3f4618a8b48b3fa6ea14d
-      internalID: 1048145799
+      spriteID: 3460593dce14885aca2d72c27f7e2a27
+      internalID: -674754512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_99
+      name: Dark_purple_99
       rect:
         serializedVersion: 2
         x: 48
@@ -2222,14 +2222,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2005f236c52c3d51b195634ca829404
-      internalID: 227075533
+      spriteID: ef05e790c17fe1ee188ecbcfeb534499
+      internalID: 1713322409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_100
+      name: Dark_purple_100
       rect:
         serializedVersion: 2
         x: 0
@@ -2243,14 +2243,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd4872ad848998661b76c0904b229000
-      internalID: 1023065506
+      spriteID: 8cf76426b82c9fb7595da106de5fb48d
+      internalID: 145281223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_101
+      name: Dark_purple_101
       rect:
         serializedVersion: 2
         x: 16
@@ -2264,14 +2264,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61f5ee6eb50df8cc49112d6a8bb978fe
-      internalID: -837108823
+      spriteID: 31962a9863f0afc3183cafa8e6ba99d0
+      internalID: 1313239218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_102
+      name: Dark_purple_102
       rect:
         serializedVersion: 2
         x: 32
@@ -2285,14 +2285,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bf750b72857ab9c09584dff94b9d5c2
-      internalID: -112616114
+      spriteID: f31b9e79b4f968b71bbba3723e6a837e
+      internalID: 258612086
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_103
+      name: Dark_purple_103
       rect:
         serializedVersion: 2
         x: 48
@@ -2306,14 +2306,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48195fc7dfde9f667ba1c5d36494b1df
-      internalID: -1038387748
+      spriteID: 273928d3e4f21b27a95f4a083d45982a
+      internalID: -1784266619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_104
+      name: Dark_purple_104
       rect:
         serializedVersion: 2
         x: 0
@@ -2327,14 +2327,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0de92bd2e980d848a953fd95ed619ae7
-      internalID: -1788529950
+      spriteID: 3fa59bb859fd9807bbcf627d0c501ef3
+      internalID: -784749011
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_105
+      name: Dark_purple_105
       rect:
         serializedVersion: 2
         x: 16
@@ -2348,14 +2348,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c34457c94a617b289bf0ab8453198db
-      internalID: -1050321756
+      spriteID: d0eaece7633a58049b842a0a8e69a579
+      internalID: 1332037194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_106
+      name: Dark_purple_106
       rect:
         serializedVersion: 2
         x: 32
@@ -2369,14 +2369,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4526a8d43f3528739371d4fe6dc7310
-      internalID: -2026064302
+      spriteID: 8ccffec90706e11faad1f434dbe21e00
+      internalID: 1277490711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_107
+      name: Dark_purple_107
       rect:
         serializedVersion: 2
         x: 48
@@ -2390,14 +2390,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7c3258efd26fd9bc97d9e6c21e2a097
-      internalID: -997751369
+      spriteID: 5db9b03e42a7411e1ab8f8adb82c213d
+      internalID: -108642533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_108
+      name: Dark_purple_108
       rect:
         serializedVersion: 2
         x: 64
@@ -2411,14 +2411,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18c52c00cdf09424eb1609ac04cb2c2e
-      internalID: -452310393
+      spriteID: f0e387c6efcaffe2388fb88830578cdc
+      internalID: 2013976017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_109
+      name: Dark_purple_109
       rect:
         serializedVersion: 2
         x: 80
@@ -2432,14 +2432,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc2d6f0f0e41bcaf6970f13b90d88c44
-      internalID: -428069490
+      spriteID: 3f2ade06c4a66a3bb97da346236d4dae
+      internalID: 2009740486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_110
+      name: Dark_purple_110
       rect:
         serializedVersion: 2
         x: 96
@@ -2453,14 +2453,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef5ee20e472020aba7a84beecfd8ebe
-      internalID: 1438081500
+      spriteID: 1ab0327e309e7576dbe6165d5e758499
+      internalID: -1996980726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_111
+      name: Dark_purple_111
       rect:
         serializedVersion: 2
         x: 112
@@ -2474,14 +2474,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 334b98b9b5ae23a39816fe4957ac4593
-      internalID: -806033244
+      spriteID: e6939c6654bde0ebfba50c06dbedcebb
+      internalID: -1603489451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_112
+      name: Dark_purple_112
       rect:
         serializedVersion: 2
         x: 0
@@ -2495,14 +2495,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 049caafecd6876240b44b6daa8433f23
-      internalID: 1229197606
+      spriteID: 7e281c499c7bddc5f8f0eae31972a63e
+      internalID: -108872432
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_113
+      name: Dark_purple_113
       rect:
         serializedVersion: 2
         x: 16
@@ -2516,14 +2516,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5b1aab829d3585f69da8320f7e94c9a
-      internalID: 609991322
+      spriteID: 1a7542b73f4c6fac59a786486a39c863
+      internalID: 2087148561
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_114
+      name: Dark_purple_114
       rect:
         serializedVersion: 2
         x: 32
@@ -2537,14 +2537,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e80f627b92cadeab8c9b496bb0c1f4e
-      internalID: 308308706
+      spriteID: 9835c4f6fc3d1e314bbbe94d2e31dd68
+      internalID: -1491375636
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_115
+      name: Dark_purple_115
       rect:
         serializedVersion: 2
         x: 48
@@ -2558,14 +2558,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c84b3dee7dd756694940ff3a88cf169c
-      internalID: 889048983
+      spriteID: ba8c00b8fad02669c814607bd061a29d
+      internalID: 113647505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_116
+      name: Dark_purple_116
       rect:
         serializedVersion: 2
         x: 64
@@ -2579,14 +2579,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf6456ab2af135708b665dc5614569a9
-      internalID: -566997440
+      spriteID: 318d2e45558ab62d5bd90e75ab373fed
+      internalID: 1636226297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_117
+      name: Dark_purple_117
       rect:
         serializedVersion: 2
         x: 80
@@ -2600,14 +2600,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e13b45a09f315659b87427267f99c6a4
-      internalID: -722910481
+      spriteID: 73a039c90f03533169e0f60428bc4450
+      internalID: 546834263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_118
+      name: Dark_purple_118
       rect:
         serializedVersion: 2
         x: 96
@@ -2621,14 +2621,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ef1f05e462284859be70f8a1f9ed768
-      internalID: 862924563
+      spriteID: fabb2810fd9ba8bb68b09a38aa8d290a
+      internalID: -45357016
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_119
+      name: Dark_purple_119
       rect:
         serializedVersion: 2
         x: 112
@@ -2642,14 +2642,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efe201b1af472520fb3c879208593204
-      internalID: -223995465
+      spriteID: 4d059d4b1d3437a52a68d41992b4c27a
+      internalID: 1296482110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_120
+      name: Dark_purple_120
       rect:
         serializedVersion: 2
         x: 128
@@ -2663,14 +2663,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a42edad1ae6abb429d3434a14337e8f
-      internalID: 12892358
+      spriteID: 8e0fd09d3dd40a91394a124edfec1912
+      internalID: 661505569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_121
+      name: Dark_purple_121
       rect:
         serializedVersion: 2
         x: 0
@@ -2684,14 +2684,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df3d733dc50606b4f8e1fbe42e1530f8
-      internalID: 1676688660
+      spriteID: 790fda79469f87c8487d2956deb1bdac
+      internalID: -360025290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_122
+      name: Dark_purple_122
       rect:
         serializedVersion: 2
         x: 16
@@ -2705,14 +2705,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3d6c2e04d2ceaa4b3171c151dde098
-      internalID: -1779921595
+      spriteID: 9636a02359f02f97899df2a830fb9389
+      internalID: -1778152965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_123
+      name: Dark_purple_123
       rect:
         serializedVersion: 2
         x: 32
@@ -2726,14 +2726,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 307628d5ed7cfc69088e5e23cbd7cfdc
-      internalID: -1108818467
+      spriteID: 6469949fd50ae20199a5b34eab02fa1b
+      internalID: 1934787692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_124
+      name: Dark_purple_124
       rect:
         serializedVersion: 2
         x: 48
@@ -2747,14 +2747,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f71a80387f7711b6db33da67901b2985
-      internalID: -853852548
+      spriteID: f6b61e406ef08a1689e797f5d7f2b179
+      internalID: -188884296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_125
+      name: Dark_purple_125
       rect:
         serializedVersion: 2
         x: 64
@@ -2768,14 +2768,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d30e75e9fc2991e7aa474316cfb93eca
-      internalID: -1694322536
+      spriteID: 2e49ea89e2f6859b3a9434d217bed636
+      internalID: 1069058890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_126
+      name: Dark_purple_126
       rect:
         serializedVersion: 2
         x: 80
@@ -2789,14 +2789,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 550d49d82c4a9af39b21efdf10a427d4
-      internalID: -411714697
+      spriteID: a7a688f8ab543d5f2b20ce2cd7f46dec
+      internalID: 143849199
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_127
+      name: Dark_purple_127
       rect:
         serializedVersion: 2
         x: 0
@@ -2810,14 +2810,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28d2f466d3a12b4188da0d9113ecd26c
-      internalID: 1457849190
+      spriteID: 76731c2001c505d6a9e3f0fc12d2ed3b
+      internalID: -1681878896
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_128
+      name: Dark_purple_128
       rect:
         serializedVersion: 2
         x: 16
@@ -2831,14 +2831,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b48c119d6a246fd5dbe10d1c0fc14296
-      internalID: -468584392
+      spriteID: 23e4fa8bbe530f751ae29b1e2d0ac43a
+      internalID: -407957874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_129
+      name: Dark_purple_129
       rect:
         serializedVersion: 2
         x: 32
@@ -2852,14 +2852,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f02d02e3f144c21d1bd88409410c2c9d
-      internalID: 234309357
+      spriteID: 754b0516bfa89d7b7847f3f92cd13b95
+      internalID: -1292370135
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_130
+      name: Dark_purple_130
       rect:
         serializedVersion: 2
         x: 48
@@ -2873,14 +2873,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981ca41e30d65f259a142068d93ff094
-      internalID: 1530744438
+      spriteID: fa8e5adb2b32056c3beeda2a96aa1336
+      internalID: -1899548225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_131
+      name: Dark_purple_131
       rect:
         serializedVersion: 2
         x: 0
@@ -2894,14 +2894,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb53efef512ca970680c503902a50a5a
-      internalID: 1569072967
+      spriteID: 036d341f9163946b59c8e5b75b302d59
+      internalID: -178014987
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_132
+      name: Dark_purple_132
       rect:
         serializedVersion: 2
         x: 16
@@ -2915,14 +2915,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df8ccfaaddd37ab7f91c916c622ffc16
-      internalID: -2028301175
+      spriteID: 965bfca77ddb9c58f95ba7a0e40d0bf0
+      internalID: 936598031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: White_133
+      name: Dark_purple_133
       rect:
         serializedVersion: 2
         x: 32
@@ -2936,8 +2936,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c5683d2d6cf33f6dadde276c2d4e697
-      internalID: 474829314
+      spriteID: c2843d804eb6c30c1bce13f19bd7a869
+      internalID: -2030694516
       vertices: []
       indices: 
       edges: []
@@ -2953,140 +2953,140 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      White_133: 474829314
-      White_34: 1734454721
-      White_74: -321058112
-      White_78: -1437888354
-      White_65: -1043549292
-      White_48: 1645200106
-      White_5: -154491233
-      White_128: -468584392
-      White_129: 234309357
-      White_120: 12892358
-      White_45: -1414132635
-      White_12: -1394754751
-      White_25: -500798256
-      White_126: -411714697
-      White_33: -370760413
-      White_93: 1297662791
-      White_10: -1462784865
-      White_83: 1803446598
-      White_27: 631921197
-      White_54: -431091276
-      White_73: 1630786465
-      White_9: -456073343
-      White_84: 521423733
-      White_56: 2889698
-      White_18: -1673247155
-      White_112: 1229197606
-      White_104: -1788529950
-      White_131: 1569072967
-      White_72: -1070143578
-      White_96: -1753583566
-      White_20: 2024962939
-      White_24: -931953094
-      White_92: 1791529658
-      White_21: -124796510
-      White_88: -1252703795
-      White_35: -610593379
-      White_2: 2020794764
-      White_81: 239792769
-      White_44: -1605797691
-      White_70: -143737904
-      White_51: -1164032383
-      White_75: -1917467838
-      White_132: -2028301175
-      White_91: 1222292547
-      White_119: -223995465
-      White_23: -1733965133
-      White_94: 924929962
-      White_15: -1555713926
-      White_80: 549686328
-      White_97: 252615980
-      White_50: 1206254848
-      White_111: -806033244
-      White_58: -585416036
-      White_108: -452310393
-      White_107: -997751369
-      White_103: -1038387748
-      White_121: 1676688660
-      White_11: 1307787626
-      White_69: 925396917
-      White_41: 1755204913
-      White_76: 39997820
-      White_53: 831952055
-      White_125: -1694322536
-      White_110: 1438081500
-      White_14: 1521391484
-      White_28: -818039808
-      White_98: 1048145799
-      White_4: -2018163974
-      White_19: -917898634
-      White_29: -318656231
-      White_40: 1607751786
-      White_39: 555447310
-      White_38: -563338874
-      White_8: -1872751669
-      White_68: -1506557158
-      White_124: -853852548
-      White_22: -199833436
-      White_57: 1536300607
-      White_7: -204779026
-      White_85: 12594970
-      White_95: 1106986140
-      White_36: -1603596247
-      White_49: -1421939591
-      White_55: 1033529996
-      White_52: -2044425180
-      White_59: -1573561285
-      White_109: -428069490
-      White_3: -2078422497
-      White_106: -2026064302
-      White_113: 609991322
-      White_26: -1109466803
-      White_67: 818249800
-      White_61: -1793593147
-      White_82: 1538875606
-      White_46: -2077804753
-      White_100: 1023065506
-      White_30: -810616802
-      White_86: 1764875564
-      White_116: -566997440
-      White_66: -1942174411
-      White_1: -1169764309
-      White_90: -879494701
-      White_16: 1666638123
-      White_115: 889048983
-      White_31: -480304096
-      White_64: 1648085133
-      White_63: 1592372241
-      White_105: -1050321756
-      White_60: 208483028
-      White_114: 308308706
-      White_87: 925333277
-      White_32: 1357022025
-      White_79: 1287848115
-      White_118: 862924563
-      White_17: -2117215282
-      White_62: 1323254159
-      White_117: -722910481
-      White_122: -1779921595
-      White_130: 1530744438
-      White_102: -112616114
-      White_71: 667342255
-      White_6: -1836624222
-      White_47: -664381544
-      White_43: -1003335908
-      White_77: 1385755339
-      White_123: -1108818467
-      White_101: -837108823
-      White_99: 227075533
-      White_89: 243873650
-      White_42: 1567882099
-      White_0: 755847743
-      White_37: -1199452835
-      White_13: -1205468721
-      White_127: 1457849190
+      Dark_purple_20: -334445308
+      Dark_purple_8: -958493830
+      Dark_purple_115: 113647505
+      Dark_purple_52: 651237042
+      Dark_purple_3: 892278762
+      Dark_purple_61: -426248812
+      Dark_purple_30: 976421046
+      Dark_purple_36: 1299447558
+      Dark_purple_93: -26702496
+      Dark_purple_19: 1390465092
+      Dark_purple_102: 258612086
+      Dark_purple_57: -1964078569
+      Dark_purple_82: 779810198
+      Dark_purple_31: -1038365444
+      Dark_purple_78: 968374133
+      Dark_purple_58: -303725066
+      Dark_purple_114: -1491375636
+      Dark_purple_17: -1953331591
+      Dark_purple_47: -30421537
+      Dark_purple_32: -1100766221
+      Dark_purple_97: -231571280
+      Dark_purple_80: 1063607689
+      Dark_purple_75: -1203028976
+      Dark_purple_64: -1384102749
+      Dark_purple_77: -1103655757
+      Dark_purple_112: -108872432
+      Dark_purple_26: 358691394
+      Dark_purple_10: 988999107
+      Dark_purple_35: -211395571
+      Dark_purple_113: 2087148561
+      Dark_purple_90: 1579715410
+      Dark_purple_118: -45357016
+      Dark_purple_0: 742412065
+      Dark_purple_66: 796377049
+      Dark_purple_81: 738633816
+      Dark_purple_45: 1068123011
+      Dark_purple_76: -636137497
+      Dark_purple_37: 1636161115
+      Dark_purple_1: -148958741
+      Dark_purple_86: -374217694
+      Dark_purple_116: 1636226297
+      Dark_purple_16: 632470550
+      Dark_purple_14: 1713688279
+      Dark_purple_85: -1012801340
+      Dark_purple_132: 936598031
+      Dark_purple_111: -1603489451
+      Dark_purple_91: 612236281
+      Dark_purple_15: 1814652499
+      Dark_purple_62: -1233907306
+      Dark_purple_22: 5294621
+      Dark_purple_54: 1340704199
+      Dark_purple_95: 1892314068
+      Dark_purple_67: 94224367
+      Dark_purple_51: 1454525130
+      Dark_purple_84: -1258478931
+      Dark_purple_34: -269109972
+      Dark_purple_5: 794358546
+      Dark_purple_40: -552520985
+      Dark_purple_105: 1332037194
+      Dark_purple_128: -407957874
+      Dark_purple_106: 1277490711
+      Dark_purple_122: -1778152965
+      Dark_purple_11: -1919250857
+      Dark_purple_7: -602231772
+      Dark_purple_100: 145281223
+      Dark_purple_88: -31948532
+      Dark_purple_72: 36434682
+      Dark_purple_39: -786177588
+      Dark_purple_2: -1242924442
+      Dark_purple_121: -360025290
+      Dark_purple_107: -108642533
+      Dark_purple_126: 143849199
+      Dark_purple_103: -1784266619
+      Dark_purple_92: -453995236
+      Dark_purple_133: -2030694516
+      Dark_purple_108: 2013976017
+      Dark_purple_98: -674754512
+      Dark_purple_49: -879634408
+      Dark_purple_74: -1910438642
+      Dark_purple_43: 1681436172
+      Dark_purple_73: 352170717
+      Dark_purple_25: 1329155845
+      Dark_purple_131: -178014987
+      Dark_purple_59: 1347814504
+      Dark_purple_21: 1839583981
+      Dark_purple_28: 559244853
+      Dark_purple_44: 1607073532
+      Dark_purple_12: -573701626
+      Dark_purple_96: -981057876
+      Dark_purple_130: -1899548225
+      Dark_purple_18: -2011472845
+      Dark_purple_13: -1625471585
+      Dark_purple_117: 546834263
+      Dark_purple_63: 763329761
+      Dark_purple_119: 1296482110
+      Dark_purple_42: -2054865465
+      Dark_purple_89: -256648773
+      Dark_purple_27: 205908712
+      Dark_purple_125: 1069058890
+      Dark_purple_46: 1167231004
+      Dark_purple_71: -552054172
+      Dark_purple_87: -241696356
+      Dark_purple_50: -390592895
+      Dark_purple_70: -457800375
+      Dark_purple_33: 735355121
+      Dark_purple_9: 1943387286
+      Dark_purple_41: -445365939
+      Dark_purple_104: -784749011
+      Dark_purple_109: 2009740486
+      Dark_purple_110: -1996980726
+      Dark_purple_94: -2044062765
+      Dark_purple_101: 1313239218
+      Dark_purple_99: 1713322409
+      Dark_purple_124: -188884296
+      Dark_purple_53: -1162669015
+      Dark_purple_65: -657916665
+      Dark_purple_83: 1913060996
+      Dark_purple_29: 2136541508
+      Dark_purple_123: 1934787692
+      Dark_purple_6: 761419673
+      Dark_purple_127: -1681878896
+      Dark_purple_120: 661505569
+      Dark_purple_38: 228642370
+      Dark_purple_24: 1370914032
+      Dark_purple_23: 743669241
+      Dark_purple_68: 1416350623
+      Dark_purple_55: -446603454
+      Dark_purple_79: -142384320
+      Dark_purple_69: 969131571
+      Dark_purple_56: 1367776933
+      Dark_purple_4: 2073625326
+      Dark_purple_48: 2025758426
+      Dark_purple_129: -1292370135
+      Dark_purple_60: 1334512432
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
