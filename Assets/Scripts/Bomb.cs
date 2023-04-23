@@ -24,7 +24,7 @@ public class Bomb : MonoBehaviour
     {
         this.player = player;
         this.destructibleTilemap = destructibleTilemap;
-        this.type = player.bombType;
+        this.type = (player.bombType == BombType.PowerBomb && player.hasAPowerBombDeployed()) ? BombType.Common : player.bombType;
         this.colour = player.colour;
         this.explosionLength = (player.bombType == BombType.PowerBomb) ? 99 : player.fireAmout;
         setSprites();

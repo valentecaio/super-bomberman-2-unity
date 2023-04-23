@@ -43,8 +43,7 @@ public class PlayerBombController : MonoBehaviour
             return;
         }
 
-        GameObject bomb;
-        bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
+        GameObject bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
         bomb.GetComponent<Bomb>().init(player, destructibleTilemap);
         player.bombs.Add(bomb);
 
