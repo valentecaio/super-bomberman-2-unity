@@ -1,4 +1,3 @@
-using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Tilemaps;
@@ -64,20 +63,6 @@ public class PlayerInputController : MonoBehaviour
         float speed = gameObject.GetComponent<PlayerStatus>().speed;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
         GetComponent<Rigidbody2D>().MovePosition(GetComponent<Rigidbody2D>().position + translation);
-    }
-
-    public IEnumerator die()
-    {
-        this.enabled = false;
-        this.GetComponent<PlayerStatus>().enabled = false;
-        this.spriteRendererUp.enabled = false;
-        this.spriteRendererDown.enabled = false;
-        this.spriteRendererLeft.enabled = false;
-        this.spriteRendererRight.enabled = false;
-        this.SpriteRendererDeath.enabled = true;
-        yield return new WaitForSeconds(1.25f);
-        this.gameObject.SetActive(false);
-        FindObjectOfType<GameManager>().checkWinState();
     }
 
     private void setDirection(Vector2 newDirection, AnimatedSpriteRenderer spriteRenderer)

@@ -1,4 +1,5 @@
 using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 
 public class PlayerStatus : MonoBehaviour
@@ -146,8 +147,23 @@ public class PlayerStatus : MonoBehaviour
         if (heart) {
             heart = false;
         } else {
-            StartCoroutine(gameObject.GetComponent<PlayerInputController>().die());
+            StartCoroutine(die());
         }
+    }
+
+    public IEnumerator die()
+    {
+        PlayerInputController pic = this.GetComponent<PlayerInputController>();
+        this.enabled = false;
+        pic.enabled = false;
+        pic.spriteRendererUp.enabled = false;
+        pic.spriteRendererDown.enabled = false;
+        pic.spriteRendererLeft.enabled = false;
+        pic.spriteRendererRight.enabled = false;
+        pic.SpriteRendererDeath.enabled = true;
+        yield return new WaitForSeconds(1.25f);
+        pic.gameObject.SetActive(false);
+        FindObjectOfType<GameManager>().checkWinState();
     }
 
     // select sprites according to player colour
