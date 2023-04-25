@@ -6,14 +6,11 @@ public class PlayerBombController : MonoBehaviour
     public KeyCode deployBombKey = KeyCode.Space;
     public KeyCode detonateBombKey = KeyCode.LeftAlt;
     public Tilemap destructibleTilemap;
-    public GameObject commonBombPrefab;
-    public GameObject remoteControlBombPrefab;
-    public GameObject powerBombPrefab;
-    public GameObject pierceBombPrefab;
+    public GameObject bombPrefab;
 
     private PlayerStatus player;
 
-    private void Start()
+    private void Awake()
     {
         player = gameObject.GetComponent<PlayerStatus>();
     }
@@ -43,7 +40,7 @@ public class PlayerBombController : MonoBehaviour
             return;
         }
 
-        GameObject bomb = Instantiate(commonBombPrefab, position, Quaternion.identity);
+        GameObject bomb = Instantiate(bombPrefab, position, Quaternion.identity);
         bomb.GetComponent<Bomb>().init(player, destructibleTilemap);
         player.bombs.Add(bomb);
 
