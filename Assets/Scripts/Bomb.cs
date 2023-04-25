@@ -17,10 +17,10 @@ public class Bomb : MonoBehaviour
     private ColourType colour;
     private int explosionLength = 2;
     private Tilemap destructibleTilemap;
-    private PlayerStatus player;
+    private Player player;
 
     // must be called at bomb creation
-    public void init(PlayerStatus player, Tilemap destructibleTilemap)
+    public void init(Player player, Tilemap destructibleTilemap)
     {
         this.player = player;
         this.destructibleTilemap = destructibleTilemap;
@@ -143,7 +143,7 @@ public class Bomb : MonoBehaviour
     {
         // print("bomb OnCollisionEnter2D with " + other.gameObject.tag);
         if (other.gameObject.CompareTag("Player")) {
-            PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
+            Player player = other.gameObject.GetComponent<Player>();
             PlayerInputController playerMovement = other.gameObject.GetComponent<PlayerInputController>();
             if (player.kick) {
                 this.direction = playerMovement.direction;

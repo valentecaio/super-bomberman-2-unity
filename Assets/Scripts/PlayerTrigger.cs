@@ -7,7 +7,7 @@ public class PlayerTrigger : MonoBehaviour
     public void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Bomb")) {
-            PlayerStatus player = gameObject.GetComponentInParent<PlayerStatus>();
+            Player player = gameObject.GetComponentInParent<Player>();
             player.droppingBomb = false;
         }
     }

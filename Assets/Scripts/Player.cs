@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
 
-public class PlayerStatus : MonoBehaviour
+public class Player : MonoBehaviour
 {
     public int bombAmount = 2;
     public int fireAmout = 2;

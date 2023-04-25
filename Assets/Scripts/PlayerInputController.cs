@@ -22,12 +22,12 @@ public class PlayerInputController : MonoBehaviour
 
     [HideInInspector]
     public Vector2 direction = Vector2.down;
-    private PlayerStatus player;
+    private Player player;
 
     private void Awake()
     {
         activeSpriteRenderer = spriteRendererDown;
-        player = gameObject.GetComponent<PlayerStatus>();
+        player = gameObject.GetComponent<Player>();
     }
 
     private void Update()
@@ -60,7 +60,7 @@ public class PlayerInputController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        float speed = gameObject.GetComponent<PlayerStatus>().speed;
+        float speed = gameObject.GetComponent<Player>().speed;
         Vector2 translation = direction * speed * Time.fixedDeltaTime;
         GetComponent<Rigidbody2D>().MovePosition(GetComponent<Rigidbody2D>().position + translation);
     }

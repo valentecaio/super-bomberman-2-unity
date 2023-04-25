@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     public void destroyBomb(GameObject bomb)
     {
         foreach (GameObject p in players) {
-            p.GetComponent<PlayerStatus>().bombs.Remove(bomb);
+            p.GetComponent<Player>().bombs.Remove(bomb);
         }
         Destroy(bomb);
     }
