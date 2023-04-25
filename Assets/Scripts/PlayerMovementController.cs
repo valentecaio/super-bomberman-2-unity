@@ -1,18 +1,10 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 // manages player movement controls and animations
 public class PlayerMovementController : MonoBehaviour
 {
-    [HideInInspector]
-    public Vector2 direction = Vector2.down;
-
-    [Header("Controls")]
-    public KeyCode inputUp = KeyCode.W;
-    public KeyCode inputDown = KeyCode.S;
-    public KeyCode inputLeft = KeyCode.A;
-    public KeyCode inputRight = KeyCode.D;
-
     [Header("Sprites")]
     public AnimatedSpriteRenderer spriteRendererUp;
     public AnimatedSpriteRenderer spriteRendererDown;
@@ -21,9 +13,14 @@ public class PlayerMovementController : MonoBehaviour
     public AnimatedSpriteRenderer SpriteRendererDeath;
     private AnimatedSpriteRenderer activeSpriteRenderer;
 
+    [Header("Controls")]
+    public InputActionMap inputActionMap;
+
+    [HideInInspector]
+    public Vector2 direction = Vector2.down;
     private PlayerStatus player;
 
-    private void Start()
+    private void Awake()
     {
         activeSpriteRenderer = spriteRendererDown;
         player = gameObject.GetComponent<PlayerStatus>();
@@ -31,13 +28,13 @@ public class PlayerMovementController : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(inputUp)) {
+        if (inputActionMap.FindAction("MoveUp").IsPressed()) {
             setDirection(Vector2.up, spriteRendererUp);
-        } else if (Input.GetKey(inputDown)) {
+        } else if (inputActionMap.FindAction("MoveDown").IsPressed()) {
             setDirection(Vector2.down, spriteRendererDown);
-        } else if (Input.GetKey(inputLeft)) {
+        } else if (inputActionMap.FindAction("MoveLeft").IsPressed()) {
             setDirection(Vector2.left, spriteRendererLeft);
-        } else if (Input.GetKey(inputRight)) {
+        } else if (inputActionMap.FindAction("MoveRight").IsPressed()) {
             setDirection(Vector2.right, spriteRendererRight);
         } else {
             setDirection(Vector2.zero, activeSpriteRenderer);
@@ -55,6 +52,7 @@ public class PlayerMovementController : MonoBehaviour
     {
         this.enabled = false;
         this.GetComponent<PlayerBombController>().enabled = false;
+        this.GetComponent<PlayerStatus>().enabled = false;
         this.spriteRendererUp.enabled = false;
         this.spriteRendererDown.enabled = false;
         this.spriteRendererLeft.enabled = false;
@@ -76,5 +74,10 @@ public class PlayerMovementController : MonoBehaviour
         spriteRendererDown.enabled  = (spriteRenderer == spriteRendererDown);
         spriteRendererLeft.enabled  = (spriteRenderer == spriteRendererLeft);
         spriteRendererRight.enabled = (spriteRenderer == spriteRendererRight);
+    }
+
+    private void OnEnable()
+    {
+        inputActionMap.Enable();
     }
 }

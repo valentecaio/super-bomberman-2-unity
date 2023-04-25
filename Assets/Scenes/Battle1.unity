@@ -323,16 +323,114 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: 0, y: -1}
-  inputUp: 119
-  inputDown: 115
-  inputLeft: 97
-  inputRight: 100
   spriteRendererUp: {fileID: 1361743863}
   spriteRendererDown: {fileID: 519179358}
   spriteRendererLeft: {fileID: 813248665}
   spriteRendererRight: {fileID: 1047932322}
   SpriteRendererDeath: {fileID: 592914852}
+  inputActionMap:
+    m_Name: Input
+    m_Id: 10edb258-1d36-436b-b20e-c09d88d95e37
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: MoveUp
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: ca893651-fbe4-4a6a-a605-c80f30b5cc56
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveDown
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 9ab57db3-91c3-4bf4-ba3d-9c17c916f60e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveLeft
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 5a2b71a9-1958-473a-be40-4859fd8e0bfd
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveRight
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 76e647e1-f262-48d2-a56e-cbc1854df5e5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: 6fa88314-d8d0-4b0e-87c4-4498456688b9
+      m_Path: <Gamepad>/dpad/up
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveUp
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 2f95bc33-3c1e-4676-bc09-a5523bdae970
+      m_Path: <Keyboard>/w
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveUp
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 3b20b6d8-f2fb-4520-824d-3bb73348f88a
+      m_Path: <Gamepad>/dpad/down
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveDown
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ea752147-5a52-47c6-969b-451aefd82f44
+      m_Path: <Keyboard>/s
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveDown
+      m_Flags: 0
+    - m_Name: 
+      m_Id: e58f5728-08a4-4fd1-8a69-a59399297d9e
+      m_Path: <Gamepad>/dpad/right
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveRight
+      m_Flags: 0
+    - m_Name: 
+      m_Id: db751eb8-3d8e-4465-a3b7-2cfb4da96c59
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveRight
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 80f87ac0-0d5f-4cfc-b548-b24adb6e53ff
+      m_Path: <Gamepad>/dpad/left
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveLeft
+      m_Flags: 0
+    - m_Name: 
+      m_Id: c900f870-15ae-4acb-bd01-b0b49a8bfcc6
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveLeft
+      m_Flags: 0
+  direction: {x: 0, y: -1}
 --- !u!114 &69141445
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -348,10 +446,7 @@ MonoBehaviour:
   deployBombKey: 32
   detonateBombKey: 308
   destructibleTilemap: {fileID: 1762852104}
-  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
-  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
-  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &69141447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1460,10 +1555,7 @@ MonoBehaviour:
   deployBombKey: 263
   detonateBombKey: 265
   destructibleTilemap: {fileID: 1762852104}
-  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
-  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
-  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &954464823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1476,16 +1568,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: 0, y: -1}
-  inputUp: 264
-  inputDown: 261
-  inputLeft: 260
-  inputRight: 262
   spriteRendererUp: {fileID: 1626129102}
   spriteRendererDown: {fileID: 108570991}
   spriteRendererLeft: {fileID: 560844069}
   spriteRendererRight: {fileID: 629170125}
   SpriteRendererDeath: {fileID: 259863030}
+  inputActionMap:
+    m_Name: Input
+    m_Id: 2cc746b0-3a91-4465-a2c3-f0b4b2b0f5f6
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: MoveUp
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a26ff191-abcb-4af4-ac11-8154d718685c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveDown
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 6899b8e7-efa2-4758-821a-bfb19e30851e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveLeft
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: e0e97db1-b862-4627-bc6b-0681b14a6c99
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveRight
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 62f67bcc-69eb-491d-9081-86305dc3d0ee
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: 9ba0fe54-4239-44f8-addd-1ec0d205b4cd
+      m_Path: <Keyboard>/i
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveUp
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 1cfdeb8e-347e-4145-86fc-764af5afce11
+      m_Path: <Keyboard>/k
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveDown
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ec176ec6-b4af-4313-9c14-ac1a21e34a0b
+      m_Path: <Keyboard>/j
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveLeft
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ac21cc15-ce94-4973-9148-4d4ec16256eb
+      m_Path: <Keyboard>/l
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveRight
+      m_Flags: 0
+  direction: {x: 0, y: -1}
 --- !u!58 &954464824
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4654,10 +4812,7 @@ MonoBehaviour:
   deployBombKey: 112
   detonateBombKey: 111
   destructibleTilemap: {fileID: 1762852104}
-  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
-  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
-  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &1376461780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4670,16 +4825,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: 0, y: -1}
-  inputUp: 105
-  inputDown: 107
-  inputLeft: 106
-  inputRight: 108
   spriteRendererUp: {fileID: 1786609549}
   spriteRendererDown: {fileID: 1198280170}
   spriteRendererLeft: {fileID: 1290990103}
   spriteRendererRight: {fileID: 1273199319}
   SpriteRendererDeath: {fileID: 1242363407}
+  inputActionMap:
+    m_Name: Input
+    m_Id: 3740556e-d64b-44dd-b4f8-597a31f9f430
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: MoveUp
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 3518efa1-9333-415f-8a28-d1f5b66aa43c
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveDown
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 3e8ec760-bdf0-49ec-97f9-1b88e5967c32
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveLeft
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 1843fe48-7f3d-4e45-a1a7-d6698e9afe43
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveRight
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 68f461f7-1e6f-460f-9c49-f60cd2df9b47
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: cbb8a121-0b5a-4724-9658-0e407b22c9b5
+      m_Path: <Keyboard>/numpad8
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveUp
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ef29aad7-c9c5-4406-ab2d-6d7efa70eb92
+      m_Path: <Keyboard>/numpad5
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveDown
+      m_Flags: 0
+    - m_Name: 
+      m_Id: abcad89f-6554-4167-8400-90db059ebf3c
+      m_Path: <Keyboard>/numpad4
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveLeft
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 0416b5a7-079f-43f9-8651-9d28ca0dc3d1
+      m_Path: <Keyboard>/numpad6
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveRight
+      m_Flags: 0
+  direction: {x: 0, y: -1}
 --- !u!58 &1376461781
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -4795,10 +5016,7 @@ MonoBehaviour:
   deployBombKey: 305
   detonateBombKey: 303
   destructibleTilemap: {fileID: 1762852104}
-  commonBombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
-  remoteControlBombPrefab: {fileID: 2009924588926278083, guid: 3b83ff9706ce7a2cca006c3772bdde8b, type: 3}
-  powerBombPrefab: {fileID: 2009924588926278083, guid: 362b72d7e7ce4374a8143dafe85d788f, type: 3}
-  pierceBombPrefab: {fileID: 2009924588926278083, guid: 26abfc5ecda1b4738ac0a7558cf55699, type: 3}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &1406484380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4811,16 +5029,82 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: {x: 0, y: -1}
-  inputUp: 273
-  inputDown: 274
-  inputLeft: 276
-  inputRight: 275
   spriteRendererUp: {fileID: 1046255577}
   spriteRendererDown: {fileID: 1723773232}
   spriteRendererLeft: {fileID: 476935384}
   spriteRendererRight: {fileID: 1722726283}
   SpriteRendererDeath: {fileID: 3866657}
+  inputActionMap:
+    m_Name: Input
+    m_Id: f9165bb8-34a2-4b96-8b85-70b9ce99c59a
+    m_Asset: {fileID: 0}
+    m_Actions:
+    - m_Name: MoveUp
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 4774e22f-d17c-4498-86bf-a86a7a4454e5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveDown
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 18844632-d808-42e2-bc43-449d15840e48
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveLeft
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 988475dd-3442-490f-9e1c-3b2c5cc16f7e
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: MoveRight
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: eac66dd6-ae83-4598-be2a-c1d2c4172310
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Bindings:
+    - m_Name: 
+      m_Id: b3dbbfb0-c747-4029-835c-55f61147c5e8
+      m_Path: <Keyboard>/rightArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveRight
+      m_Flags: 0
+    - m_Name: 
+      m_Id: cd78db69-c837-4719-be9c-bb5c89393847
+      m_Path: <Keyboard>/upArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveUp
+      m_Flags: 0
+    - m_Name: 
+      m_Id: ade0a471-2a50-42d5-805c-7241294594e9
+      m_Path: <Keyboard>/downArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveDown
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b8206c3a-b84e-4089-8af5-752cde4542e8
+      m_Path: <Keyboard>/leftArrow
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: MoveLeft
+      m_Flags: 0
+  direction: {x: 0, y: -1}
 --- !u!58 &1406484381
 CircleCollider2D:
   m_ObjectHideFlags: 0
