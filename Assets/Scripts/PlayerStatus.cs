@@ -47,7 +47,7 @@ public class PlayerStatus : MonoBehaviour
     }
 
 
-    // must be called at player creation
+    // should be called at player creation
     public void init(ColourType colour)
     {
         this.colour = colour;

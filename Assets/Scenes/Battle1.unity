@@ -244,7 +244,6 @@ GameObject:
   - component: {fileID: 69141442}
   - component: {fileID: 69141443}
   - component: {fileID: 69141444}
-  - component: {fileID: 69141445}
   - component: {fileID: 69141447}
   m_Layer: 10
   m_Name: Player 1
@@ -323,6 +322,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destructibleTilemap: {fileID: 1762852104}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   spriteRendererUp: {fileID: 1361743863}
   spriteRendererDown: {fileID: 519179358}
   spriteRendererLeft: {fileID: 813248665}
@@ -361,6 +362,22 @@ MonoBehaviour:
       m_Type: 1
       m_ExpectedControlType: Button
       m_Id: 76e647e1-f262-48d2-a56e-cbc1854df5e5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: PlaceBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: adb7b8d0-9850-4be8-bec5-e951ad0e1802
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: DetonateBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 64a3d792-3d25-404c-ab66-57ab11473d25
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -430,23 +447,39 @@ MonoBehaviour:
       m_Groups: 
       m_Action: MoveLeft
       m_Flags: 0
+    - m_Name: 
+      m_Id: d013d668-6601-489e-88d7-2be8cb42f279
+      m_Path: <Gamepad>/buttonSouth
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DetonateBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 0577fa3f-1521-4827-8c7e-103425a4dbad
+      m_Path: <Keyboard>/space
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DetonateBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: f7842f0e-190e-49b6-a497-2b91b986e131
+      m_Path: <Gamepad>/buttonEast
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PlaceBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 656973a0-19aa-4381-8380-a7843dfe562e
+      m_Path: <Keyboard>/leftAlt
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PlaceBomb
+      m_Flags: 0
   direction: {x: 0, y: -1}
---- !u!114 &69141445
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 69141440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deployBombKey: 32
-  detonateBombKey: 308
-  destructibleTilemap: {fileID: 1762852104}
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &69141447
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1531,7 +1564,6 @@ GameObject:
   - component: {fileID: 954464825}
   - component: {fileID: 954464824}
   - component: {fileID: 954464823}
-  - component: {fileID: 954464822}
   - component: {fileID: 954464827}
   m_Layer: 12
   m_Name: Player 3
@@ -1540,22 +1572,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &954464822
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 954464821}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deployBombKey: 263
-  detonateBombKey: 265
-  destructibleTilemap: {fileID: 1762852104}
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &954464823
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1568,6 +1584,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destructibleTilemap: {fileID: 1762852104}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   spriteRendererUp: {fileID: 1626129102}
   spriteRendererDown: {fileID: 108570991}
   spriteRendererLeft: {fileID: 560844069}
@@ -1610,6 +1628,22 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: PlaceBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 7f987fb6-c9db-43ff-b9a2-221a5ce2a0a9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: DetonateBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 1ea42126-a00a-4d61-84b8-87a095199ca9
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: 9ba0fe54-4239-44f8-addd-1ec0d205b4cd
@@ -1642,6 +1676,22 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: MoveRight
+      m_Flags: 0
+    - m_Name: 
+      m_Id: e015d879-de4f-454a-af7f-36cd8c7da9c7
+      m_Path: <Keyboard>/o
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DetonateBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 785a2f12-2c39-4b23-ae90-f3092794cbe9
+      m_Path: <Keyboard>/p
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PlaceBomb
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!58 &954464824
@@ -4788,7 +4838,6 @@ GameObject:
   - component: {fileID: 1376461782}
   - component: {fileID: 1376461781}
   - component: {fileID: 1376461780}
-  - component: {fileID: 1376461779}
   - component: {fileID: 1376461784}
   m_Layer: 13
   m_Name: Player 4
@@ -4797,22 +4846,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1376461779
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376461778}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deployBombKey: 112
-  detonateBombKey: 111
-  destructibleTilemap: {fileID: 1762852104}
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &1376461780
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4825,6 +4858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destructibleTilemap: {fileID: 1762852104}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   spriteRendererUp: {fileID: 1786609549}
   spriteRendererDown: {fileID: 1198280170}
   spriteRendererLeft: {fileID: 1290990103}
@@ -4867,6 +4902,22 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: PlaceBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a908cfde-8287-495e-ae5b-2ed8fa0afebb
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: DetonateBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a4f14e91-0f23-4752-8dad-9a302aa49ef4
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: cbb8a121-0b5a-4724-9658-0e407b22c9b5
@@ -4899,6 +4950,22 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: MoveRight
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 8cf678fa-ec71-4cc4-9c5b-7f661ac4fcae
+      m_Path: <Keyboard>/numpad0
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PlaceBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: b2ad1f27-e5f3-4503-8e84-b4890daad6da
+      m_Path: <Keyboard>/numpad1
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DetonateBomb
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!58 &1376461781
@@ -4992,7 +5059,6 @@ GameObject:
   - component: {fileID: 1406484382}
   - component: {fileID: 1406484381}
   - component: {fileID: 1406484380}
-  - component: {fileID: 1406484379}
   - component: {fileID: 1406484384}
   m_Layer: 11
   m_Name: Player 2
@@ -5001,22 +5067,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1406484379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406484378}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e658e0d31a7194f37a916968a640bb29, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deployBombKey: 305
-  detonateBombKey: 303
-  destructibleTilemap: {fileID: 1762852104}
-  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
 --- !u!114 &1406484380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5029,6 +5079,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a1b724a2b5434cbfaa4d15587f63ef8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destructibleTilemap: {fileID: 1762852104}
+  bombPrefab: {fileID: 2009924588926278083, guid: 4387891eeac300e8da777d5573ab5c5e, type: 3}
   spriteRendererUp: {fileID: 1046255577}
   spriteRendererDown: {fileID: 1723773232}
   spriteRendererLeft: {fileID: 476935384}
@@ -5071,6 +5123,22 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: PlaceBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: a17dd9fd-8d2a-47a8-b930-c700acb6b806
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    - m_Name: DetonateBomb
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: bc51fd49-3d6b-4ea2-b0c2-e6f71ab12f99
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: b3dbbfb0-c747-4029-835c-55f61147c5e8
@@ -5103,6 +5171,22 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: MoveLeft
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 5b6e6d41-6269-4d90-94de-192a5127da0d
+      m_Path: <Keyboard>/rightShift
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: DetonateBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 9da31cb1-8fee-47fd-830b-6a8701a18e65
+      m_Path: <Keyboard>/rightCtrl
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: PlaceBomb
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!58 &1406484381
