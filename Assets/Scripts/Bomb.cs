@@ -144,7 +144,7 @@ public class Bomb : MonoBehaviour
         // print("bomb OnCollisionEnter2D with " + other.gameObject.tag);
         if (other.gameObject.CompareTag("Player")) {
             PlayerStatus player = other.gameObject.GetComponent<PlayerStatus>();
-            PlayerMovementController playerMovement = other.gameObject.GetComponent<PlayerMovementController>();
+            PlayerInputController playerMovement = other.gameObject.GetComponent<PlayerInputController>();
             if (player.kick) {
                 this.direction = playerMovement.direction;
             } else {

@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 
 // manages player movement controls and animations
-public class PlayerMovementController : MonoBehaviour
+public class PlayerInputController : MonoBehaviour
 {
     [Header("Sprites")]
     public AnimatedSpriteRenderer spriteRendererUp;

@@ -146,7 +146,7 @@ public class PlayerStatus : MonoBehaviour
         if (heart) {
             heart = false;
         } else {
-            StartCoroutine(gameObject.GetComponent<PlayerMovementController>().die());
+            StartCoroutine(gameObject.GetComponent<PlayerInputController>().die());
         }
     }
 
