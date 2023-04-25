@@ -457,7 +457,7 @@ MonoBehaviour:
       m_Flags: 0
     - m_Name: 
       m_Id: 0577fa3f-1521-4827-8c7e-103425a4dbad
-      m_Path: <Keyboard>/space
+      m_Path: <Keyboard>/leftAlt
       m_Interactions: 
       m_Processors: 
       m_Groups: 
@@ -473,7 +473,7 @@ MonoBehaviour:
       m_Flags: 0
     - m_Name: 
       m_Id: 656973a0-19aa-4381-8380-a7843dfe562e
-      m_Path: <Keyboard>/leftAlt
+      m_Path: <Keyboard>/space
       m_Interactions: 
       m_Processors: 
       m_Groups: 
