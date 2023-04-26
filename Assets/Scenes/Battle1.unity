@@ -382,6 +382,14 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: ChangeColour
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: c84cb32b-1f4b-4488-8059-528b03123ff5
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: 6fa88314-d8d0-4b0e-87c4-4498456688b9
@@ -478,6 +486,22 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: PlaceBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 3964e204-9bdc-47da-ae1e-5b8e70e1df59
+      m_Path: <Gamepad>/select
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: ChangeColour
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 0282ca0a-3a15-4dff-a6fa-fa7ef7b0e14a
+      m_Path: <Keyboard>/1
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: ChangeColour
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!114 &69141447
@@ -1644,6 +1668,14 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: ChangeColour
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: dc20aaa2-d065-414d-bf66-46d7bbfa3dab
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: 9ba0fe54-4239-44f8-addd-1ec0d205b4cd
@@ -1692,6 +1724,14 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: PlaceBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: 62416c7d-963c-4d5e-848a-be237d7803d7
+      m_Path: <Keyboard>/3
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: ChangeColour
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!58 &954464824
@@ -4918,6 +4958,14 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: ChangeColour
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 4abcb89a-6dc6-49b5-9cad-fe7f5afc750f
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: cbb8a121-0b5a-4724-9658-0e407b22c9b5
@@ -4966,6 +5014,14 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: DetonateBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: fca7334b-5f9a-473d-9858-fcc0a196859d
+      m_Path: <Keyboard>/4
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: ChangeColour
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!58 &1376461781
@@ -5139,6 +5195,14 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
+    - m_Name: ChangeColour
+      m_Type: 1
+      m_ExpectedControlType: Button
+      m_Id: 3dd6d64a-ce18-4eb5-a3e1-424856d7a9d7
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
     m_Bindings:
     - m_Name: 
       m_Id: b3dbbfb0-c747-4029-835c-55f61147c5e8
@@ -5187,6 +5251,14 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: PlaceBomb
+      m_Flags: 0
+    - m_Name: 
+      m_Id: bdabe953-a51c-46a5-94f4-661bd5702293
+      m_Path: <Keyboard>/2
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: ChangeColour
       m_Flags: 0
   direction: {x: 0, y: -1}
 --- !u!58 &1406484381

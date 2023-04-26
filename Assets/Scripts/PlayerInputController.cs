@@ -28,6 +28,13 @@ public class PlayerInputController : MonoBehaviour
     {
         activeSpriteRenderer = spriteRendererDown;
         player = gameObject.GetComponent<Player>();
+
+        // bomb
+        inputActionMap.FindAction("PlaceBomb").performed += ctx => placeBomb();
+        inputActionMap.FindAction("DetonateBomb").performed += ctx => detonateBomb();
+
+        // colour
+        inputActionMap.FindAction("ChangeColour").performed += ctx => player.nextColour();
     }
 
     private void Update()
@@ -43,18 +50,6 @@ public class PlayerInputController : MonoBehaviour
             setDirection(Vector2.right, spriteRendererRight);
         } else {
             setDirection(Vector2.zero, activeSpriteRenderer);
-        }
-
-        // bomb
-        if (inputActionMap.FindAction("PlaceBomb").IsPressed() && player.bombs.Count < player.bombAmount) {
-            placeBomb();
-        } else if (inputActionMap.FindAction("DetonateBomb").IsPressed()) {
-            foreach (GameObject bomb in player.bombs) {
-                if (bomb.GetComponent<Bomb>().type == BombType.RemoteControl) {
-                    bomb.GetComponent<Bomb>().bombExplode();
-                    break;
-                }
-            }
         }
     }
 
@@ -80,6 +75,11 @@ public class PlayerInputController : MonoBehaviour
 
     private void placeBomb()
     {
+        // skip if player does not have any bombs to drop
+        if (player.bombs.Count >= player.bombAmount) {
+            return;
+        }
+
         Vector2 position = transform.position;
         position.x = Mathf.Round(position.x);
         position.y = Mathf.Round(position.y);
@@ -95,6 +95,16 @@ public class PlayerInputController : MonoBehaviour
 
         // we ignore this collision until the player exits the bomb sprite
         Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>());
+    }
+
+    private void detonateBomb()
+    {
+        foreach (GameObject bomb in player.bombs) {
+            if (bomb.GetComponent<Bomb>().type == BombType.RemoteControl) {
+                bomb.GetComponent<Bomb>().bombExplode();
+                break;
+            }
+        }
     }
 
     private void OnEnable()

@@ -129,6 +129,12 @@ public class Player : MonoBehaviour
         return false;
     }
 
+    public void nextColour()
+    {
+        this.colour = (ColourType) ((((int) this.colour) +1) % 18);
+        setSprites();
+    }
+
     private void tryToDie()
     {
         if (heart) {
@@ -138,7 +144,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    public IEnumerator die()
+    private IEnumerator die()
     {
         PlayerInputController pic = this.GetComponent<PlayerInputController>();
         this.enabled = false;
