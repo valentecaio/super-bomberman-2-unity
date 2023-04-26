@@ -17,7 +17,6 @@ public class Player : MonoBehaviour
 
     private bool _wallPass = false;
     private bool _bombPass = false;
-    private bool _droppingBomb = false;
 
     public bool wallPass {
         get { return _wallPass; }
@@ -32,18 +31,6 @@ public class Player : MonoBehaviour
         set {
             _bombPass = value;
             Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), value);
-        }
-    }
-
-    public bool droppingBomb {
-        get { return _droppingBomb; }
-        set {
-            _droppingBomb = value;
-            if (!_droppingBomb) {
-                foreach (GameObject bomb in bombs) {
-                    Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>(), false);
-                }
-            }
         }
     }
 

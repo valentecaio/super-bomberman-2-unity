@@ -94,7 +94,6 @@ public class PlayerInputController : MonoBehaviour
         player.bombs.Add(bomb);
 
         // we ignore this collision until the player exits the bomb sprite
-        player.droppingBomb = true;
         Physics2D.IgnoreCollision(bomb.GetComponent<CircleCollider2D>(), gameObject.GetComponent<CircleCollider2D>());
     }
 

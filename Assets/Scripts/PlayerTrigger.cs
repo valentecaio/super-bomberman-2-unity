@@ -8,7 +8,7 @@ public class PlayerTrigger : MonoBehaviour
     {
         if (other.CompareTag("Bomb")) {
             Player player = gameObject.GetComponentInParent<Player>();
-            player.droppingBomb = false;
+            Physics2D.IgnoreCollision(other.GetComponent<CircleCollider2D>(), player.GetComponent<CircleCollider2D>(), false);
         }
     }
 }
