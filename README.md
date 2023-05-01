@@ -1,8 +1,11 @@
 # Super Bomberman 2
+
 A clone of Super Bomberman 2 (SNES) using Unity.  
 Initial version based on [Zigurous class](https://youtu.be/8agb6x5RpOI).  
 The only goal of this project is to teach myself Unity and game dev.  
 I also try to stay as close as possible to the original game. Same sprites and game dynamics.  
+
+![bomberman](https://user-images.githubusercontent.com/14484616/235389962-4534f436-ed7a-40e3-84ec-e2e3385d616b.gif)
 
 # Controls
 
