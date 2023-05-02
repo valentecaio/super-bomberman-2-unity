@@ -522,7 +522,7 @@ MonoBehaviour:
   heart: 0
   kick: 0
   bombType: 0
-  colour: 17
+  colour: 13
   bombs: []
   items: []
 --- !u!1 &108570990

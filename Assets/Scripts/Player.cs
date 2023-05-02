@@ -9,11 +9,14 @@ public class Player : MonoBehaviour
     public float speed = 4f;
     public bool heart = false;
     public bool kick = false;
+    public bool invincible = false;
+    private float invincibleTime = 2f;
     public BombType bombType = BombType.Common;
     public ColourType colour = ColourType.White;
 
     public List<GameObject> bombs = new List<GameObject>();
     public List<Item> items = new List<Item>();
+
 
     private bool _wallPass = false;
     private bool _bombPass = false;
@@ -42,7 +45,7 @@ public class Player : MonoBehaviour
         setSprites();
     }
 
-    private void Start()
+    private void Awake()
     {
         setSprites();
     }
@@ -135,10 +138,20 @@ public class Player : MonoBehaviour
         setSprites();
     }
 
+    private void unsetInvincible()
+    {
+        this.invincible = false;
+    }
+
     private void tryToDie()
     {
+        if (invincible) {
+            return;
+        }
         if (heart) {
             heart = false;
+            invincible = true;
+            Invoke("unsetInvincible", invincibleTime);
         } else {
             StartCoroutine(die());
         }
