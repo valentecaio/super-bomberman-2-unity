@@ -157,4 +157,13 @@ public class Bomb : MonoBehaviour
         }
     }
 
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        // print("bomb OnTriggerEnter2D with " + other.tag);
+        if (other.tag == "Explosion") {
+            this.transform.position = other.transform.position;
+            this.bombExplode();
+        }
+    }
+
 }
