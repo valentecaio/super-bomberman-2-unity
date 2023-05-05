@@ -520,7 +520,8 @@ MonoBehaviour:
   fireAmout: 2
   speed: 4
   heart: 0
-  kick: 0
+  kick: 1
+  invincible: 1
   bombType: 0
   colour: 13
   bombs: []
@@ -1809,6 +1810,7 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
+  invincible: 0
   bombType: 0
   colour: 14
   bombs: []
@@ -5099,6 +5101,7 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
+  invincible: 0
   bombType: 0
   colour: 2
   bombs: []
@@ -5336,6 +5339,7 @@ MonoBehaviour:
   speed: 4
   heart: 0
   kick: 0
+  invincible: 0
   bombType: 0
   colour: 1
   bombs: []
