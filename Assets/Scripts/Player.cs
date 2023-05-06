@@ -4,55 +4,50 @@ using System.Collections.Generic;
 
 public class Player : MonoBehaviour
 {
+    [Header("Editor: Read & Write")]
     public int bombAmount = 2;
     public int fireAmout = 2;
     public float speed = 4f;
     public bool heart = false;
     public bool kick = false;
     public bool invincible = false;
-    private float invincibleTime = 2f;
     public BombType bombType = BombType.Common;
     public ColourType colour = ColourType.White;
 
+    [Header("Editor: Read only")]
+    public bool skull = false;
+    public bool wallPass = false;
+    public bool bombPass = false;
+
+    [Header("Lists")]
     public List<GameObject> bombs = new List<GameObject>();
     public List<Item> items = new List<Item>();
 
-
-    private bool _wallPass = false;
-    private bool _bombPass = false;
-
-    public bool wallPass {
-        get { return _wallPass; }
-        set {
-            _wallPass = value;
-            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("SoftBlock"), value);
-        }
-    }
-
-    public bool bombPass {
-        get { return _bombPass; }
-        set {
-            _bombPass = value;
-            Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), value);
-        }
-    }
-
+    [Header("Constants & Logical State Parameters")]
+    public bool skullSpriteActive = false;
+    public float skullAnimationTime = 0.2f;
+    public float invincibleTime = 2f;
+    public int triggerEnterCount = 0;
 
     // should be called at player creation
     public void init(ColourType colour)
     {
         this.colour = colour;
-        setSprites();
+        setSprites(colour);
     }
 
-    private void Awake()
+    private void Start()
     {
-        setSprites();
+        setSprites(colour);
     }
 
     public void OnItemPickup(Item item)
     {
         items.Add(item);
+
+        // picking a item removes the skull
+        skull = false;
+        items.RemoveAll(item => item.type == ItemType.Skull);
 
         switch(item.type) {
             case ItemType.Bomb:
@@ -78,9 +73,12 @@ public class Player : MonoBehaviour
             case ItemType.BombPass:
                 bombPass = true;
                 kick = false;
+                Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), bombPass);
                 break;
 
             case ItemType.Skull:
+                skull = true;
+                skullSpritesLoop();
                 break;
 
             case ItemType.Vest:
@@ -92,6 +90,7 @@ public class Player : MonoBehaviour
 
             case ItemType.WallPass:
                 wallPass = true;
+                Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("SoftBlock"), wallPass);
                 break;
 
             case ItemType.Skate:
@@ -103,6 +102,7 @@ public class Player : MonoBehaviour
             case ItemType.Kick:
                 bombPass = false;
                 kick = true;
+                Physics2D.IgnoreLayerCollision(gameObject.layer, LayerMask.NameToLayer("Bomb"), bombPass);
                 break;
 
             case ItemType.PowerGlove:
@@ -135,7 +135,7 @@ public class Player : MonoBehaviour
     public void nextColour()
     {
         this.colour = (ColourType) ((((int) this.colour) +1) % 18);
-        setSprites();
+        setSprites(colour);
     }
 
     private void unsetInvincible()
@@ -172,8 +172,17 @@ public class Player : MonoBehaviour
         FindObjectOfType<GameManager>().checkWinState();
     }
 
+    private void skullSpritesLoop()
+    {
+        if (skull || skullSpriteActive) {
+            skullSpriteActive = !skullSpriteActive;
+            setSprites(skullSpriteActive ? ColourType.Infected : this.colour);
+            Invoke("skullSpritesLoop", skullAnimationTime);
+        }
+    }
+
     // select sprites according to player colour
-    private void setSprites()
+    private void setSprites(ColourType colour)
     {
         Sprite[] spriteArray = Resources.LoadAll<Sprite>("Bombers/" + System.Enum.GetName(typeof(ColourType), colour));
         // up
@@ -208,7 +217,13 @@ public class Player : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        // print("playerStatus OnTriggerEnter2D with tag " + other.gameObject.tag);
+        // calls to this function are duplicated becase the PlayerTrigger has isTrigger on
+        // we ignore half of them
+        triggerEnterCount++;
+        if (triggerEnterCount%2 == 1)
+            return;
+
+        // print("OnTriggerEnter2D " + this.gameObject.tag + " " + other.gameObject.tag);
         if (other.gameObject.tag == "Explosion") {
             tryToDie();
         } else if (other.gameObject.CompareTag("Item")) {
