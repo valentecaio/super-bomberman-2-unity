@@ -184,7 +184,7 @@ public class Player : MonoBehaviour
     // select sprites according to player colour
     private void setSprites(ColourType colour)
     {
-        Sprite[] spriteArray = Resources.LoadAll<Sprite>("Bombers/" + System.Enum.GetName(typeof(ColourType), colour));
+        Sprite[] spriteArray = FindObjectOfType<GameManager>().spritesBomber[colour];
         // up
         gameObject.transform.GetChild(1).gameObject.GetComponent<SpriteRenderer>().sprite = spriteArray[0];
         gameObject.transform.GetChild(1).gameObject.GetComponent<AnimatedSpriteRenderer>().idleSprite = spriteArray[0];

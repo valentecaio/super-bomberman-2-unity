@@ -47,7 +47,7 @@ public class Bomb : MonoBehaviour
     // select sprites according to bomb colour and type
     private void setSprites()
     {
-        Sprite[] spriteArray = Resources.LoadAll<Sprite>("Bombs/" + System.Enum.GetName(typeof(ColourType), colour));
+        Sprite[] spriteArray = FindObjectOfType<GameManager>().spritesBomb[colour];
         int i = 0;
         if (type == BombType.Common) {
             i = 0;
