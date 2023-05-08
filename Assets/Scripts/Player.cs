@@ -120,6 +120,9 @@ public class Player : MonoBehaviour
                 break;
 
             case ItemType.Geta:
+                if (speed > 3) {
+                    speed--;
+                }
                 break;
         }
     }
