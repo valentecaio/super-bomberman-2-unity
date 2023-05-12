@@ -25,6 +25,7 @@ public class Player : MonoBehaviour
 
     [Header("Constants & Logical State Parameters")]
     public bool skullSpriteActive = false;
+    public int skullSpriteCounter = 0;
     public float skullAnimationTime = 0.2f;
     public float invincibleTime = 2f;
     public int triggerEnterCount = 0;
@@ -77,8 +78,7 @@ public class Player : MonoBehaviour
                 break;
 
             case ItemType.Skull:
-                skull = true;
-                skullSpritesLoop();
+                setSkull(true);
                 break;
 
             case ItemType.Vest:
@@ -175,8 +175,18 @@ public class Player : MonoBehaviour
         FindObjectOfType<GameManager>().checkWinState();
     }
 
+    public void setSkull(bool value)
+    {
+        skullSpriteCounter = 0;
+        skull = value;
+        if (skull) {
+            skullSpritesLoop();
+        }
+    }
+
     private void skullSpritesLoop()
     {
+        skullSpriteCounter++;
         if (skull || skullSpriteActive) {
             skullSpriteActive = !skullSpriteActive;
             setSprites(skullSpriteActive ? ColourType.Infected : this.colour);
@@ -220,7 +230,7 @@ public class Player : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        // calls to this function are duplicated becase the PlayerTrigger has isTrigger on
+        // calls to this function are duplicated because the PlayerTrigger has isTrigger on
         // we ignore half of them
         triggerEnterCount++;
         if (triggerEnterCount%2 == 1)
@@ -229,6 +239,12 @@ public class Player : MonoBehaviour
         // print("OnTriggerEnter2D " + this.gameObject.tag + " " + other.gameObject.tag);
         if (other.gameObject.tag == "Explosion") {
             tryToDie();
+        } else if (other.gameObject.CompareTag("Player")) {
+            // touching other player passes the skull infection
+            if (skull && skullSpriteCounter > 3) {
+                setSkull(false);
+                other.gameObject.GetComponent<Player>().setSkull(true);
+            }
         } else if (other.gameObject.CompareTag("Item")) {
             Item item = other.gameObject.GetComponent<Item>();
             if (item.exploding) {
