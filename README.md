@@ -2,12 +2,13 @@
 
 A clone of Super Bomberman 2 (SNES) using Unity.  
 Initial version based on [Zigurous class](https://youtu.be/8agb6x5RpOI).  
-The only goal of this project is to teach myself Unity and game dev.  
+The only goal of this project is to learn Unity and game development.  
 I also try to stay as close as possible to the original game. Same sprites and game dynamics.  
 
 ![bomberman](https://user-images.githubusercontent.com/14484616/235389962-4534f436-ed7a-40e3-84ec-e2e3385d616b.gif)
 
-# Controls
+---
+### Controls
 
 | Player  | Move | Drop Bomb | Detonate Bomb |  Action | Change Colour |
 | --- | --- | --- | --- | --- | --- |
@@ -16,7 +17,8 @@ I also try to stay as close as possible to the original game. Same sprites and g
 | Player 3 | IJKL | P | O | 0 | 3 |
 | Player 4 | Numpad 8456 | Numpad-0 | Numpad-1 | Numpad-2 | 4 |
 
-# Done
+---
+### Done
 
 * Battle stage 1;
 * Items: Bomb, Fire, Skate, FullFire, WallPass, BombPass, Kick, Heart, RemoteControl, RedBomb and PowerBomb;
@@ -26,7 +28,8 @@ I also try to stay as close as possible to the original game. Same sprites and g
 
 ![link](https://user-images.githubusercontent.com/14484616/234454931-e3be6b23-810d-43fd-890b-392a786ff10b.gif)
 
-# To do
+---
+### To do
 
 * Story mode;
 * Battle stages 2 to 10;
