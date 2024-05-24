@@ -1,6 +1,6 @@
 # Super Bomberman 2
 
-The current release is available to play here at [valentecaio.ovh/bomberman](https://valentecaio.ovh/bomberman/).
+The current release is available to play at [valentecaio.ovh/bomberman](https://valentecaio.ovh/bomberman/).
 
 A clone of Super Bomberman 2 (SNES) using Unity.  
 Initial version based on [Zigurous class](https://youtu.be/8agb6x5RpOI).  
