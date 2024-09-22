@@ -1,8 +1,10 @@
 # Super Bomberman 2
 
+Try it at [valentecaio.itch.io/unitybomb](https://valentecaio.itch.io/unitybomb) !
+
 ![link](https://user-images.githubusercontent.com/14484616/234454931-e3be6b23-810d-43fd-890b-392a786ff10b.gif)
   
-[Play it here !](https://valentecaio.itch.io/unitybomb)
+
   
 A clone of Super Bomberman 2 (SNES) using Unity.  
 Initial version based on [Zigurous class](https://youtu.be/8agb6x5RpOI).  
