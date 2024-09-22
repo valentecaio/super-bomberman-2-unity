@@ -1,13 +1,13 @@
 # Super Bomberman 2
 
-The current release is available to play at [valentecaio.ovh/bomberman](https://valentecaio.ovh/bomberman/).
-
+![link](https://user-images.githubusercontent.com/14484616/234454931-e3be6b23-810d-43fd-890b-392a786ff10b.gif)
+  
+[Play it here !](https://valentecaio.itch.io/unitybomb)
+  
 A clone of Super Bomberman 2 (SNES) using Unity.  
 Initial version based on [Zigurous class](https://youtu.be/8agb6x5RpOI).  
 The only goal of this project is to learn Unity and game development.  
 I also try to stay as close as possible to the original game. Same sprites and game dynamics.  
-
-![bomberman](https://user-images.githubusercontent.com/14484616/235389962-4534f436-ed7a-40e3-84ec-e2e3385d616b.gif)
 
 ---
 ### Controls
@@ -28,7 +28,7 @@ I also try to stay as close as possible to the original game. Same sprites and g
 * All 17 bomberman colours of original game;
 * 1 extra skin colour for Link (Zelda: A Link to the Past), with custom bombs and explosions;
 
-![link](https://user-images.githubusercontent.com/14484616/234454931-e3be6b23-810d-43fd-890b-392a786ff10b.gif)
+![bomberman](https://user-images.githubusercontent.com/14484616/235389962-4534f436-ed7a-40e3-84ec-e2e3385d616b.gif)
 
 ---
 ### To do
